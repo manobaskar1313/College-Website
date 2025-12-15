@@ -1,0 +1,22 @@
+officials:- conference room, meeting room, office
+
+lab:- lab1, lab2, lab3, lab4, student lab
+
+room no:- 2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+
+staff room:- staff room, staff room1, staff room2
+
+canteen:- canteen
+
+auditorium:- auditorium
+
+library:- library, reading room
+
+
+lab=5
+officals=3
+room no=21
+staff room=3
+canteen=1
+auidtorium=1
+library=2

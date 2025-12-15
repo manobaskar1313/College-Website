@@ -1,0 +1,1842 @@
+  
+    const publicationsData = {
+      '2023-2024': [
+        {
+                    title: 'Changing Paradigm of Health Insurance in India amid Technological and AI Revolution',
+                    author: 'CS Charul Patel',
+                    date: '14/10/2023',
+                    paperstatus: 'Presented and published',
+                    level: 'National Conference and Journal',
+                    organizer: 'Ramanand Arya D.A.V. College (AUTONOMOUS) Bhandup, MUMBAI in association with the University of Mumbai	',
+                    description: 'AJANTA, a Peer Reviewed Referred and UGC Listed Journal No. 40776 with IMPACT FACTOR I INDEXING 2023 - 7.428 (www.sjifactor.com) Volume - XII Issue - IV Part -III October - December 2023. ISSN 2277 - 5730'
+                },
+                {
+                    title: 'A Study of Consumer Perception on the use of AI and Advanced Technological Innovations in the Health Insurance Sector',
+                    author: 'CS Charul Patel',
+                    date: '20/01/2024',
+                    paperstatus: 'Presented',
+                    level: 'International Research Conference',
+                    organizer: 'SIES College of Management Studies (SIESCOMS) & SIES School of Business Studies (SIESSBS)',
+                    description: ''
+                },
+                {
+                    title: '',
+                    author: 'Ms Priti Thakkar',
+                    date: '26-27th December 2024',
+                    paperstatus: 'Presented and published	',
+                    level: 'International interdisciplinary conference',
+                    organizer: 'Department of Botany and Department of Geography, Janata Mahavidyalaya, Chandrapur',
+                    description: 'publication details awaited'
+                }
+      ],
+      '2022-2023': [
+        {
+                    title: 'SDG and Health Insurance: A Study in Indian Context',
+                    author: 'CS Charul Patel',
+                    date: '2022-11-26',
+                    paperstatus: 'Presented and published',
+                    level: 'International',
+                    organizer: 'Narsee Monjee College of Commerce & Economics',
+                    description: 'Published in in Nav Manthan - A Double Blind Peer Reviewed Multidisciplinary Annual Research Journal Volume - 9, Issue 2, November 2022 (Conference Special Issue) with ISSN 2349 - 7327.'
+                },
+                {
+                    title: 'A Study of the Innovations and Startups in the Health Insurance sector since the Launch of various schemes by the Government of India” at the One Day International Conference of Skill Development and Entrepreneurship',
+                    author: 'CS Charul Patel',
+                    date: '2023-01-21',
+                    paperstatus: 'Presented and published',
+                    level: 'International',
+                    organizer: 'Bedekar College',
+                    description: 'Published in UGC Care Journal'
+                },
+                {
+                    title: 'Role of Advanced Education in Harnessing Human Capital',
+                    author: 'CA Varsha Lund',
+                    date: '2022-11-19',
+                    paperstatus: 'Presented and published',
+                    level: 'International',
+                    organizer: 'Mahatma Night Degree College of Arts and Commerce, Chembur, Mumbai',
+                    description: 'Published in International Journal of Social Science and Management Studies, Volume 8, No. 12 , January 2023 edition.'
+                },
+                {
+                    title: 'A Study on Relation Between the Level of Emotional Intelligence and the level of stress amongst the Chartered Accountants with reference to the city of Mumbai, Maharashtra',
+                    author: 'CA Varsha Lund',
+                    date: '2023-02-07',
+                    paperstatus: 'Presented and published',
+                    level: 'International',
+                    organizer: 'H.R. College of Commerce & Economics',
+                    description: 'Published in Shodha Prabha, ISSN 0974-8946, Volume-48, Issue 01, Book No. 7: 2023, UGC Care Approved, Group-1 Peer reviewed and Referred Journal.'
+                },
+                {
+                    title: 'ESG mutual funds - a Sustainable Alternative to Mutual Funds for Retail Investors in India',
+                    author: 'Fleur Fernandes',
+                    date: '2023-02-15',
+                    paperstatus: 'Presented and published',
+                    level: 'National',
+                    organizer: 'M.L.Dahanukar College of Commerce',
+                    description: 'Published in UGC Care Listed Journal Utkal Historical Research with ISSN:0976-2132.'
+                },
+                {
+                    title: 'Potential Role of metrology in Digital Era for Quality Infrastructure',
+                    author: 'Pranjali Verma	',
+                    date: '2023-03-13',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: 'Metrology Society of India, BARC, IDEMI, CSIR-NPL, BIS',
+                    description: 'Received the Best Paper Award of Euro 250 by Springer'
+                }
+      ],
+            '2021-2022': [
+                {
+                    title: 'INVESTORS PERCEPTION TOWARDS START-UPS IN INDIA AS INVESTMENT AVENUE - ON SUSTAINABLE DEVELOPMENT " Organised By',
+                    author: 'Ca Chandrashekhar Sawant',
+                    date: '2021-04-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Journal Of Advance And Innovative Research(Conference Special)ISSN 2394-7780, Volume 8 ,Issue 3(I) July-September 2021(Impact Factor =7.36). Www.Iaraedu.Com'
+                },
+                {
+                    title: 'Understanding Factors Influencing Consumers Preference Towards Media With Special Reference To OTT Platform.',
+                    author: 'Ms. Falguni Mathews',
+                    date: '2021-04-10',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Shodh Sanchar Bulletin , 2229-3620'
+                },
+                {
+                    title: 'A Study On The Effect Of Covid 19 On The Usage Of Digit Payment : With Reference To Women Users In Mumbai City	',
+                    author: 'Ms. Falguni Mathews',
+                    date: '2021-04-30',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Modern Thamizh Research ( A Quarterly International Multilateral Thamizh Journal), ISSN - 2321-984X,'
+                },
+                {
+                    title: 'Skill Based Learning : Need For Employability',
+                    author: 'Ms. Falguni Mathews',
+                    date: '2020-04-25',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Studies In Indian Place Names, ISSN: 2394-3114 Impact Factor : 6.2'
+                },
+                {
+                    title: 'A Study Of Leadership In This Digital Age',
+                    author: 'Ms. Falguni Mathews',
+                    date: '2020-07-03',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Studies In Indian Place Names, ISSN: 2394-3114 Impact Factor : 6.2'
+                },
+                {
+                    title: 'Factors Influencing Adoption Of Electronic Payment By Small Enterprises In Central Suburbs Of Mumbai',
+                    author: 'Ms. Sugandhi -',
+                    date: '2021-04-17',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: ', Presented Paper And Won Second Best Paper Award In National Conference On Online Multidisciplinary National Level Conference On "Vision 2050: Evolving Entrepreneurship Ecosystem In India" Which Is Published With International Journal Of Advance And Innovative Research (Conference Special), In Volume 8, Issue 2 (IV) April - June 2021, ISSN 2394 - 7780 Organized By Swami Siddhi College Of Management And Research In Association With Swami Siddhi Degree Night College, Research Paper "Factors Influencing Adoption Of Electronic Payment By Small Enterprises In Central Suburbs Of Mumbai 17th & 18th April, 2021'
+                }
+            ],
+            '2020-2021': [
+                {
+                    title: 'Physical To Phygital - Implementation Of Digital Products And Services By Small Finance Banks',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2021-01-16',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'IJAIR With IF 7.363'
+                },
+                {
+                    title: 'Campus Placement Scenario Faced By Commerce Graduates In Mumbai Due To Lockdown Caused By Coronavirus Pandemic',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2020-08-05',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Conference Proceedings'
+                },
+                {
+                    title: 'A Study On The Use Of Machine Learning With Special Reference To The Financial Sector',
+                    author: 'Dr. Swati Iyer	',
+                    date: '2021-02-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Presented At An International Conference And Published In SAMBODHI- UGC CARE Group 1 Journal'
+                },
+                {
+                    title: 'CORONA PROTECTED, VIOLENCE.CANT SAY!',
+                    author: 'Ms. Divya Thakur',
+                    date: '2021-03-05',
+                    paperstatus: 'Presented And Published',
+                    level: 'State',
+                    organizer: '',
+                    description: 'JBNB : A Multidisciplinary Journal ISSN : 2454-2776 Special Issue, Volume 10, 2021.'
+                }
+            ],
+            '2019-2020': [
+                {
+                    title: 'Digital Mediums Have Empowered And Enabled Women',
+                    author: 'Dr. Rinkesh Chheda	',
+                    date: '2020-02-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Journal Of Advance And Innovative Research: ISSN 2394 - 7780'
+                },
+                {
+                    title: 'Role Of Microfinance And Empowerment Of Women In Thane District	',
+                    author: 'Dr. Rinkesh Chheda	',
+                    date: '2020-02-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Journal Of Advance And Innovative Research: ISSN 2394 - 7780'
+                },
+                {
+                    title: 'An Exploratory Research On Women As Entrepreneurs- Challenges And Opportunities A Case Study',
+                    author: 'Dr. Rinkesh Chheda	',
+                    date: '2020-02-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Journal Of Advance And Innovative Research: ISSN 2394 - 7780'
+                },
+                {
+                    title: 'A Study On Marketing Ethic On FMCG Companies With Special Reference To HUL	',
+                    author: 'Dr. Rinkesh Chheda	',
+                    date: '2020-02-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'EduIndex: ISSN: 2394-3114'
+                },
+                {
+                    title: 'Envy As A Multicoloured Emotion',
+                    author: 'Dr. Harini C.',
+                    date: '2020-12-04',
+                    paperstatus: 'Presented	',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Presented A Paper Titled "Envy As A Multicoloured Emotion" In The 2 Day International Conference On Emotions: A Multidisciplinary Inquiry'
+                },
+                {
+                    title: 'A Study On Human Resource Management On Employees Productivity',
+                    author: 'Dr. Rinkesh Chheda	',
+                    date: '2020-02-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'EduIndex: ISSN: 2394-3114'
+                },
+                {
+                    title: 'A Study On Consumer Purchase Behaviour Towards Digital Marketing (Special Reference To Mumbai Suburban Region)',
+                    author: 'Dr. Rinkesh Chheda	',
+                    date: '2020-03-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Studies In Indian Place Names: ISSN: 2394-3114'
+                },
+                {
+                    title: 'A Study Of Leadership In This Digital Age',
+                    author: 'Dr. Rinkesh Chheda	',
+                    date: '2020-03-07',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Studies In Indian Place Names: ISSN: 2394-3114'
+                },
+                {
+                    title: 'Issues And Problems Faced By Women In The Banking Sector',
+                    author: 'Dr. Rinkesh Chheda	',
+                    date: '2020-02-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'International Journal Of Advance And Innovative Research: ISSN 2394 - 7780'
+                },
+                {
+                    title: 'A Study On Consumer Purchase Behaviour Towards Digital Marketing (Special Reference To Mumbai Suburban Region)	',
+                    author: 'Ms. Falguni Mathews',
+                    date: '2020-03-03',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Studies In Indian Place Names, ISSN: 2394-3114 Impact Factor : 6.2'
+                },
+                {
+                    title: 'Issues And Problems Faced By Women In The Banking Sector',
+                    author: 'Ms. Falguni Mathews',
+                    date: '2020-02-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'International Journal Of Advance And Innovative Research, ISSN 2394 - 7780 Impact Factor 7.36'
+                },
+                {
+                    title: '"A Study Of Individuals Preference On The Use Of Digital Payment Apps - The Roadmap To Digital India',
+                    author: 'Dr. Swati Iyer	',
+                    date: '2020-02-06',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Presented At An International Conference On " Changing Dynamics Of Business And Management For Sustainable Growth"'
+                },
+                {
+                    title: 'Emotional Intelligence: A Tool Used By Boundary Spanners In Service Sector',
+                    author: 'Ms. Anoushka Mirgnani',
+                    date: '2020-02-24',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'ISSN-2229-3620'
+                },
+                {
+                    title: 'Application Of Internet Of Things (IoT) In The Global Merchant Shipping Industry',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2020-01-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Will Be Published In BJIT - BVICAMs International Journal Of Information Technology By Springer ISSN: 2511-2104 (Print Version) ISSN: 2511-2112 (Electronic Version)'
+                },
+                {
+                    title: '"Focus On Gender Equality In Educational Curriculum At Undergraduate Level"	',
+                    author: 'Ms. Charul Patel',
+                    date: '2020-01-04',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: ', Presented A Paper Titled "Focus On Gender Equality In Educational Curriculum At Undergraduate Level" At One Day National Conference On Women Empowerment And Gender Equality - Contemporary Issues" Organized By Thakur College Of Science & Commerce Kandivali, Mumbai On 4th January, 2020. The Same Will Be Published In UGC Care Listed Journal. (Awaiting Publication).'
+                },
+                {
+                    title: '"Role Of Digital Media And Social Media In Achieving Women Empowerment And Gender Equality In India"',
+                    author: 'Ms. Charul Patel',
+                    date: '2019-12-07',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: ', Presented A Paper Titled "Role Of Digital Media And Social Media In Achieving Women Empowerment And Gender Equality In India" At One Day International Conference On "Smart Technology In Global Era : Opportunities And Challenges" Organized By Achievers College Of Commerce And Management Kalyan, Thane On 7th December, 2019. The Same Will Be Published In UGC Care Listed Journal - Online. (Awaiting Publication)'
+                },
+                {
+                    title: 'Empowerment Through Education: The Way Forward',
+                    author: 'Dr. Harini C.',
+                    date: '2020-01-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Presented A Paper On Empowerment Through Education: The Way Forward In The One Day National Seminar On Ki& Ka- Gender Equality And Sustainable Development On 18th January, 2020'
+                },
+                {
+                    title: 'Analysing Video On Demand Entertainment Consumption Through The Lens Of Generation Z',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2019-11-09',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Marketing Conference 2019 On "Marketing In The VUCA World" Organised By SIES College Of Management Studies, Nerul. Published In Think India Journal ISSN: 0971-1260 UGC Care Listed. Recipient Of Best Research Paper Award In The Conference With A Cash Prize Of Rs 13000/-'
+                },
+                {
+                    title: 'THE "M OF SMART MARKETING - MEASURING THE SUCCESS OF DIGITAL CONTENT MARKETING',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2019-11-09',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'A Large Number Of Business Organisations Are Increasingly Going Digital With Their Marketing Efforts. Creating And Posting Relevant Content Is The Key To This Digital Marketing Strategy. However, No Strategy Is Complete Without Its Success Being Measured. Without Performance Metrics, It Is Not Possible To Know Which Content Is Working, Which Not, Amplify The Strengths, Overcome The Weaknesses And To Justify The Time And Money Invested In Content Marketing. This Paper Describes The Benefits Derived By Pursuing A Strategy Of Digital Content Marketing, Lists Key Indicators Which Can Work As Performance Metrics To Assess The Success Of Digital Content Marketing Efforts And Suggests Suitability Of Different Metrics For Different Marketing Goals. KEYWORDS Metrics, Content Marketing, Digital, Social Media Marketing'
+                },
+                {
+                    title: 'E Commerce Platform For Indian Merchandise In Dubai',
+                    author: 'Ms. Divya Thakur',
+                    date: '2019-10-09',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Care Journal'
+                },
+                {
+                    title: 'A Study Of Education System In India With Regard To Employability Skills',
+                    author: 'Ms. Charul Patel',
+                    date: '2019-08-03',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: ', Presented A Paper Titled "A Study Of Education System In India With Regard To Employability Skills" At An International Seminar On Changing The Educational Landscape For Effective Employability Organized By Rajiv Gandhi Institute Of Contemporary Studies, University Of Mumbai, Vidyanagari, Kalina On 8th March, 2019.'
+                }
+
+            ],
+            '2018-2019': [
+                {
+                    title: 'A Study On Status Of Financial Inclusion In India',
+                    author: 'Ms. Payal Bhatia',
+                    date: '2019-02-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Ajanta Prakashan - ISSN 2277-5730- Impact Factor 5.5 (Www.Sjifactor.Com) Volume -VII Issue - I -January - March - 2019.Part 1 )Pg 60-65 (Peer Reviewed Referred And UGC Listed Journal (Journal No.40776) National Impact Factor 5.5 ISSN 2277-5730 Volume VII Part 1'
+                },
+                {
+                    title: 'A Study On Usage Of Cashless Mode Of Banking In India',
+                    author: 'Ms. Payal Bhatia',
+                    date: '2019-03-23',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'International Journal Of Advance And Innovative Research UGC Approved Journal No.63571 National Impact Factor 7.36 ISSN 2394-7780'
+                },
+                {
+                    title: 'An Analytical Study Of Government Initiatives Towards E-Governance Challenges',
+                    author: 'Ca Chandrashekhar Sawant',
+                    date: '2019-02-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'An Analytical Study Of Government Initiatives Towards E-Governance Challenges At Vidyalankar School Of Information Technology, Wadala, Mumbai - International Multi-Disciplinary Conference (8th & 9th Feb ,2019) -Theme "Policy Initiatives Of Government Of India - Appraisal & Assessment ". International Journal Of Research In Management & Social Science Volume 7 , Issue 1 (II): January - March 2019 ISSN : 2322-0899 (ICV: 6.35) Pg 123 To 128(Presented And Published).'
+                },
+                {
+                    title: 'A Study Of Senior Citizens Perception Towards M-Wallet',
+                    author: 'Ca Chandrashekhar Sawant',
+                    date: '2019-03-16',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'A Study Of Senior Citizens Perception Towards M-Wallet At Childrens Welfare Centres Claras College Of Commerce , Andheri , Mumbai On 16th March 2019 At One Day International Multi-Disciplinary Conference On "World Road To Cashless Economy" . UGC Approved Journal No.63571. (International Journal Of Advance & Innovative Research (2394-7780) Impact Factor 7.36)'
+                },
+                {
+                    title: 'A Study Of Students Perception Towards Domicile Reservation To Education In India: Compromise With Diversity',
+                    author: 'Ca Chandrashekhar Sawant',
+                    date: '2019-02-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Sies College Of Commerce & Economics , Sion-East , Mumbai. (Ajanta Prakashan - ISSN 2277-5730- Impact Factor 5.5 (Www.Sjifactor.Com) Volume -VIII Issue - I -January - March - 2019.Part 1 )Pg 60-65 (Peer Reviewed Referred And UGC Listed Journal (Journal No.40776) On 18th Feb'
+                },
+                {
+                    title: 'DIVERSITY AND INCLUSION PRACTICES AT FAMILY-RUN PRIVATE LIMITED COMPANIES A CASE OF NEW AGE FIRE PROTECTION INDUSTRIES PVT. LTD.',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2019-02-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'IF 5.5'
+                },
+                {
+                    title: 'DIVERSITY AND INCLUSION PRACTICES AT FAMILY-RUN PRIVATE LIMITED COMPANIES A CASE OF NEW AGE FIRE PROTECTION INDUSTRIES PVT. LTD.',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2019-02-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Impact Factor 5.5'
+                },
+                {
+                    title: 'Implementation Of Open APIs In Financial Services Sector Of India',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2019-03-30',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'EISSN NO. 2394-5362 Impact Factor (SJIF) - 5.266'
+                },
+                {
+                    title: 'Digital Marketing And Impact On Customer Behaviour',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2019-03-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: '23947780 Journal-63571,Impact Factor 7.36 254-257'
+                },
+                {
+                    title: 'Consumer Behaviour With Special Reference To Factors Affecting While Shopping Online',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2019-03-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: '23947780 Journal-63571,Impact Factor 7.36 288-290'
+                },
+                {
+                    title: 'An Analysis On Impact Of Digitilization On Education Sector In India',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2019-03-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: '23947780 Journal-63571,Impact Factor 7.36 342-344'
+                },
+                {
+                    title: 'Evaluation Of Government Policies And Initiatives On Agricultural Sector And Its Impact On Farmers Sucide',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2019-02-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: '23947780 Volume-6,Issue-1,(XI), January- March 2019, IJAIR 7.36 26-28'
+                },
+                {
+                    title: 'Explanatory Research Of Entrepreneur Schemens And Developing Policy Framework',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2019-02-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: '23947780 Volume-6,Issue-1,(XI), January- March 2019, IJAIR 7.36 69-72'
+                },
+                {
+                    title: 'Impact Of Government Initiatives On Social Media',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2019-02-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: '23947780 Volume-6,Issue-1,(XI), January- March 2019, IJAIR 7.36'
+                },
+                {
+                    title: 'Empowering Emegent Minorities And Social Inclusion The Road Ahead',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2019-02-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: '23947780 Volume-6,Issue-1,(XI), January- March 2019, IJAIR 7.36 178-181'
+                },
+                {
+                    title: 'Review Of Economic Impact Of Gujarat Tourism Policies On Gujarat Tourism',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2019-02-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: '23947780 Volume-6,Issue-1,(XI), January- March 2019, IJAIR 7.36 255-259'
+                },
+                {
+                    title: 'Human Resource Change Agent For Motivating And Retaining Employees',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2019-02-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: '2278-8808 Volume-7,Issue-41,January -March 2019, Impact Factor SJIF 2018,6.371 425-429'
+                },
+                {
+                    title: 'Impact Of Cashless Transaction In Retail Industry Due To Demonitization',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2019-02-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: '2278-8808 Volume-7,Issue-41,January -March 2019, Impact Factor SJIF 2018,6.371 566-570'
+                },
+                {
+                    title: 'Social Innovation In Education',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2019-03-14',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Recipient Of Best Research Paper Award (Second Prize) In The Conference ISSN: 2320-7272'
+                },
+                {
+                    title: 'A Study On Adoption Of Online Learning Amongst Select Colleges In Mumbai',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2019-02-07',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: '14th SIMSR Global Marketing Conference - 2019 ISBN - 978-81-934533-8-4'
+                },
+                {
+                    title: 'Education In The Digital World',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2018-12-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Recipient Of Best Research Paper Award At The 1st International Conference On Higher Education - Issues & Challenges ISSN 0976 - 1314'
+                },
+                {
+                    title: '"Artificial Intelligence:Is It Planet Saving Technology?"',
+                    author: 'Ms. Divya Thakur',
+                    date: '2019-03-09',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Conference On Innovation, Growth & Sustainability With Online Journal Publication In UGC Approved Journal With ISSN 2394-7780 & Impact Factor 7.36'
+                },
+                {
+                    title: 'Smart HR 4.0',
+                    author: 'Ms. Divya Thakur',
+                    date: '2019-02-09',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'National Conference On Cash To Cash Less Economy "Opportunities And Challenges" Published By Ajanta Printers With Impact Factor Of 5.5, Volume III, ISSN 2277-5730'
+                },
+                {
+                    title: '" A Study On The Influence Of Regional Diversities On The Investment Pattern Of Individuals In The City Of Mumbai"',
+                    author: 'Dr. Swati Iyer',
+                    date: '2019-02-18',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Participated And Presented A Research Paper Titled " A Study On The Influence Of Regional Diversities On The Investment Pattern Of Individuals In The City Of Mumbai" At A National Seminar'
+                },
+                {
+                    title: 'A Study On The Risk Appetite Of Female Investors And Their Investment Preference Towards Selected Financial Instruments In Navi Mumbai Region"',
+                    author: 'Dr. Swati Iyer',
+                    date: '2018-11-24',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: ', Presented And Published A Paper Titled " A Study On The Risk Appetite Of Female Investors And Their Investment Preference Towards Selected Financial Instruments In Navi Mumbai Region" At The International Conference On 24thNovember, 2018. The Same Was Published In AJANTA Publications Bearing ISSN 2277-5730.'
+                },
+                {
+                    title: 'Role Of IQ, EQ & SQ In Day To Day Life Of An Individual',
+                    author: 'Ms. Charul Patel',
+                    date: '2019-02-23',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: ', Paper Titled "Role Of IQ, EQ & SQ In Day To Day Life Of An Individual" Was Published In UGC Recognised Journal No. 40776 "Ajanta" Bearing ISSN 2277-5730 Volume - VIII, Issue - I, January-March - 2019 (English Part - I), Page No. 40 To 47 (SJI Impact Factor 5.5) (Presented At An One Day Inter-Disciplinary National Conference On "Dimensions Of Emotional Intelligence - Frontiers And Beyond" At Gurukul College Of Commerce On 23rd February 2019.)'
+                },
+                {
+                    title: 'Education As A Tool For Empowerment And Inclusive Growth - A Study Of Perspective Of Common People',
+                    author: 'Ms. Charul Patel',
+                    date: '2019-02-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: ', Paper Titled "Education As A Tool For Empowerment And Inclusive Growth - A Study Of Perspective Of Common People " Was Published In UGC Recognised Journal No. 40776 "Ajanta" Bearing ISSN 2277-5730 (SJI Impact Factor 5.5) (Presented At An One Day National Conference At SIES College Of Commerce And Economics On " Diversity And Inclusion." On 18th February 2019.)'
+                },
+                {
+                    title: 'Challenges And Constraints In Tourism In Maharashtra',
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2019-02-01',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'One Day National Inter- Disciplinary Conference On Importance Of Historical And Geographical Tourism'
+                },
+                {
+                    title: '"Is Single Parenting A Possible Predictor Of Life Satisfaction And Personal Adjustment?',
+                    author: 'Dr. Harini C.',
+                    date: '2018-09-08',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'The Research Paper Was Published In The July-September Issue Of International Journal Of Advance And Innovative Research'
+                },
+                {
+                    title: 'Healthy Life Style And Disease Prevention',
+                    author: 'Dr. Harini C.',
+                    date: '2018-08-22',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'It Was A Theoretical Research Paper On "Healthy Life Style And Disease Prevention Presented At The International Conference On Holistic Health And Well Being (ICWHW-2018) Organized By Veer Wajekar Arts, Science And Commerce College Phunde.'
+                },
+                {
+                    title: '"Women Born To Fight - From Survival To Growth - An Overview In Indian Context"',
+                    author: 'Ms. Charul Patel',
+                    date: '2018-11-27',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: ', Presented A Paper Titled "Women Born To Fight - From Survival To Growth - An Overview In Indian Context" At National Level Seminar On Dimensions Of Women Empowerment Organised By Swami Vivekanand Night Chandrabhan Night College Of Arts & Commerce, Dombivili Mumbai On 27th November, 2018.'
+                },
+                {
+                    title: '"Legal Provisions For Women In India - An Overview"',
+                    author: 'Ms. Charul Patel',
+                    date: '2018-09-29',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: ', Presented Paper Titled "Legal Provisions For Women In India - An Overview" At National Level Seminar On "Eliminating Violence Against Women: Strategies And Legal Mechanisms" Organized By Shri Bhausaheb Vartak Atrs, Commerce And Science College On 29th September, 2018 Which Was Published In UGC Recognised Journal No. 40776 "Ajanta" Bearing ISSN 2277-5730 Issue III Volume VII In The Month Of July-September 2018, Page No. 26 To 31. (SJI Impact Factor 5.5)'
+                },
+                {
+                    title: '"Gist Of Measures For Attaining Gender Equality : An Indian Perspective"',
+                    author: 'Ms. Charul Patel',
+                    date: '2018-09-29',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Presented Paper Titled "Gist Of Measures For Attaining Gender Equality : An Indian Perspective" At B. L. Amlani College Of Commerce & Economics And Maharashtra State Commission For Women Sponsored National Conference On "Women Empowerment : A Feminist Discourse" On 29th September, 2018, Which Was Published In UGC Recognised Journal No. 40776 "Ajanta" Bearing ISSN 2277-5730 Issue III Volume VII Part III In The Month Of July-September 2018, Page No. 26 To 31. (SJI Impact Factor 5.5)'
+                },
+                {
+                    title: '"Need For Inculcating Gender Equality In Education"',
+                    author: 'Ms. Charul Patel',
+                    date: '2018-09-08',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: ', PRESENTED Paper Titled "Need For Inculcating Gender Equality In Education" At Guru Nanak College - ONE DAY NATIONAL CONFERENCE ON EQUALITY & INCLUSION On 8th September, 2018, It Was Published In The UGC Recognised Journal No. 63571 "International Journal Of Advance & Innovative Research" An Online / E Journal Bearing E -ISSN 2394-7780 Issue 3 (VI) Volume 5 In The Month Of July To September 2018, Page No. 22 To 27. (Impact Factor 3.25) ('
+                }
+            ],
+            '2017-2018': [
+                {
+                    title: 'A STUDY ON IMPACT OF INTEGRATED AND SMART MOBILITY IN DEVELOPMENT OF RURAL TOURISM',
+                    author: 'Dr. Seethalekshmy. Narayana Iyer',
+                    date: '2018-01-19',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'IN THE UGC SPONSORED, 14TH NATIONAL CONFERENCE ON "SMART CITIES IN INDIA :THE ROAD AHEAD" HELD ON 19TH AND 20TH JANUARY 2018 PRESENTED A PAPER.'
+                },
+                {
+                    title: 'Integration Of Internet Of Things (IoT) And Cloud Computing For Higher Education System',
+                    author: 'Ms. Ruta Prabhu',
+                    date: '2018-01-29',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Cloud Computing Is One Of The Emerging Web Based Virtualization Technology Which Provides Unlimited Computational, Storage And Service Delivery And Is Accessible On Demand By Any Web Based Devices. Whereas, Internet Of Things (IoT) Is A Networked Connection Of Physical Devices. Cloud Computing Technology Is Ubiquitous, Meaning Computing In The Background With Technology Embedded In The Things We Already Use. Whereas IoT Is Pervasive In Nature Which Involves Devices Like Handhelds, Small, Easy-To-Use Devices Through Which We"Ll Be Able To Get Information On Anything And Everything. In Recent Years, Use Of Internet Has Accelerated Use Of Cloud Services And IoT. This Is Very Helpful To Support Education Online. Universities And Affiliated Higher Education Institutions Have Become More Reliable On Information And Communication Technology (ICT). An Integration Of IoT And Cloud Computing For Higher Education System Has A New Wave Of Change Which Will Bring New Opportunities For The Improvement Of Both Teaching-Learning Processes. It Will Also Help In Improving The Infrastructure Of Education Institutions And Constructing The Smart Campus. This Paper Focuses On The Need Of Integrating IoT And Cloud For Education System, Its Challenges And Impacts And Its Various Applications Which Can Be Used In The Field Of Education.'
+                },
+                {
+                    title: 'A Study Of Cashless Transactions In India',
+                    author: 'Ms. Payal Bhatia',
+                    date: '2017-04-27',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Special Issue Of International Scholarly Research Journal For Interdisciplinary Studies Impact Factor 2.03 ISSN 0976-8564'
+                },
+                {
+                    title: 'A Study Of Impact Of Demonetization On Indian Economy',
+                    author: 'Ms. Payal Bhatia',
+                    date: '2017-04-26',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Conferance Name: National Symposium On Demonetisation'
+                },
+                {
+                    title: 'Implementation Of Cloud Computing In Indian Banking Industry',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2018-01-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'UGC Approved Journal ISSN : 2319-9318 With 4.014 Impact Factor'
+                },
+                {
+                    title: 'Film Financing',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2017-07-15',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'E-ISBN No.: 978-93-5268-835-7'
+                },
+                {
+                    title: 'Study Of Fact Sheets Of Mutual Fund Companies - An Important Tool For Prosperity Of Investors',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2017-04-27',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'ISSN : 2319-4766 With 5.403 Impact Factor'
+                },
+                {
+                    title: 'Anti-Dumping Duties On Steel Imports - Indias Opportunity To Gain "Net Exporter Status',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2017-04-27',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'ISSN : 0976-8564 With 2.03 Impact Factor'
+                },
+                {
+                    title: 'Role Of Technology And Innovation In Retail Industry For Enhancing Customer Experience',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2018-02-24',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: '2278-8808 SJIF 2016:6.17'
+                },
+                {
+                    title: 'Impact Of Digitilization On The Quality Of Life',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2018-02-24',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'NA'
+                },
+                {
+                    title: 'Role Of HRM In Knowledge Economy',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2018-02-24',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'NA'
+                },
+                {
+                    title: 'Challenges And Opportunities In Digital Marketing In Todays Competitive Environment',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2018-02-03',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: '2279-0489 4.248'
+                },
+                {
+                    title: 'Human ResourceManagement In Education- Issues And Challenges',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2017-10-12',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'NA'
+                },
+                {
+                    title: 'A Study Of Media Consumption Habits Of Youth In Urban Mumbai',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2018-02-15',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Recipient Of Best Research Paper Award At The 13th SIMSR Global Marketing Conference - 2018 On "Marketing To The Global Consumer" 978-93-81715-14-7'
+                },
+                {
+                    title: '"India One Year Post Demonetization - A Study In Context Of Becoming A Cashless Economy"',
+                    author: 'Ms. Charul Patel',
+                    date: '2018-01-20',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: ', Paper Titled "India One Year Post Demonetization - A Study In Context Of Becoming A Cashless Economy" Was Accepted For Presentation At The International Multidisciplinary Conference On "Implications Of Recent Reforms On India In Changing Global Scenario" Organized By Shri Bhausaheb Vartak Atrs, Commerce And Science College On 19th And 20th January, 2018. The Paper Was Published In UGC Recognised Journal Sr. No. 64310, Current Global Reviewer, Volume -1, Issue - 1 (Special Issue) With Impact Factor 2.143 , ISSN 2319-8648, By Shaurya Publications. (Rejected List 1704)'
+                },
+                {
+                    title: 'Business To Consumer E-Commerce: The Evolving Dimension',
+                    author: 'Mr. Vinayak Krishnan',
+                    date: '2018-03-01',
+                    paperstatus: 'Presented',
+                    level: 'Local',
+                    organizer: '',
+                    description: 'Paper Not Published Any Journal'
+                },
+                {
+                    title: '"Digital Disruptions And Impact On Organizational Culture"',
+                    author: 'Dr. Shanti Suresh',
+                    date: '2017-12-16',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Conference On Language Literature And Culture Organized By The Institute Of Advanced Studies In English -Pune, On 16th Of December, 2017.'
+                },
+                {
+                    title: '"Digitization And Indias Preparedness"',
+                    author: 'Dr. Shanti Suresh',
+                    date: '2017-11-28',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Published In The Conference Proceedings'
+                },
+                {
+                    title: 'Data Mining Applications In Medical Field',
+                    author: 'Mrs. Bhavini Shah',
+                    date: '2018-01-30',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'This Paper Discusses How Data Mining Applications Can Be Useful In Medical Field.'
+                },
+                {
+                    title: 'Big Data Analytics In Cloud Computing',
+                    author: 'Ms. Varsha Dhanawade',
+                    date: '2018-01-30',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'This Paper Describes The Importance Of Big Data, Benefits And Challenges Involved In Deploying Big Data Analytics Through Cloud Computing. It Also Discusses Different Approaches And Environments For Carrying Out Analytics On Clouds For Big Data Applications. It Provides Recommendations For The Research Community On Future Directions On Cloud-Supported Big Data Computing And Analytics Solutions.'
+                },
+                {
+                    title: 'An Adoption Of Cloud Computing Techniques In Higher Education Institutions',
+                    author: 'Ms. Ruta Prabhu',
+                    date: '2017-11-25',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Higher Education Institutions Play Vital Role In The Growth Of Societies And Economies. In Recent Years, Use Of Internet Has Accelerated Use Of Cloud Services To Support Education Online. Universities And Affiliated Higher Education Institutions Have Become More Reliable On Information And Communication Technology (ICT). It Plays An Important Role In Enabling Educational Services To Be Delivered To The Users. Most Educational Online Services In Institutions Are Running On Cloud Techniques To Provide Services To Students, Professors, Researchers And Administrative Staff. This Study Focuses On The Various Tools And Techniques Which Can Be Used To Enhance The Use Of Cloud Services In Education And Challenges Of Adopting Cloud Computing Techniques In Higher Education Institutions And How To Accelerate The Use Of Cloud Services To Efficiently Deliver The Educational Resources.'
+                },
+                {
+                    title: 'Utilization Of Social Media Tools To Enhance Knowledge Sharing And E-Learning In Education Systems',
+                    author: 'Ms. Varsha Dhanawade',
+                    date: '2017-11-25',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Published A Research Paper Entitled Utilization Of Social Media Tools To Enhance Knowledge Sharing And E-Learning In Education Systems At National Conference On Innovations In Knowledge Sharing Using Technology Organized By S. H. Mutha College Of Arts, Science And Commerce.'
+                },
+                {
+                    title: "Star-Crossed Lovers In Jane Austen's Emma",
+                    author: 'Ms. Pradnya Waghule',
+                    date: '2018-10-31',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Paper Explored Politics Of Love As Obtained In Text'
+                }
+            ],
+            '2016-2017': [
+                {
+                    title: "Paper Submission - A STUDY OF PREFERENCES BETWEEN DIGITAL BOOKS AND PRINTED BOOKS AMONG STUDENTS",
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2017-03-25',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Organised In Association With JJTU'
+                },
+                {
+                    title: "Startup India - A Recent Government Initiative",
+                    author: 'Ms. Charul Patel',
+                    date: '2017-01-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Presented A Paper Titled " Startup India A Recent Government Initiative" At One Day National Conference On "Transforming India A Vision For Excellence" Organised By Laxmichand Golwala College Of Commerce & Economics, Ghatkopar, Mumbai On 20th January, 2017, Which Was Published In The Special Issue Of International Scholarly Research Journal For Interdisciplinary Studies" January 2017 Edition Bearing ISSN 2319-4766, Page No. 82-86.'
+                },
+                {
+                    title: "Human Resource Management And Its Significance In Todays Organization",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2017-03-17',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'ISBN 978-93-86432-62-9 NA 257-261'
+                },
+                {
+                    title: "When The Home Endangers The World: A Study Of Tagore's Critique Of Nationalism In Gora And Home And The World",
+                    author: 'Dr. Nina Roy Choudhury',
+                    date: '2016-09-23',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: "Tagore's Views On Nationalism As Reflected In His Works"
+                },
+                {
+                    title: "Literature And Nation: A Study Of Nationalism As A Cultural Phenomenon",
+                    author: 'Dr. Nina Roy Choudhury',
+                    date: '2017-01-20',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Study Of The Impact Of Nationalism On Literature'
+                },
+                {
+                    title: "The Preference Of Investment Avenues Among Fresh Graduates With Reference T",
+                    author: 'Dr. Swati Iyer',
+                    date: '2016-10-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Journal Of Research Vol.60No.1 ISSN 2231-6124'
+                },
+                {
+                    title: "Role Of Multinationals In The Era Of Neo-Colonialism",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2016-04-25',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'National Level Interdisciplinary Seminar On Emerging Trends And Innovations In Research In Commerce, Science And Technology,Humanities And Social Sciences'
+                },
+                {
+                    title: "Application Of Geo-Spatial Technologies",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2017-02-11',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Presented Paper TitledApplication Of Geo-Spatial Technologies At National Level Seminar On Interdisciplinary Seminar On Exploring Emerging Trends And Innovation In Research In Commerce, Science And Technology, Humanities And Social SciencesOrganized By N.S.S. College Tardeo Mumbai On 11 Feb 2017'
+                },
+                {
+                    title: "Green Marketing: Problems And Prospects",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2017-02-17',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Presented And Published Paper Titled Green Marketing: Problems And Prospects In International Conference Organized By Sangamner CollegeDepartment Of Commerce And Reasearchcentre With BCUD, SavitribaiPhule Pune University 17-18 Feb 2017 And The Paper Got Published As Conference Proceedings'
+                },
+                {
+                    title: "Agro- Tourism: A Case Study Of Maharashtra State",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2017-01-08',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Presented On M.K College Of Commerce , Bharuch'
+                },
+                {
+                    title: "Solid Waste Management And Policies Of MCGM And New Solid Waste Management Rules 2016",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2017-02-11',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'The Paper Got Published As Conference Proceedings'
+                },
+                {
+                    title: "Sustainable Water Management And Smart Irrigation",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2017-02-10',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Presented Paper Titled Sustainable Water Management And Smart Irrigation At International Swayazas 2017 Organized By SIES (Nerul) College Of Commerce And Economics On 10-11 Feb 2017'
+                },
+                {
+                    title: "Emergence Of Smart City",
+                    author: 'Ms. Anoushka Mirgnani',
+                    date: '2016-08-26',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'PSmart Cities An Emerging Trend Its Origin Benefits.'
+                },
+                {
+                    title: "Influence Of Ict On Secondary Education",
+                    author: 'Ms. Anoushka Mirgnani',
+                    date: '2016-07-23',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'How Information And Communication Technology Has Taken Over Every Field And Its Impact On Education'
+                },
+                {
+                    title: "Green Human Resource Management",
+                    author: 'Mrs. Vijaya Sunder',
+                    date: '2016-04-19',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'ISSN No. 23944560'
+                },
+                {
+                    title: "Change Management At The TATA Group Of Companies",
+                    author: 'Mrs. Shailashri Uchil',
+                    date: '2016-04-29',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Conference VISION 2020 - LEVERAGING "MAKE IN INDIA"'
+                },
+                {
+                    title: "Change Management At The TATA Group Of Companies",
+                    author: 'Mrs. Shailashri Uchil',
+                    date: '2016-04-29',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'The Paper Is About The Strategic Ways In Which The Tata Group Of Companies Manage Change At Various Levels.'
+                },
+                {
+                    title: "The Lunchbox: Mumbai's Multiplicity",
+                    author: 'Ms. Pradnya Waghule',
+                    date: '2017-02-15',
+                    paperstatus: 'Presented',
+                    level: 'Local',
+                    organizer: '',
+                    description: 'The Paper Used Spatial Theory To Study How The Same Geographic Entity--In This Case, Mumbai--Lends Itself Differently To The Various Characters In The Film Depending On Their Positioning In The Socio-Economic Hierarchy.'
+                },
+                {
+                    title: "Human Resource And Skill Requirements In The Organized Retail Sector",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2017-02-01',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Recent Trends In Commerce & Management'
+                },
+                {
+                    title: "Mystery Shopping A Tool Of Research To Enhance Employee Productivity",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2017-02-11',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Multidisciplinary Research'
+                },
+                {
+                    title: "Green Marketing Towards Consumer Buying Behaviour In Retail Stores",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2017-01-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Paradigm Shift In Commerce & Management'
+                },
+                {
+                    title: "Digital India A Recent Government Initiative And Its Impact",
+                    author: 'Ms. Charul Patel',
+                    date: '2017-03-25',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Presented A Paper Titled Digital India A Recent Government Initiative And Its Impact At International Interdisciplinary Conference On Digitalisation : A Vehicle Of The New Age Transformation Organised By Chandrabhan Sharma College Of Arts, Science & Commerce, Powai, Mumbai On 25th March, 2017.'
+                },
+                {
+                    title: "Startup India A Recent Government Initiative",
+                    author: 'Ms. Charul Patel',
+                    date: '2017-01-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Presented A Paper Titled Startup India A Recent Government Initiative At One Day National Conference On Transforming India A Vision For Excellence Organised By Laxmichand Golwala College Of Commerce & Economics, Ghatkopar, Mumbai On 20th January, 2017, Which Was Published In The Special Issue Of International Scholarly Research Journal For Interdisciplinary Studies January 2017 Edition Bearing ISSN 2319-4766, Page No. 82-86'
+                },
+                {
+                    title: "A Study On Initiatives Towards Sustainable Power Supply In Rural India",
+                    author: 'Mrs. Shailashri Uchil',
+                    date: '2016-04-19',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'National Level Conference On "Multidimensional Approach Through Extension For Sustainable Development".'
+                }
+
+            ],
+            '2015-2016': [
+                {
+                    title: 'Impact Of Value Based Education Among Adolescents',
+                    author: 'Ms. Payal Bhatia',
+                    date: '2016-02-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Event Name : Bhavishya 2016 International Scholarly Research Journal For Interdisciplinary Studies ( S R Journals Publication) Impact Factor 4.889 P-ISSN 2319-4766'
+                },
+                {
+                    title: 'Mobile Banking - An Innovative Tool For Sustainable Economic Growth',
+                    author: 'Mrs. Fleur Fernandes',
+                    date: '2016-02-14',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'ISSN : 2231-1475 With 1.2 Impact Factor'
+                },
+                {
+                    title: 'A Study Of Direct Marketing On Retail Indusrty',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2016-03-12',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: '2319-2429 Volume-4,Issue-2,March 2016 215-222'
+                },
+                {
+                    title: 'Work Life Balance- A Problem And Challenging Tool Of Working Women',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2016-02-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'JISBN 978-81-931391-9-6 NA 24-28'
+                },
+                {
+                    title: 'Digitilization Of Education Great Change In Teaching Learning Trends',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2016-02-13',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'ISBN 978-93-5149-458-0 NA 80-83'
+                },
+                {
+                    title: 'Employee Retention In A Retail Organization',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-09-30',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'NA'
+                },
+                {
+                    title: 'Innovative Teaching Techniques Skills And Research: Innovative Techniques Of Teaching',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-04-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'N/A',
+                    organizer: '',
+                    description: '2231-1475 Volume-8, Issue-1,April 2015 71-79'
+                },
+                {
+                    title: 'Innovative Techniques Of Teaching',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-04-02',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: '2395-5066 Volume-1, Issue-1 May 2015 58-64'
+                },
+                {
+                    title: 'Customer Perception For Service Quality Of Public Sector Banks',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2015-07-24',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Conference On Cultivating New Avenues In Service Sector Industry In Globalized Era 978-93-5249-010-3'
+                },
+                {
+                    title: 'Emerging Issues And Challenges For Indian Telecom Sector',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2015-10-09',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'National Conference On Emerging Issues In Industry And Service Sector - A Global Scenario ISSN: 2394-1480'
+                },
+                {
+                    title: '"Recent Trends In The Field Of Finance With Special Reference To Innovative Products Derivatives Markets."',
+                    author: 'Dr. Swati Iyer',
+                    date: '2016-01-09',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Published'
+                },
+                {
+                    title: '-"The Preference Of Investment Avenues Among The Fresh Graduates With Reference To Selected Financial Products In The City Of Mumbai"',
+                    author: 'Dr. Swati Iyer',
+                    date: '2016-01-09',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Published And Presented Research Paper'
+                },
+                {
+                    title: 'Digital Marketing -An Effective Tool For Banks To Generate A Younger Customer Base.',
+                    author: 'Dr. Swati Iyer',
+                    date: '2015-12-19',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Published And Presented The Above Research Paper'
+                },
+                {
+                    title: 'Investment Behavior Among The Working Women In City Of Mumbai',
+                    author: 'Dr. Swati Iyer',
+                    date: '2015-08-07',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: '978-93-5212-846-4'
+                },
+                {
+                    title: "Thebaw Raja Of Ratnagiri: Colonial Dislocation As Spatial Narrative In Amitav Ghosh's The Glass Palace",
+                    author: 'Dr. Nina Roy Choudhury',
+                    date: '2016-01-08',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Impact Of Colonialism On The Subcontinent And Its Representation In Literature'
+                },
+                {
+                    title: 'Reconstructing Identities: Exploring Issues Of Nationalism And Religion Through A Comparative Study Of Select Novels Of Sunil Gangopadhyay And Ahmed Ali',
+                    author: 'Dr. Nina Roy Choudhury',
+                    date: '2015-09-11',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Focused On Issues Of Nationalism And Identity'
+                },
+                {
+                    title: "Muslim Response To Colonialism: A Study Of Ahmed Ali's Twilight In Delhi",
+                    author: 'Dr. Nina Roy Choudhury',
+                    date: '2015-08-10',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Conference On Recent Trends In Commerce,. Management, Social Sciences And Humanities'
+                },
+                {
+                    title: 'Digital Marketing: An Effective Tool For Banks To Generate A Younger Customer Base',
+                    author: 'Dr. Swati Iyer',
+                    date: '2015-08-12',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'ISSN 0976-8564'
+                },
+                {
+                    title: 'Investment Behavior Among The Working Women In City Of Mumbai',
+                    author: 'Dr. Swati Iyer',
+                    date: '2015-08-07',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Presented And Published A Paper On Investment Behavior Among The Working Women In City Of Mumbai ISSN/ISBN : 978-93-5212-846-'
+                },
+                {
+                    title: 'Smart Irrigation',
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2016-02-11',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Presented Paper Titled Smart Irrigation At National Level Seminar On Interdisciplinary Seminar On Exploring Emerging Trends And Innovation In Research In Commerce, Science And Technology, Humanities And Social Sciences Organized By N.S.S. College Tardeo Mumbai On 11 Feb 2017'
+                },
+                {
+                    title: "Need For Environmental Protection In The Development Of Metropolis",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2016-02-26',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Seminar- Ideation At SIES(Nerul) College Of Arts Science And Commerce On 26th And 27th February 2016 And The Paper Was Adjudged As The Best Paper'
+                },
+                {
+                    title: "Application Of Remote Sensing, GIS And GPS For Efficient Urban Development: Development Plan -A Case Study Of Mumbai",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2015-12-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Published In Journal Research Dimensions Vol. VI; Issue II December 2015 Issn 0976-8564'
+                },
+                {
+                    title: "Urban Planning And Climate Change: A Need To Conserve Green Belts",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2015-12-28',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Two Day International Conference On Commerce And Management-Comtico'
+                },
+                {
+                    title: "Bio-Medical Waste Management Awareness And Practices: A Study Of City Of Mumbai",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2015-09-21',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: '3 Days International Conference'
+                },
+                {
+                    title: "Sustainability Issues And Environmental Damage: A Special Reference To Endosulfan Pesticide",
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2015-04-24',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: '2 Day International Conference On Interdisciplinary Approach- Tool For Socio-Economic Development'
+                },
+                {
+                    title: "A Research On Problems And Solutions Towards Performance Appraisal",
+                    author: 'Ms. Falguni Mathews',
+                    date: '2016-03-12',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Contemporary Issues In Management A Pathway For Vision 2020- International Journal Vol IV, Issue 2 March 2016, ISSN 2319-2429'
+                },
+                {
+                    title: "Merger In The Indian Banking Sector",
+                    author: 'Mr. Abhijeit Bhosale',
+                    date: '2015-07-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Shodh-Chetana Is Research Journal That Is Published Quarterly. ISSN (2454 - 1877)'
+                },
+                {
+                    title: "The Gold Monestisation Scheme Of India - Issue And Concerns Detrimental To Its Success.",
+                    author: 'Mr. Abhijeit Bhosale',
+                    date: '2016-03-12',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Contemporary Issues In Management A Pathway For Vision 2020 - International Journal Vol IV, Issue 2, March 2016 ISSN 2319-2429'
+                },
+                {
+                    title: "Economic Growth Through FDI",
+                    author: 'Mr. Abhijeit Bhosale',
+                    date: '2016-02-13',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'CENTUM VOLUME NO 9, ISSUE - 1, 2016 ISSN 2231-1475'
+                },
+                {
+                    title: "A Comparative Study Of Online Education Vs Traditional Education.",
+                    author: 'Mr. Abhijeit Bhosale',
+                    date: '2015-05-02',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Published Research Paper In Au Fait, A Research Journal Of Innovative Teaching Technique & Skill Development Of JJT University, Rajasthan, ISSN 2395-5066'
+                },
+                {
+                    title: "Teacher As A Leader: The Need Of The Hour",
+                    author: 'Ms. Falguni Mathews',
+                    date: '2015-05-04',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Published Research Paper In Au Fait, A Research Journal Of Innovative Teaching Technique & Skill Development Of JJT University, Rajasthan , ISSN 2395-5066.'
+                },
+                {
+                    title: "Basel III And Its Impact On The Indian Banking System",
+                    author: 'Mr. Abhijeit Bhosale',
+                    date: '2015-06-26',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'ISBN 978-93-83072-85-9'
+                },
+                {
+                    title: "Role Of Organisation In Preventing Sexual Harassment",
+                    author: 'Ms. Falguni Mathews',
+                    date: '2015-06-26',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'ISBN 978-93-83-072-85-9'
+                },
+                {
+                    title: "A Case Study On Retaining Customer Patronage And Service Excellence At MumbaiS Pioneer Udupi Restaurant A. Rama NayakS Udupi Shri Krishna Boarding.",
+                    author: 'Mrs. Shailashri Uchil',
+                    date: '2016-03-05',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Conference On "Strategies For Business Intelligence"'
+                },
+                {
+                    title: "Perception Of Experts Towards Suicide And Factors Leading To Suicide Among Students: Case Study.",
+                    author: 'Ms. Mohini Nadkarni',
+                    date: '2016-02-18',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Suicide Has Become An Escapist Tendency. Most Of Them Do Not Even Know The Consequences. The Subject Is Being Looked Upon As Taboo . This Leads To Myths And Misconceptions Regarding Suicides And Possibilities Of Finding Other Solutions Under Wraps.'
+                },
+                {
+                    title: "Changes In Perception Of Students Towards News And Its Modes Of Transmission : A Study Of College Students In Mumbai.",
+                    author: 'Ms. Mohini Nadkarni',
+                    date: '2016-02-13',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'It Is Found That Use Of Social Media As A Source Of News Transmission Is Increasing Not Only In English But Also In Local Language. Only Sensitized Digitization Has Potentials To Accomplish To Our Prime MinisterS Vision Of Digital India.'
+                },
+                {
+                    title: "A Study On Consumer Reluctance Towards Online Purchase With Special Reference To Groceries In The Suburbs Of Mumbai.",
+                    author: 'Ms. Manasi Shah',
+                    date: '2016-03-12',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'This Paper Studies Various Factors Responsible For Consumer Reluctance Towards Online Purchase Of Groceries. The Findings Of The Study Reveal Consumer Insights That Can Be Used By Marketers To Target Their Potential Consumers. Some Of The Major Concerns Of Customers Were Lack Of Personal Inspection, High Lead Time, And Uncertainty In Quality, Inability To Bargain, Mixing Of Edibles And Non Edibles And Reduced Social Interaction, Apart From Minimum Order Size And Value.'
+                },
+                {
+                    title: "Investment Planning: A Tool For Sustainable Women Empowerment.",
+                    author: 'Ms. Sugandhi',
+                    date: '2015-10-17',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Published As A Paper With ISSN 2394-4560'
+                },
+                {
+                    title: "Crowdfunding An Upcoming Fund Raising Alternative.",
+                    author: 'Ms. Sugandhi',
+                    date: '2015-12-19',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Published As A Paper With ISSN 0976-8564'
+                },
+                {
+                    title: " Innovations - A Tool To Enhance Quality Consistancy In Higher Education",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2016-02-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Page No 25-29, ISBN 978-81-931-391-3-4.'
+                },
+                {
+                    title: "A Study On Digital Marketing In Retail Industry",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2016-01-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Page No 222-226, ISBN 978-93-5249-029-5.'
+                },
+                {
+                    title: "Innovation - The Strategic HR Imperative",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-12-01',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'No Publication Only Presented.'
+                },
+                {
+                    title: "A Study Of Employee Retention In Retail Organization",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-11-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Theme Research Management'
+                },
+                {
+                    title: "HRM & Its Changing Dimensions In The Globalized Era",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-09-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'N/A',
+                    organizer: '',
+                    description: 'Volume - 1, Issue 1, Page No 42-47, ISSN 2394-8922.'
+                },
+                {
+                    title: "Innovative Techniques Of Teaching.",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-05-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Volume - 1, Issue- 1, Page No 58-64, ISSN 2395-5066.'
+                },
+                {
+                    title: "Innovative Teaching Techniques Skills & Research",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-04-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'N/A',
+                    organizer: '',
+                    description: 'Page No 71-79, ISSN 2231-1475'
+                },
+                {
+                    title: "Innovative Business Strategy, Theme Adoption, Acceptance & Diffusion Of Emerging Technologies",
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-04-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Page No -72-75, ISBN 978-93-5213-046-7'
+                },
+                {
+                    title: "Dividend Policy And Decisions A Case Study Of Reliance Industries Ltd.",
+                    author: 'Ms. Charul Patel',
+                    date: '2016-02-25',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Presented Paper Titled Dividend Policy And Decisions A Case Study Of Reliance Industries Ltd. A One Day National Conference On "Emerging Trends In Finance, Management, Accounting, Auditing And Reporting In India" Organised By Ramanand Arya Dav College, Bhandup On 25th February, 2016 Which Was Published In Management Guru : Journal Of Management Research Vol IV Issue 1 Of February 2016 Bearing ISSN No. 2319-2429.'
+                },
+                {
+                    title: "The Dawn Of Digitalisation Of Education In India",
+                    author: 'Ms. Charul Patel',
+                    date: '2016-01-09',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Presented A Paper Titled The Dawn Of Digitalisation Of Education In India At The UGC Sponsored Multidisciplinary National Seminar On Innovative Practices In Management, Economics And Education Organized By Sree Narayan Guru College Of Commerce, Chembur On 9th January, 2016.'
+                },
+                {
+                    title: "Role Of IT In Library Management",
+                    author: 'Mrs. Bhavini Shah',
+                    date: '2015-08-22',
+                    paperstatus: 'Presented',
+                    level: 'National',
+                    organizer: '',
+                    description: 'This Paper Discusses RFID Based Library Management System Which Gives A New Look To Traditional Library System With Added Benefits Of Faster, Efficient, User-Friendly System With Minimized Errors And Theft-D'
+                }
+            ],
+            '2014-2015': [
+                {
+                    title: 'Innovative Practices And Application In HRM',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-01-22',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: '2250-2025 Volume-5,No-1, January 2015 154-156'
+                },
+                {
+                    title: 'Indian Economy In The 21st Century (Opportunities And Challenges)',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2014-08-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'ISBN 978-93-83072-44-6 NA 65-70'
+                },
+                {
+                    title: 'Digital Library',
+                    author: 'Mrs. Bhavini Shah',
+                    date: '2015-02-26',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Poster Presentation'
+                },
+                {
+                    title: 'Customer Engagement Using Facebook - A Study Of Restaurants In Thane City',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2015-02-21',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'National Conference On New Facets In Business, Economics & Management 978-93-5149-346-4'
+                },
+                {
+                    title: 'Mystery Shopping - An Employers Perspective.',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2015-02-20',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Conference On India Calling- A World Of Opportunities (Initiate, Integrate, Innovate 978-93-83072-70-5'
+                },
+                {
+                    title: 'A Study Of Consumer Perception Towards Visual Merchandising In Apparel Industry',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2015-02-19',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Conference On Trends In Retailing And Branding 978-81-8094-165-8'
+                },
+                {
+                    title: 'Mystery Shopping: An Innovative Quality Control Tool',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2015-01-24',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Recipient Of Best Research Paper Award In The Conference International Management Research Conference On Creating Global Organizations - Challenges And Strategies For Emerging Market Companies 978-93-5249-028-8'
+                },
+                {
+                    title: 'Indias Tryst In Retrieving Black Money',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2015-01-19',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Conference On Global Business Finance And Leadership: Challenges & Opportunities'
+                },
+                {
+                    title: 'Unique Mobile Marketing Strategy For Rural Markets',
+                    author: 'Mrs. Jinal Shah',
+                    date: '2015-01-14',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International Conference On Rural India In 21st Century 978-93-83072-69-9'
+                },
+                {
+                    title: 'Gender Disparity And Women Reservation',
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2015-02-28',
+                    paperstatus: 'Presented',
+                    level: 'Local',
+                    organizer: '',
+                    description: 'One Day Multi- Disciplinary Seminar On Emerging Trends In Innovation And Research'
+                },
+                {
+                    title: 'Perception Of Women Towards Entrepreneurship And Its Avenues With Respect To Thane City.',
+                    author: 'Ms. Mohini Nadkarni',
+                    date: '2015-01-09',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Perception Of Women In Thane City Towards Entrepreneurship Is Independent Of Their Age Group. Perception Of Women In Thane City Towards Entrepreneurship Is Independent Of Their Annual Income'
+                },
+                {
+                    title: 'Importance Of Internal Marketing',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2014-08-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Page No 65-70, ISBN 978-93-83072-44-6'
+                },
+                {
+                    title: 'Business Ethics & Human Values, Theme Promotion Of Ethics & Human Values',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-03-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Page No 46-49, ISBN 978-93-815-49-78-0'
+                },
+                {
+                    title: 'Nnovation Based Sustainable Development In HR',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-03-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Page No - 242 - 246, ISBN 978-93-83003-01-3'
+                },
+                {
+                    title: 'Employee Retention, Theme Skill Development',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-03-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Page No 50 - 54, ISSN 2319-7935, Impact Factor - 2.1632.'
+                },
+                {
+                    title: 'Challenges Faced By Human Resource',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-03-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Volume- 3, Page No 45 50, ISBN 978-93-830-72-72-9'
+                },
+                {
+                    title: ' A Frameword Of Knowlegde Management Systems- Issues & Challenges For Theory & Practices',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-02-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Volume 1, Page No 446 - 451, ISBN 978-93-83072-70-5'
+                },
+                {
+                    title: 'Innovative Practices & Application In HR, Theme Innovative Practices & Application In Commerce ,Trade & Management',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-01-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Volume - 5, No- 1, Page No 154 - 156, ISSN 2250-2025'
+                },
+                {
+                    title: 'A Study Of Mystery Shopping & Its Impact On Internal Marketing',
+                    author: 'Dr. Rinkesh Chheda',
+                    date: '2015-01-01',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'International - Volume - 8, Issue 1, Page No - 236 - 238, ISSN 2231-1475'
+                },
+                {
+                    title: 'WOMEN EMPOWERMENT In India In True A Sense The Need Of The Hour',
+                    author: 'Ms. Charul Patel',
+                    date: '2015-02-21',
+                    paperstatus: 'Presented And Published',
+                    level: 'National',
+                    organizer: '',
+                    description: 'Presented A Paper On WOMEN EMPOWERMENT In India In True A Sense The Need Of The Hour At One Day Interdisciplinary National Conference On India 2020- Challenges & Opportunities Organised By Bunt SanghaS ANNA LEELA College Of Commerce And Economics Kurla (East), Mumbai On 21st February, 2015, Which Was Published In Book Titled India 2020- Challenges & Opportunities Published By Himalaya Publishers Bearing ISBN 978-93-5202-817-7'
+                },
+                {
+                    title: ' Recent Trends In Global Equity Markets With Special Reference To India, United States And China',
+                    author: 'Dr. Swati Iyer',
+                    date: '2014-05-12',
+                    paperstatus: 'Presented And Published',
+                    level: 'International',
+                    organizer: '',
+                    description: 'ISBN- 978-93-83072-64-4'
+                }
+            ],
+            '2013-2014': [
+                {
+                    title: 'Aftermath Of Industrial Policy Changes And Water Pollution: A Case Study Of Mira- Bhayander Suburb',
+                    author: 'Mrs. Priti Thakkar',
+                    date: '2013-12-13',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'Presented And Published A Paper Titled Aftermath Of Industrial Policy Changes And Water Pollution: A Case Study Of Mira- Bhayander Suburb At International Conference On Challenges For Sustainable Development Issues Held On 13-14 Dec 2013 At KPB Hinduja College Of Commerce. It Was Published In International Research Journal Of Commerce Business And Social Sciences With Issn Number 2277-9310, Vol II Issue 9( I Dec 2013.)'
+                }
+            ],
+            '2008-2009': [
+                {
+                    title: 'INNOVATIVE STRATEGY FOR IMPROVING THE EFFECTIVENESS AND EFFICIENCY OF INDEPENDENT DIRECTORS IN CORPORATE INDIA',
+                    author: 'Dr. Shanti Suresh',
+                    date: '2009-02-05',
+                    paperstatus: 'Presented',
+                    level: 'International',
+                    organizer: '',
+                    description: 'PAPER SELECTED FOR PRESENTATION'
+                }
+            ]
+    };
+
+    const tabs = document.getElementById("tabs");
+    const contents = document.getElementById("tab-contents");
+
+    let first = true;
+    for (let year in publicationsData) {
+      // Create Tabs
+      let tab = document.createElement("div");
+      tab.className = "tab" + (first ? " active" : "");
+      tab.innerText = year;
+      tab.dataset.year = year;
+      tabs.appendChild(tab);
+
+      // Create Tab Content
+      let content = document.createElement("div");
+      content.className = "tab-content" + (first ? " active" : "");
+      content.id = `content-${year}`;
+      content.innerHTML = `
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Date</th>
+              <th>Status</th>
+              <th>Level</th>
+              <th>Organizer</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${publicationsData[year].map(pub => `
+              <tr>
+                <td data-label="Title">${pub.title}</td>
+                <td data-label="Author">${pub.author}</td>
+                <td data-label="Date">${pub.date}</td>
+                <td data-label="Status">${pub.paperstatus}</td>
+                <td data-label="Level">${pub.level}</td>
+                <td data-label="Organizer">${pub.organizer}</td>
+                <td data-label="Description">${pub.description}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+      contents.appendChild(content);
+      first = false;
+    }
+
+    // Tab Switching
+    document.querySelectorAll(".tab").forEach(tab => {
+      tab.addEventListener("click", () => {
+        document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+        document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
+        tab.classList.add("active");
+        document.getElementById(`content-${tab.dataset.year}`).classList.add("active");
+      });
+    });
+
+    // Filter/Search
+    document.getElementById("searchBox").addEventListener("input", function() {
+      let filter = this.value.toLowerCase();
+      document.querySelectorAll(".tab-content.active tbody tr").forEach(row => {
+        row.style.display = row.textContent.toLowerCase().includes(filter) ? "" : "none";
+      });
+    });
+  
