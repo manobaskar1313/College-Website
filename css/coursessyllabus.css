@@ -152,17 +152,6 @@
       color: #d8731a;
     }
 
-    .btn {
-      background: #d8731a;
-      color: white;
-      box-shadow: 0 2px 8px rgba(216, 115, 26, 0.3);
-    }
-
-    .btn:hover {
-      transform: translateY(-2px);
-      background: #fff3cd;
-      color: #d8731a;
-    }
 
     .syllabus-buttons {
       display: flex;

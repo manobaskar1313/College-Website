@@ -1279,56 +1279,6 @@ const filterButtons = document.querySelectorAll('.filter-btn');
     });
   
     
-  
-/*research recognitions */
- const guideshipPDFs = {
-      'dr_shanti_suresh': 'https://siesce.edu.in/docs/3.2.3%20university%20letter%20of%20PHD%20guides-Dr.%20Shanti.pdf',
-      'dr_seethalekshmy_n': 'https://siesce.edu.in/docs/1729498640%20SEETA%20MAAM%20FINAL.pdf',
-      'dr_rinkesh_chheda': 'https://siesce.edu.in/docs/1729498310%20RINKESH%20FINAL.pdf'
-    };
-
-    // Open PDF Function
-    function openGuideshipPDF(guideId) {
-      const pdfPath = guideshipPDFs[guideId];
-      
-      if (pdfPath && pdfPath !== 'path/to/' + guideId + '.pdf') {
-        window.open(pdfPath, '_blank');
-      } else {
-        const guideName = guideId.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-       
-      }
-    }
-
-    // Navigation Function
-    function navigateToHome(event) {
-      event.preventDefault();
-      
-    }
-
-    // Scroll to Top Functionality
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    }
-
-    // Show/Hide Scroll Button
-    window.addEventListener('scroll', function() {
-      const scrollBtn = document.querySelector('.scroll-top');
-      if (window.pageYOffset > 300) {
-        scrollBtn.classList.add('visible');
-      } else {
-        scrollBtn.classList.remove('visible');
-      }
-    });
-
-    // Initialize Page
-    document.addEventListener('DOMContentLoaded', function() {
-      console.log('Research Recognitions page loaded successfully!');
-    });
-
-(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9810ff98469f1432',t:'MTc1ODIwMDEzNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
 
 /*research scholars*/
 

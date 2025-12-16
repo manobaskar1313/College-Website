@@ -1,536 +1,313 @@
-
-    
-
-    /* Program Section */
-    .program-section {
+    /* Main Content */
+    .main-content {
+      padding: 0;
       background: white;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-      margin-bottom: 25px;
-      overflow: hidden;
-      border: 1px solid #e9ecef;
     }
 
-    .section-header {
-      background: #d8731a;
-      color: white;
-      padding: 10px;
-      position: relative;
+    /* Research Table Section */
+    .table-section {
+      background: white;
+      padding: 40px 0;
     }
 
-    .section-header h2 {
-      font-size: 28px;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-
-    .section-header .description {
-      font-size: 16px;
-      opacity: 0.9;
-      font-weight: 300;
-    }
-
-    .section-header .course-count {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      background: rgba(255,255,255,0.2);
-      padding: 6px 12px;
-      border-radius: 20px;
-      font-size: 13px;
-      font-weight: 500;
-    }
-
-    /* Course Table */
-    .course-table-container {
+    .table-wrapper {
       overflow-x: auto;
-    }
-
-    .course-table {
-      width: 100%;
-      border-collapse: collapse;
-      background: white;
-    }
-
-    .course-table thead {
-      background: #f8f9fa;
-      border-bottom: 2px solid #dee2e6;
-    }
-
-    .course-table th {
-      padding: 20px 25px;
-      text-align: left;
-      font-weight: 600;
-      color: #495057;
-      font-size: 15px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      border-right: 1px solid #dee2e6;
-    }
-
-    .course-table th:last-child {
-      border-right: none;
-    }
-
-    .course-table td {
-      padding: 15px;
-      border-bottom: 1px solid #f1f3f4;
-      border-right: 1px solid #f1f3f4;
-      vertical-align: top;
-      transition: background-color 0.3s ease;
-    }
-
-    .course-table td:last-child {
-      border-right: none;
-    }
-
-    .course-table tbody tr:hover {
-      background-color: #f8f9ff;
-    }
-
-    .course-table tbody tr:last-child td {
-      border-bottom: none;
-    }
-
-    /* Course Information */
-    .course-info {
-      max-width: 350px;
-    }
-
-    .course-name {
-      font-weight: 600;
-      color: #d8731a;
-      font-size: 16px;
-      margin-bottom: 6px;
-      line-height: 1.3;
-    }
-
-    .course-code {
-      display: inline-block;
-      background: #fdf5e6;
-      color: #d8731a;
-      padding: 4px 8px;
-      border-radius: 4px;
-      font-size: 12px;
-      font-weight: 500;
-      margin-top: 8px;
-    }
-
-    /* Action Buttons */
-    .action-buttons {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      min-width: 140px;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 8px 16px;
-      border: none;
-      border-radius: 6px;
-      font-size: 13px;
-      font-weight: 500;
-      text-decoration: none;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      text-align: center;
-      min-height: 36px;
-    }
-
-    .btn {
-      background: #d8731a;
-      color: white;
-      box-shadow: 0 2px 8px rgba(216, 115, 26, 0.3);
-    }
-
-    .btn:hover {
-      transform: translateY(-2px);
-      background: #fff3cd;
-      color: #d8731a;
-    }
-
-    .btn {
-      background: #d8731a;
-      color: white;
-      box-shadow: 0 2px 8px rgba(216, 115, 26, 0.3);
-    }
-
-    .btn:hover {
-      transform: translateY(-2px);
-      background: #fff3cd;
-      color: #d8731a;
-    }
-
-    .syllabus-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .btn-syllabus {
-      background: #d8731a;
-      color: white;
-      padding: 6px 12px;
-      font-size: 12px;
-      border-radius: 20px;
-      box-shadow: 0 2px 6px rgba(216, 115, 26, 0.3);
-    }
-
-    .btn-syllabus:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 3px 8px rgba(216, 115, 26, 0.4);
-    }
-
-    /* Modal Styles */
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1000;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0,0,0,0.7);
-      backdrop-filter: blur(5px);
-    }
-
-    .modal-content {
-      background-color: white;
-      margin: 2% auto;
-      border-radius: 12px;
-      width: 95%;
-      max-width: 1000px;
-      height: 90vh;
-      position: relative;
-      box-shadow: 0 25px 50px rgba(0,0,0,0.3);
-      overflow: hidden;
-    }
-
-    .modal-header {
-      background: #d8731a;
-      color: white;
-      padding: 25px 30px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #dee2e6;
-    }
-
-    .modal-header h3 {
-      font-size: 20px;
-      font-weight: 600;
-      margin: 0;
-    }
-
-    .modal-close {
-      color: white;
-      font-size: 24px;
-      font-weight: bold;
-      cursor: pointer;
-      background: rgba(255,255,255,0.2);
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.3s ease;
-      border: none;
-    }
-
-    .modal-close:hover {
-      background: rgba(255,255,255,0.3);
-      transform: rotate(90deg);
-    }
-
-    .modal-body {
-      height: calc(90vh - 80px);
-      overflow-y: auto;
-      background: #f8f9fa;
-    }
-
-    .document-content {
-      padding: 40px;
-      background: white;
-      margin: 20px;
-      border-radius: 8px;
+      -webkit-overflow-scrolling: touch;
+      border-radius: 10px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
 
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      .page-header h1 {
-        font-size: 32px;
-      }
-
-      .page-header .subtitle {
-        font-size: 16px;
-      }
-
-      .container {
-        padding: 20px 15px;
-      }
-
-      .section-header {
-        padding: 20px;
-      }
-
-      .section-header h2 {
-        font-size: 24px;
-      }
-
-      .section-header .course-count {
-        position: static;
-        margin-top: 15px;
-        display: inline-block;
-      }
-
-      .course-table th,
-      .course-table td {
-        padding: 15px;
-      }
-
-      .course-name {
-        font-size: 16px;
-      }
-
-      .action-buttons {
-        min-width: auto;
-      }
-
-      .syllabus-buttons {
-        flex-direction: column;
-      }
-
-      .modal-content {
-        width: 98%;
-        height: 95vh;
-        margin: 1% auto;
-      }
-
-      .modal-header {
-        padding: 20px;
-      }
-
-      .document-content {
-        padding: 20px;
-        margin: 10px;
-      }
+    .research-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      min-width: 600px;
     }
 
-    @media (max-width: 480px) {
-      .page-header {
-        padding: 40px 0;
-      }
-
-      .page-header h1 {
-        font-size: 28px;
-      }
-
-      .course-table th,
-      .course-table td {
-        padding: 12px;
-        font-size: 14px;
-      }
-
-      .modal-content {
-        width: 100%;
-        height: 100vh;
-        margin: 0;
-        border-radius: 0;
-      }
+    .research-table th {
+      background: #da7d0b;
+      color: white;
+      padding: 15px;
+      text-align: left;
+      font-weight: 700;
+      border: 1px solid ;
     }
 
-    /* Animation */
-    .program-section {
-      opacity: 0;
-      transform: translateY(30px);
-      animation: fadeInUp 0.6s ease-out forwards;
-    }
-
-    .program-section:nth-child(2) { animation-delay: 0.1s; }
-    .program-section:nth-child(3) { animation-delay: 0.2s; }
-    .program-section:nth-child(4) { animation-delay: 0.3s; }
-    .program-section:nth-child(5) { animation-delay: 0.4s; }
-
-    @keyframes fadeInUp {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    /* Program Filter Styles */
-    .program-filter-section {
-      background: white;
-      border-bottom: 1px solid #e9ecef;
-      padding: 30px 0;
-    }
-
-    .filter-header {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
-    .filter-header h2 {
-      color: #d8731a;
-      font-size: 28px;
+    .research-table .sub-header th {
+      background: #da7d0b;
       font-weight: 600;
+    }
+
+    .research-table td {
+      padding: 15px;
+      border: 1px solid #ddd;
+      background: white;
+    }
+
+    .research-table tbody tr:hover {
+      background: #f8f9fa;
+    }
+
+    .student-count {
+      text-align: center;
+      font-weight: 700;
+    }
+
+    /* Guideship Letters Section */
+    .guideship-section {
+      background: white;
+      padding: 40px 0;
+    }
+
+    .section-title {
+      font-size: 32px;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .section-description {
+      text-align: center;
+      color: #666;
+      margin-bottom: 30px;
+      font-style: italic;
+    }
+
+    .guideship-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .guideship-card {
+      background: #f7dcc6;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 25px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .guideship-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(216, 115, 26, 0.1), transparent);
+      transition: left 0.6s ease;
+    }
+
+    .guideship-card:hover::before {
+      left: 100%;
+    }
+
+    .guideship-card:hover {
+      border-color: #d8731a;
+      transform: translateY(-8px) scale(1.05);
+      box-shadow: 0 8px 25px rgba(216, 115, 26, 0.3);
+    }
+
+    .guideship-card:active {
+      transform: translateY(-5px) scale(1.02);
+    }
+
+    .guide-name {
+      font-size: 20px;
+      font-weight: 700;
+      color: #333;
       margin-bottom: 10px;
     }
 
-    .filter-header p {
-      color: #6c757d;
-      font-size: 16px;
-      margin: 0;
-    }
-
-    .filter-buttons {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .filter-btn {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px 25px;
-      background: white;
-      border: 2px solid #e9ecef;
-      border-radius: 12px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      min-width: 120px;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-
-    .filter-btn:hover {
-      border-color: #d8731a;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 15px rgba(216, 115, 26, 0.2);
-    }
-
-    .filter-btn.active {
+    .view-pdf-btn {
       background: #d8731a;
-      border-color: #d8731a;
       color: white;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 15px rgba(216, 115, 26, 0.3);
-    }
-
-    .filter-icon {
-      font-size: 24px;
-      margin-bottom: 8px;
-      display: block;
-    }
-
-    .filter-text {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
       font-size: 14px;
       font-weight: 600;
-      margin-bottom: 5px;
-      display: block;
+      cursor: pointer;
+      transition: background 0.3s ease;
     }
 
-    .filter-count {
-      font-size: 12px;
-      background: rgba(0,0,0,0.1);
-      padding: 2px 8px;
-      border-radius: 10px;
-      display: block;
-    }
-
-    .filter-btn.active .filter-count {
-      background: rgba(255,255,255,0.2);
+    .view-pdf-btn:hover {
+      background: #c66617;
     }
 
     
-    /* Program Section Filtering */
-    .program-section {
-      transition: all 0.5s ease;
-    }
 
-    .program-section.hidden {
-      display: none;
-    }
-
-    .program-section.fade-in {
-      animation: fadeInUp 0.6s ease-out forwards;
-    }
-
-    /* Print Styles */
-    @media print {
-      .page-header,
-      .breadcrumb,
-      .program-filter-section,
-      .btn {
-        display: none;
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      .container {
+        padding: 0 15px;
       }
 
-      .program-section {
-        break-inside: avoid;
-        box-shadow: none;
-        border: 1px solid #ccc;
+      .guideship-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
       }
     }
 
-    /* Responsive Filter Buttons */
     @media (max-width: 768px) {
-      .filter-buttons {
-        gap: 10px;
+      .header {
+        padding: 30px 0;
       }
 
-      .filter-btn {
-        min-width: 100px;
-        padding: 15px 20px;
+      .header h1 {
+        font-size: 32px;
       }
 
-      .filter-icon {
-        font-size: 20px;
+      .breadcrumb {
+        padding: 15px 0;
       }
 
-      .filter-text {
+      .breadcrumb-nav {
+        font-size: 14px;
+      }
+
+      .table-section,
+      .guideship-section {
+        padding: 30px 0;
+      }
+
+      .table-wrapper {
+        margin: 0 -15px;
+        border-radius: 0;
+      }
+
+      .research-table {
+        min-width: 500px;
+      }
+
+      .research-table th,
+      .research-table td {
+        padding: 12px 8px;
         font-size: 13px;
+      }
+
+      .section-title {
+        font-size: 28px;
+      }
+
+      .section-description {
+        font-size: 16px;
+        padding: 0 15px;
+      }
+
+      .guideship-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 15px;
+      }
+
+      .guideship-card {
+        padding: 20px;
+      }
+
+      .guide-name {
+        font-size: 18px;
       }
     }
 
     @media (max-width: 480px) {
-      .filter-buttons {
-        flex-direction: column;
-        align-items: center;
+      .header {
+        padding: 25px 0;
       }
 
-      .filter-btn {
-        width: 100%;
-        max-width: 200px;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 15px 20px;
+      .header h1 {
+        font-size: 24px;
+        line-height: 1.2;
       }
 
-      .filter-icon {
-        margin-bottom: 0;
-        margin-right: 10px;
+      .breadcrumb {
+        padding: 12px 0;
       }
 
-      .filter-text {
-        flex: 1;
-        text-align: left;
-        margin-bottom: 0;
+      .breadcrumb-nav {
+        font-size: 12px;
+      }
+
+      .breadcrumb-separator {
+        margin: 0 5px;
+      }
+
+      .table-section,
+      .guideship-section {
+        padding: 20px 0;
+      }
+
+      .research-table {
+        min-width: 400px;
+      }
+
+      .research-table th,
+      .research-table td {
+        padding: 8px 4px;
+        font-size: 11px;
+      }
+
+      .section-title {
+        font-size: 22px;
+      }
+
+      .section-description {
+        font-size: 14px;
+      }
+
+      .guideship-card {
+        padding: 15px;
+      }
+
+      .guide-name {
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+
+      .view-pdf-btn {
+        padding: 8px 8px;
+        font-size: 12px;
+      }
+
+      .scroll-top {
+        width: 40px;
+        height: 40px;
+        bottom: 15px;
+        right: 15px;
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 320px) {
+      .header h1 {
+        font-size: 20px;
+      }
+
+      .research-table {
+        min-width: 320px;
+      }
+
+      .research-table th,
+      .research-table td {
+        padding: 6px 3px;
+        font-size: 10px;
+      }
+
+      .section-title {
+        font-size: 20px;
+      }
+
+      .guideship-card {
+        padding: 12px;
       }
     }
 
     /* nav.css */
-    body{
-      font-family: Georgia, 'Times New Roman', serif;
-    }
 
     
     /* Navigation Breadcrumb */
@@ -614,7 +391,9 @@
   display: none;
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
   transition: 0.3s ease-in-out;
+  font-weight: 600;
 }
+
 
 
 :root {

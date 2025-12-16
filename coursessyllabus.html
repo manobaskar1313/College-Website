@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="icon" type="text/css" href="https://siesce.edu.in/images/logo_50x50.png">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/coursessyllabus.css">
   <body>
 
     <!-- Top Header -->
@@ -256,17 +256,20 @@
     <!-- Breadcrumb Navigation -->
 <nav aria-label="breadcrumb" style="width: 100%;">
   <ol class="breadcrumb mb-0" style="font-size: 20px;">
-    <li class="breadcrumb-item"><a href="/" style="margin-left: 20px;">Home</a></li>
+    <li class="breadcrumb-item"><a href="/" style="margin-left: 20px; text-decoration: none; font-weight: 600;">Home</a></li>
   
    
     <li class="breadcrumb-item active" aria-current="page" >Courses And Syllabus</li>
   </ol>
 </nav>
 
-
-
   <!-- Program Filter Navigation -->
-  
+  <div class="program-filter-section">
+    <div class="container">
+      <div class="filter-header">
+        <h2>Select Courses</h2>
+       
+      </div>
       <div class="filter-buttons">
         <button class="filter-btn active" onclick="filterPrograms('commerce')" data-filter="commerce">
           
@@ -320,7 +323,7 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('FY B.Com Course Outcomes', 'fy_bcom_outcomes')">
+                  <button class="btn btn" onclick="openModal('FY B.Com Course Outcomes', 'fy_bcom_outcomes')">
                     View Outcomes
                   </button>
                 </div>
@@ -346,7 +349,7 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('SY B.Com Course Outcomes', 'sy_bcom_outcomes')">
+                  <button class="btn btn" onclick="openModal('SY B.Com Course Outcomes', 'sy_bcom_outcomes')">
                     View Outcomes
                   </button>
                 </div>
@@ -372,7 +375,7 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('TY B.Com Course Outcomes', 'ty_bcom_outcomes')">
+                  <button class="btn btn" onclick="openModal('TY B.Com Course Outcomes', 'ty_bcom_outcomes')">
                     View Outcomes
                   </button>
                 </div>
@@ -420,14 +423,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('F.Y. B.A.F Course Outcomes', 'fy_baf_outcomes')">
+                  <button class="btn btn" onclick="openModal('F.Y. B.A.F Course Outcomes', 'fy_baf_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('F.Y. B.A.F Syllabus', 'fy_baf_syllabus')">
+                  <button class="btn btn" onclick="openModal('F.Y. B.A.F Syllabus', 'fy_baf_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -443,14 +446,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('F.Y. B.B.I. Course Outcomes', 'fy_bbi_outcomes')">
+                  <button class="btn btn" onclick="openModal('F.Y. B.B.I. Course Outcomes', 'fy_bbi_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('F.Y. B.B.I. Syllabus', 'fy_bbi_syllabus')">
+                  <button class="btn btn" onclick="openModal('F.Y. B.B.I. Syllabus', 'fy_bbi_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -466,14 +469,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('F.Y. B.F.M. Course Outcomes', 'fy_bfm_outcomes')">
+                  <button class="btn btn" onclick="openModal('F.Y. B.F.M. Course Outcomes', 'fy_bfm_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('F.Y. B.F.M. Syllabus', 'fy_bfm_syllabus')">
+                  <button class="btn btn" onclick="openModal('F.Y. B.F.M. Syllabus', 'fy_bfm_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -489,14 +492,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('FY B. Sc IT Course Outcomes', 'fy_bscit_outcomes')">
+                  <button class="btn btn" onclick="openModal('FY B. Sc IT Course Outcomes', 'fy_bscit_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('FY B. Sc IT Syllabus', 'fy_bscit_syllabus')">
+                  <button class="btn btn" onclick="openModal('FY B. Sc IT Syllabus', 'fy_bscit_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -512,14 +515,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('FY. B.M.S. Course Outcomes', 'fy_bms_outcomes')">
+                  <button class="btn btn" onclick="openModal('FY. B.M.S. Course Outcomes', 'fy_bms_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('FY. B.M.S. Syllabus', 'fy_bms_syllabus')">
+                  <button class="btn btn" onclick="openModal('FY. B.M.S. Syllabus', 'fy_bms_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -535,14 +538,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('FY.IBCom. Course Outcomes', 'fy_ibcom_outcomes')">
+                  <button class="btn btn" onclick="openModal('FY.IBCom. Course Outcomes', 'fy_ibcom_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('FY.IBCom. Syllabus', 'fy_ibcom_syllabus')">
+                  <button class="btn btn" onclick="openModal('FY.IBCom. Syllabus', 'fy_ibcom_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -559,14 +562,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('S.Y. B.A.F Course Outcomes', 'sy_baf_outcomes')">
+                  <button class="btn btn" onclick="openModal('S.Y. B.A.F Course Outcomes', 'sy_baf_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('S.Y. B.A.F Syllabus', 'sy_baf_syllabus')">
+                  <button class="btn btn" onclick="openModal('S.Y. B.A.F Syllabus', 'sy_baf_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -582,14 +585,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('S.Y. B.B.I. Course Outcomes', 'sy_bbi_outcomes')">
+                  <button class="btn btn" onclick="openModal('S.Y. B.B.I. Course Outcomes', 'sy_bbi_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('S.Y. B.B.I. Syllabus', 'sy_bbi_syllabus')">
+                  <button class="btn btn" onclick="openModal('S.Y. B.B.I. Syllabus', 'sy_bbi_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -605,14 +608,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('S.Y.B.F.M. Course Outcomes', 'sy_bfm_outcomes')">
+                  <button class="btn btn" onclick="openModal('S.Y.B.F.M. Course Outcomes', 'sy_bfm_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('S.Y.B.F.M. Syllabus', 'sy_bfm_syllabus')">
+                  <button class="btn btn" onclick="openModal('S.Y.B.F.M. Syllabus', 'sy_bfm_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -628,14 +631,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('SY B. Sc IT Course Outcomes', 'sy_bscit_outcomes')">
+                  <button class="btn btn" onclick="openModal('SY B. Sc IT Course Outcomes', 'sy_bscit_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('SY B. Sc IT Syllabus', 'sy_bscit_syllabus')">
+                  <button class="btn btn" onclick="openModal('SY B. Sc IT Syllabus', 'sy_bscit_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -651,14 +654,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('S.Y.B.M.S. Course Outcomes', 'sy_bms_outcomes')">
+                  <button class="btn btn" onclick="openModal('S.Y.B.M.S. Course Outcomes', 'sy_bms_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('S.Y.B.M.S. Syllabus', 'sy_bms_syllabus')">
+                  <button class="btn btn" onclick="openModal('S.Y.B.M.S. Syllabus', 'sy_bms_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -675,14 +678,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('T.Y. B.B.I. Course Outcomes', 'ty_bbi_outcomes')">
+                  <button class="btn btn" onclick="openModal('T.Y. B.B.I. Course Outcomes', 'ty_bbi_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn btn-secondary" onclick="openModal('T.Y. B.B.I. Syllabus', 'ty_bbi_syllabus')">
+                  <button class="btn btn" onclick="openModal('T.Y. B.B.I. Syllabus', 'ty_bbi_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -698,14 +701,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('T.Y. B.M.S. Course Outcomes', 'ty_bms_outcomes')">
+                  <button class="btn btn" onclick="openModal('T.Y. B.M.S. Course Outcomes', 'ty_bms_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('T.Y. B.M.S. Syllabus', 'ty_bms_syllabus')">
+                  <button class="btn btn" onclick="openModal('T.Y. B.M.S. Syllabus', 'ty_bms_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -721,14 +724,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('T.Y.B.F.M. Course Outcomes', 'ty_bfm_outcomes')">
+                  <button class="btn btn" onclick="openModal('T.Y.B.F.M. Course Outcomes', 'ty_bfm_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('T.Y.B.F.M. Syllabus', 'ty_bfm_syllabus')">
+                  <button class="btn btn" onclick="openModal('T.Y.B.F.M. Syllabus', 'ty_bfm_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -744,14 +747,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('TY B. Sc IT Course Outcomes', 'ty_bscit_outcomes')">
+                  <button class="btn btn" onclick="openModal('TY B. Sc IT Course Outcomes', 'ty_bscit_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('TY B. Sc IT Syllabus', 'ty_bscit_syllabus')">
+                  <button class="btn btn" onclick="openModal('TY B. Sc IT Syllabus', 'ty_bscit_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -767,14 +770,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('TY. B.A.F Course Outcomes', 'ty_baf_outcomes')">
+                  <button class="btn btn" onclick="openModal('TY. B.A.F Course Outcomes', 'ty_baf_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('TY. B.A.F Syllabus', 'ty_baf_syllabus')">
+                  <button class="btn btn" onclick="openModal('TY. B.A.F Syllabus', 'ty_baf_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -811,14 +814,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('MCOM (GWM) Course Outcomes', 'mcom_gwm_outcomes')">
+                  <button class="btn btn" onclick="openModal('MCOM (GWM) Course Outcomes', 'mcom_gwm_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('MCOM (GWM) Syllabus', 'mcom_gwm_syllabus')">
+                  <button class="btn btn" onclick="openModal('MCOM (GWM) Syllabus', 'mcom_gwm_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -834,14 +837,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('MCOM (FRTA) Course Outcomes', 'mcom_frta_outcomes')">
+                  <button class="btn btn" onclick="openModal('MCOM (FRTA) Course Outcomes', 'mcom_frta_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('MCOM (FRTA) Syllabus', 'mcom_frta_syllabus')">
+                  <button class="btn btn" onclick="openModal('MCOM (FRTA) Syllabus', 'mcom_frta_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -857,14 +860,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('M. Sc IT Sem I & II Course Outcomes', 'mscit_12_outcomes')">
+                  <button class="btn btn" onclick="openModal('M. Sc IT Sem I & II Course Outcomes', 'mscit_12_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('M. Sc IT Sem I & II Syllabus', 'mscit_12_syllabus')">
+                  <button class="btn btn" onclick="openModal('M. Sc IT Sem I & II Syllabus', 'mscit_12_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -880,14 +883,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('M. Sc IT Sem III & IV Course Outcomes', 'mscit_34_outcomes')">
+                  <button class="btn btn" onclick="openModal('M. Sc IT Sem III & IV Course Outcomes', 'mscit_34_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('M. Sc IT Sem III & IV Syllabus', 'mscit_34_syllabus')">
+                  <button class="btn btn" onclick="openModal('M. Sc IT Sem III & IV Syllabus', 'mscit_34_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -903,14 +906,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('M.COM Accountancy Sem I & II Course Outcomes', 'mcom_acc_12_outcomes')">
+                  <button class="btn btn" onclick="openModal('M.COM Accountancy Sem I & II Course Outcomes', 'mcom_acc_12_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('M.COM Accountancy Sem I & II Syllabus', 'mcom_acc_12_syllabus')">
+                  <button class="btn btn" onclick="openModal('M.COM Accountancy Sem I & II Syllabus', 'mcom_acc_12_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -926,14 +929,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('M.COM Accountancy Sem III & IV Course Outcomes', 'mcom_acc_34_outcomes')">
+                  <button class="btn btn" onclick="openModal('M.COM Accountancy Sem III & IV Course Outcomes', 'mcom_acc_34_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('M.COM Accountancy Sem III & IV Syllabus', 'mcom_acc_34_syllabus')">
+                  <button class="btn btn" onclick="openModal('M.COM Accountancy Sem III & IV Syllabus', 'mcom_acc_34_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -949,14 +952,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('M.COM Banking & Finance Sem I & II Course Outcomes', 'mcom_bf_12_outcomes')">
+                  <button class="btn btn" onclick="openModal('M.COM Banking & Finance Sem I & II Course Outcomes', 'mcom_bf_12_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('M.COM Banking & Finance Sem I & II Syllabus', 'mcom_bf_12_syllabus')">
+                  <button class="btn btn" onclick="openModal('M.COM Banking & Finance Sem I & II Syllabus', 'mcom_bf_12_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -972,14 +975,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('M.COM Banking & Finance Sem III & IV Course Outcomes', 'mcom_bf_34_outcomes')">
+                  <button class="btn btn" onclick="openModal('M.COM Banking & Finance Sem III & IV Course Outcomes', 'mcom_bf_34_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('M.COM Banking & Finance Sem III & IV Syllabus', 'mcom_bf_34_syllabus')">
+                  <button class="btn btn" onclick="openModal('M.COM Banking & Finance Sem III & IV Syllabus', 'mcom_bf_34_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -995,14 +998,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('MSc Data Science Sem I & II Course Outcomes', 'msc_ds_12_outcomes')">
+                  <button class="btn btn" onclick="openModal('MSc Data Science Sem I & II Course Outcomes', 'msc_ds_12_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('MSc Data Science Sem I & II Syllabus', 'msc_ds_12_syllabus')">
+                  <button class="btn btn" onclick="openModal('MSc Data Science Sem I & II Syllabus', 'msc_ds_12_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -1018,14 +1021,14 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('MSc Data Science Sem III & IV Course Outcomes', 'msc_ds_34_outcomes')">
+                  <button class="btn btn" onclick="openModal('MSc Data Science Sem III & IV Course Outcomes', 'msc_ds_34_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn " onclick="openModal('MSc Data Science Sem III & IV Syllabus', 'msc_ds_34_syllabus')">
+                  <button class="btn btn" onclick="openModal('MSc Data Science Sem III & IV Syllabus', 'msc_ds_34_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -1039,7 +1042,7 @@
     <!-- PhD Programs -->
     <div class="program-section" data-category="phd">
       <div class="section-header">
-        <h2>Ph.D Programs</h2>
+        <h2>PhD Programs</h2>
         <span class="course-count">1 Course</span>
       </div>
       
@@ -1057,19 +1060,19 @@
               <td>
                 <div class="course-info">
                   <div class="course-name">Ph.D. in Business Policy and Administration</div>
-                  <span class="course-code">Ph.D-BPA</span>
+                  <span class="course-code">PHD-BPA</span>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('Ph.D. in Business Policy and Administration Course Outcomes', 'phd_bpa_outcomes')">
+                  <button class="btn btn" onclick="openModal('Ph.D. in Business Policy and Administration Course Outcomes', 'phd_bpa_outcomes')">
                     View Outcomes
                   </button>
                 </div>
               </td>
               <td>
                 <div class="action-buttons">
-                  <button class="btn" onclick="openModal('Ph.D. in Business Policy and Administration Syllabus', 'phd_bpa_syllabus')">
+                  <button class="btn btn" onclick="openModal('Ph.D. in Business Policy and Administration Syllabus', 'phd_bpa_syllabus')">
                     View Syllabus
                   </button>
                 </div>
@@ -1096,11 +1099,7 @@
     </div>
   </div>
 
-  <script src="syllabus_outcomes.js"></script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97cf8aec313c3cb2',t:'MTc1NzUxMzc4MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
- 
-  
-          <!-- Footer -->
+  <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -1158,33 +1157,9 @@
     </footer>
             <button id="topBtn" title="Go to top">TOP</button>
 
-    <script>
-      
-      
-  const topBtn = document.getElementById("topBtn");
 
-  // Show button on scroll
-  window.onscroll = function () {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-      topBtn.style.display = "block";
-    } else {
-      topBtn.style.display = "none";
-    }
-  };
-
-  // Scroll to top
-  topBtn.onclick = function () {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-</script>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
-
-    <script src="js/main.js"></script>
-  </body>
- 
+  <script src="js/coursessyllabus.js"></script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97cf8aec313c3cb2',t:'MTc1NzUxMzc4MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
  </html>
     
     
