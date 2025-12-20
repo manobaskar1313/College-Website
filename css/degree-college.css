@@ -16479,3 +16479,41 @@ box-shadow: 0 4px 10px rgba(216, 115, 26, 0.4);
 
 .right-btn {
     right: 20px;}
+
+    /* FORCE MAIN CONTENT TO SHOW ON MOBILE */
+@media (max-width: 768px) {
+
+  main {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  #staffContainer {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    min-height: 300px;   /* IMPORTANT */
+  }
+
+}
+@media (max-width: 768px) {
+  .left-panel {
+    position: relative !important;
+    height: auto !important;
+    z-index: 1;
+  }
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.container-fluid {
+  overflow-x: hidden;
+}
+@media (max-width: 320px) {
+  .left-panel {
+    position: relative !important;
+    height: auto !important;
+    z-index: 1;
+  }
+}
