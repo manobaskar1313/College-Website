@@ -28,7 +28,7 @@ const staffData = [
       link: "payal.html"
     },
     {
-      name: "Mr. CA Chandrashekhar Ashok Sawant",
+      name: "Dr. CA Chandrashekhar Ashok Sawant",
       role: "Head of Department",
       dept: "Accounting & Finance",
       img: "degree-pics/chandrashekhar ashok.jpg",
