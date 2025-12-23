@@ -912,7 +912,7 @@
     }
     .themed-table td {
       padding: 8px 10px;
-      text-align: right;
+      text-align: left;
       position: relative;
     }
     .themed-table td::before {
@@ -949,7 +949,7 @@ table tfoot {
 .page-link {
   min-width:36px; height:36px; display:flex; align-items:center; justify-content:center;
   border-radius:6px; padding:0 10px; text-decoration:none; cursor:pointer;
-  user-select:none; font-family:system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;
+  user-select:none; font-family:Georgia, 'Times New Roman', serif;
   border:1px solid #ddd; background:#fff; color:#333;
   box-shadow: 0 1px 0 rgba(0,0,0,0.02);
 }
