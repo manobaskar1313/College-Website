@@ -15,15 +15,17 @@
           " d)Geography",
           " e)Mathematics and Statistics",
           " f)Secretarial Practice",
-          "4. Environment Education (EVS)",
+          "4. Environment Education (EVS)", 
 
-          
+          "OR",
 
           "Must  have passed the Higher Secondary School Certificate(Std.12) Examination with vocational subject conducted by the different Divisional Boards of the Maharashtra State Board of Secondary & Higher Secondary Education with the following subjects: ",
           "1. English",
           "2. Any one Vocational Subject carrying 200 marks prescribed for the Higher Secondary School Certificate(Std.12) Examination from time to time.",
           "3. Any three subjects carrying 100 marks each  from among the subjects under the Faculty of Commerce.",
           "4. Environmental Education(EVS)",
+
+          "OR",
 
      
 
@@ -39,7 +41,7 @@
           "4. Any three subjects carrying 100 marks each from the Arts or Science Faculty.",
           "5. Environment Education(EVS).",
 
-    
+          "OR",
 
           "Must have passed the Higher Secondary School Certificate(Std.12) Examination conducted by the different Divisional Boards of the Maharashtra State Board of Secondary and Higher Seconadary Education from Arts and Science Streams with the following combination of Subjects: ",
           "1. English",
@@ -53,7 +55,7 @@
           "4. Any two subjects carrying 100 marks each from the among subjects under the faculties of Science.",
           "5. Environment Education(EVS)",
 
-    
+           "OR",
 
           "Must have passed the Higher Secondary School Certificate(Std.12) Examination with the Minimum Competency conducted by different Divisional Boards of the Maharashtra State Board of Secondary and Higher Secondary Education from Arts and Science streams with the following combination of subjects:",
           "1. English",
@@ -121,7 +123,8 @@
                 { course: "4", title: "Business Communication - I", lectures: "", credit: "3", category: "Ability Enhancement Compulsory Course (AECC)" },
                 { course: "5", title: "Foundation Course - I", lectures: "", credit: "2", category: "Skill Enhancement Course (SEC)" },
                 { course: "6", title: "Foundation of Human Skills", lectures: "", credit: "3", category: "Core Course (CC)" },
-                { course: "7", title: "Business Economics - I", lectures: "", credit: "3", category: "Core Course (CC)" }
+                { course: "7", title: "Business Economics - I", lectures: "", credit: "3", category: "Core Course (CC)" },
+                { course: "",title:" ",lectures:"", credit:"20",category:"Total Credits"}
               ]
             },
             {
@@ -133,7 +136,8 @@
                 { course: "4", title: "Business Communication - II", lectures: "", credit: "3", category: "Ability Enhancement Compulsory Course (AECC)" },
                 { course: "5", title: "Foundation Course - II", lectures: "", credit: "2", category: "Skill Enhancement Course (SEC)" },
                 { course: "6", title: "Business Environment", lectures: "", credit: "3", category: "Core Course (CC)" },
-                { course: "7", title: "Principles of Management", lectures: "", credit: "3", category: "Core Course (CC)" }
+                { course: "7", title: "Principles of Management", lectures: "", credit: "3", category: "Core Course (CC)" },
+                { course: "",title:" ",lectures:"", credit:"20",category:"Total Credits"}
               ]
             }
           ]
@@ -174,7 +178,8 @@
                 { course: "4", title: "Business Communication - I", lectures: "", credit: "3", category: "Ability Enhancement Compulsory Course (AECC)" },
                 { course: "5", title: "Foundation Course - I", lectures: "", credit: "2", category: "Skill Enhancement Courses (SEC)" },
                 { course: "6", title: "Commerce (Business Environment) - I", lectures: "", credit: "3", category: "Core Courses (CC)" },
-                { course: "7", title: "Business Economics - I", lectures: "", credit: "3", category: "Core Courses (CC)" }
+                { course: "7", title: "Business Economics - I", lectures: "", credit: "3", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"20",category:"Total Credits"}
               ]
             },
             {
@@ -186,7 +191,8 @@
                 { course: "4", title: "Business Communication - II", lectures: "", credit: "3", category: "Ability Enhancement Compulsory Course (AECC)" },
                 { course: "5", title: "Foundation Course - II", lectures: "", credit: "2", category: "Skill Enhancement Courses (SEC)" },
                 { course: "6", title: "Business Law (Business Regulatory Framework) - I", lectures: "", credit: "3", category: "Core Courses (CC)" },
-                { course: "7", title: "Business Mathematics", lectures: "", credit: "3", category: "Core Courses (CC)" }
+                { course: "7", title: "Business Mathematics", lectures: "", credit: "3", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"20",category:"Total Credits"}
               ]
             }
           ]
@@ -197,7 +203,7 @@
         duration: "3 Years",
         description: "The Course shall be a full time course. The duration of the Course shall be Six Semester spread over three years. The Course shall consist of 39 subjects & 1 project.",
         eligibility: [
-          "ELIGIBILITY:",
+          
           "A Candidate for being eligible for admission to the Bachelor of Commerce (Banking & Insurance) Degree Course shall have passed Std. XII. Examination of Maharashtra State Board of Secondary and Higher Secondary Education or its equivalent and secured not less than 45% marks in aggregate (40% in case of reserved category) at one & the same sitting."
         ],
        
@@ -213,7 +219,8 @@
                 { course: "4", title: "Business Communication - I", lectures: "", credit: "3", category: "Ability Enhancement Compulsory Course (AECC)" },
                 { course: "5", title: "Foundation Course - I", lectures: "", credit: "2", category: "Skill Enhancement Courses (SEC)" },
                 { course: "6", title: "Commerce (Business Environment) - I", lectures: "", credit: "3", category: "Core Courses (CC)" },
-                { course: "7", title: "Business Economics - I", lectures: "", credit: "3", category: "Core Courses (CC)" }
+                { course: "7", title: "Business Economics - I", lectures: "", credit: "3", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"20",category:"Total Credits"}
               ]
             },
             {
@@ -225,7 +232,8 @@
                 { course: "4", title: "Business Communication - II", lectures: "", credit: "3", category: "Ability Enhancement Compulsory Course (AECC)" },
                 { course: "5", title: "Foundation Course - II", lectures: "", credit: "2", category: "Skill Enhancement Courses (SEC)" },
                 { course: "6", title: "Business Law (Business Regulatory Framework) - I", lectures: "", credit: "3", category: "Core Courses (CC)" },
-                { course: "7", title: "Business Mathematics", lectures: "", credit: "3", category: "Core Courses (CC)" }
+                { course: "7", title: "Business Mathematics", lectures: "", credit: "3", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"20",category:"Total Credits"}
               ]
             }
           ]
@@ -237,7 +245,7 @@
         duration: "3 Years",
         description: "The course shall be a full time course. The duration of the course shall be six semester spread over three years. The course shall consist of 39 modules & 1 project.",
         eligibility: [
-          "ELIGIBILITY:",
+          
           "A candidate for being eligible for admission to the Bachelor of Commerce (Financial Markets) Degree Course shall have passed XII Std. examination of the State Board of Secondary and Higher Secondary Education or its equivalent and secured not less than 45% marks in the aggregate (40% in case of Reserved Category) at one and the same sitting."
         ],
        
@@ -253,7 +261,8 @@
                 { course: "4", title: "Business Communication - I", lectures: "", credit: "3", category: "Ability Enhancement Compulsory Course (AECC)" },
                 { course: "5", title: "Foundation Course - I", lectures: "", credit: "2", category: "Skill Enhancement Courses (SEC)" },
                 { course: "6", title: "Business Environment", lectures: "", credit: "3", category: "Core Courses (CC)" },
-                { course: "7", title: "Business Economics - I", lectures: "", credit: "3", category: "Core Courses (CC)" }
+                { course: "7", title: "Business Economics - I", lectures: "", credit: "3", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"20",category:"Total Credits"}
               ]
             },
             {
@@ -265,7 +274,8 @@
                 { course: "4", title: "Business Communication - II", lectures: "", credit: "3", category: "Ability Enhancement Compulsory Course (AECC)" },
                 { course: "5", title: "Foundation Course - II", lectures: "", credit: "2", category: "Skill Enhancement Courses (SEC)" },
                 { course: "6", title: "Environmental Science", lectures: "", credit: "3", category: "Core Courses (CC)" },
-                { course: "7", title: "Computer Skills - I", lectures: "", credit: "3", category: "Core Courses (CC)" }
+                { course: "7", title: "Computer Skills - I", lectures: "", credit: "3", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"20",category:"Total Credits"}
               ]
             }
           ]
@@ -274,12 +284,12 @@
       bscai: {
         title: "B.Sc. (Artificial Intelligence)",
         duration: "3 Years",
-        description: "The Bsc.(Artificial Intelligence) is an undergraduate program designed to equip students with the knowledge and skills required to excel in th fast growing field of AI. The course blends computer science, and machine learning with practical applications in healthcare ,finance , business and emerging technologies. Students will gain hands-on experience in programming, data analysis , neural networks, natural language processing, and computer vision, while also exploring the ethical and societal impact of AI.The program emphasizes industry oriented projects, internships, and research exposure, preparing graduates for careers in AI development, data science, automation, and intelligent systems, or for higher studies and research. This program is ideal for students who wish to build a strong foundation in AI and contribute to shaping the future of technology. ",
+        description: "The Bsc.(Artificial Intelligence) is an undergraduate program designed to equip students with the knowledge and skills required to excel in th fast growing field of AI. The course blends computer science, mathematics , data science, and machine learning with practical applications in healthcare ,finance , business and emerging technologies. Students will gain hands-on experience in programming, data analysis , neural networks, natural language processing, and computer vision, while also exploring the ethical and societal impact of AI. The program emphasizes industry oriented projects, internships, and research exposure, preparing graduates for careers in AI development, data science, automation, and intelligent systems, or for higher studies and research. This program is ideal for students who wish to build a strong foundation in AI and contribute to shaping the future of technology. From Algorithm's to Innovation's Shape the Future with B.Sc (AI)" ,
         
         eligibility: [
-          "Completed 12th grade (HSC) with Mathematics and preferably Computer Science",
-          "Minimum 50% marks in 12th grade",
-          "Strong analytical and logical thinking skills"
+          "Completed 12th grade (HSC) with Mathematics. ",
+          "Minimum 45% marks in 12th grade.",
+          "Strong analytical and logical thinking skills."
         ],
       
       },
@@ -288,7 +298,7 @@
         duration: "2 Years",
         description: "The course shall be a full time course spreading over two years.",
         eligibility: [
-          "ELIGIBILITY:",
+          
           "A Candidate for being eligible for admission to the Master of Commerce Degree Course shall have passed B.Com or BMS or B.Com (B&I) or B.Com(A&F) or B.Com(FM) examinations of the University of Mumbai or any other University recognized by the U.G.C."
         ],
       
@@ -301,7 +311,8 @@
                 { course: "1", title: "Strategic Management", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "2", title: "Economics for Business Decisions", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "3", title: "Cost & Management Accounting", lectures: "", credit: "6", category: "Core Courses (CC)" },
-                { course: "4", title: "Business Ethics & Corporate Social Responsibility", lectures: "", credit: "6", category: "Core Courses (CC)" }
+                { course: "4", title: "Business Ethics & Corporate Social Responsibility", lectures: "", credit: "6", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"24",category:"Total Credits"}
               ]
             },
             {
@@ -310,7 +321,8 @@
                 { course: "1", title: "Research Methodology for Business", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "2", title: "Macro Economics Concepts Applications", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "3", title: "Corporate Finance", lectures: "", credit: "6", category: "Core Courses (CC)" },
-                { course: "4", title: "E-Commerce", lectures: "", credit: "6", category: "Core Courses (CC)" }
+                { course: "4", title: "E-Commerce", lectures: "", credit: "6", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"24",category:"Total Credits"}
               ]
             }
           ]
@@ -332,7 +344,7 @@
         duration: "2 Years",
         description: "M.Sc.(IT) is a full time course spreading over two years. It consists 16 subjects and 1 project.",
         eligibility: [
-          "ELIGIBILITY:",
+          
           "The Candidate must have passed the B.Sc. degree in Information Technology of the University of Mumbai or any recognized University with minimum 45% marks or B.Sc. (Computer Sci.) with minimum 45% marks or BE degree in any branch with 45% marks or B.Sc.(Maths) with minimum 45% marks or B.Sc.(Physics) with minimum 45% marks or B.Sc.(Statistics) with minimum 45% marks or B.Sc. (Electronics) with minimum 45% marks."
         ],
         structure: {
@@ -364,7 +376,7 @@
         duration: "2 Years",
         description: "M.Sc.(DS) is a full time course spreading over two years. It consists of 14 subjects, 1 internship and 1 project.",
         eligibility: [
-          "ELIGIBILITY:",
+          
           "The Candidate must have passed B.Sc. (Information Technology), B.Sc. (Computer Science), B.Sc. (Mathematics), B.Sc. (Statistics), B.Sc. (Physics), B.Sc. (Electronics) or B.C.A. From any recognized university in India.",
           "It is mandatory that all students should have done Calculus and Linear Algebra course during their graduation."
         ],
@@ -395,7 +407,7 @@
       mcomgwm: {
         title: "M.Com (Global Wealth Management)",
         duration: "2 Years",
-        description: "Master of Commerce (Global Wealth Management) is a fulltime specialized program spreading over 4 semesters over 2 years. The program is focused towards helping students understand the global wealth management landscape to align financial products in line with clients' financial objectives. The program not only aims at specializing a student in handholding clients through their investment journey and achieving their financial goals, but it also includes the learnings in the areas of life cycle management and estate planning. The program consists of 15 subjects, 1 midterm assisted internship and 1 research based project. On successful completion of master degree program a student can be employed in the field of wealth advisory outfits, assets managementcompanies, broking, insurance, banking, advisory business and many more.",
+        description: "Master of Commerce (Global Wealth Management) is a fulltime specialized program spreading over 4 semesters over 2 years. The program is focused towards helping students understand the global wealth management landscape to align financial products in line with clients' financial objectives. The program not only aims at specializing a student in handholding clients through their investment journey and achieving their financial goals, but it also includes the learnings in the areas of life cycle management and estate planning. The program consists of 15 subjects, 1 midterm assisted internship and 1 research based project. On successful completion of master degree program a student can be employed in the field of wealth advisory outfits, assets management companies, broking, insurance, banking, advisory business and many more.",
         eligibility: [
           "ELIGIBILITY:",
           "A Candidate for being eligible for admission to the Master of Commerce (Global Wealth Management) Degree should possess a valid bachelor's degree from any recognised university in India or Abroad.",
@@ -412,7 +424,8 @@
                 { course: "1", title: "Indian and Global Financial Economics", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "2", title: "Indian and Global Financial System", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "3", title: "Regulatory Requirements and Ethics of Financial Markets", lectures: "", credit: "6", category: "Core Courses (CC)" },
-                { course: "4", title: "Indian and Global Taxation on Investments", lectures: "", credit: "6", category: "Core Courses (CC)" }
+                { course: "4", title: "Indian and Global Taxation on Investments", lectures: "", credit: "6", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"24",category:"Total Credits"}
               ]
             },
             {
@@ -421,7 +434,8 @@
                 { course: "1", title: "Quantitative Methods in Finance", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "2", title: "Alternative Investments", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "3", title: "Behavioural Finance and Investors' Psychology", lectures: "", credit: "6", category: "Core Courses (CC)" },
-                { course: "4", title: "Introduction to Global Wealth Management and Financial Research and Technical Analysis", lectures: "", credit: "6", category: "Core Courses (CC)" }
+                { course: "4", title: "Introduction to Global Wealth Management and Financial Research and Technical Analysis", lectures: "", credit: "6", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"24",category:"Total Credits"}
               ]
             }
           ]
@@ -446,7 +460,8 @@
                 { course: "1", title: "Indian and Global Financial Economics", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "2", title: "Indian and Global Financial System", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "3", title: "Regulatory Requirements and Ethics of Financial Markets", lectures: "", credit: "6", category: "Core Courses (CC)" },
-                { course: "4", title: "Indian and Global Taxation on Investments", lectures: "", credit: "6", category: "Core Courses (CC)" }
+                { course: "4", title: "Indian and Global Taxation on Investments", lectures: "", credit: "6", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"24",category:"Total Credits"}
               ]
             },
             {
@@ -455,7 +470,8 @@
                 { course: "1", title: "Quantitative Methods in Finance", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "2", title: "Alternative Investments", lectures: "", credit: "6", category: "Core Courses (CC)" },
                 { course: "3", title: "Behavioural Finance and Investors' Psychology", lectures: "", credit: "6", category: "Core Courses (CC)" },
-                { course: "4", title: "Introduction to Global Wealth Management and Financial Research and Technical Analysis Specialization", lectures: "", credit: "6", category: "Core Courses (CC)" }
+                { course: "4", title: "Introduction to Global Wealth Management and Financial Research and Technical Analysis Specialization", lectures: "", credit: "6", category: "Core Courses (CC)" },
+                { course: "",title:" ",lectures:"", credit:"24",category:"Total Credits"}
               ]
             }
           ]
@@ -489,7 +505,7 @@
         duration: "3 Years",
         description: "B.Com (Hons.) in International Accounting is a fulltime specialised program spreading over 6 semesters over 3 years. The program's curriculum is based on ACCA - IFRS (International Financial Reporting Standards). The program aims at specializing students to International Accounting / IFRS to develop the career of the students in the field of Global Accounting, Finance and Leadership thereby extending global recognition and career opportunities in INDIA and across 179 Countries. With B.Com (Hons.) in International Accounting core qualification offering students a well-rounded 360 Degree Technical and Business driven knowledge which will enable them to learn everything that would support their implementation and productivity in the practical scenario. The program consists of Core subjects, specialisations and focused approach on student transformation through Business Skill driven learning delivered by experienced faculties, domain experts and leaders from the Industry. Degree will add 2x higher value in their Career Portfolio. Apart from the globally recognised ACCA Degree (post ACCA examination); the program will also offer them certification from NSE, NISM in Financial literacy subjects, Business Analytics training certified by IBM will add further Global recognition to their Skills. On successful completion of B.Com (Hons.) in International Accounting qualification a student can be employed in the Big 4 accounting Firms, Global Banks, Financial Institutions & government regulators.",
         eligibility: [
-          "ELIGIBILITY:",
+          
           "A candidate for being eligible for admission to the Bachelor of Commerce (International Accounting) Degree Course shall have passed XII Std. examination of the State Board of Secondary and Higher Secondary Education or its equivalent and secured not less than 45% marks in the aggregate (40% in case of Reserved Category) at one and the same sitting."
         ],
         
@@ -504,7 +520,8 @@
                 { course: "3", title: "Business Economics – Micro", lectures: "", credit: "3", category: "Elective Courses (EC)" },
                 { course: "4", title: "NSE – Capital Markets – (Certification)", lectures: "", credit: "3", category: "Ability Enhancement Courses (AEC)" },
                 { course: "5", title: "Business Communication", lectures: "", credit: "3", category: "Ability Enhancement Courses (AEC)" },
-                { course: "6", title: "Excel & Advanced Excel", lectures: "", credit: "3", category: "Skill Enhancement Courses (SEC)" }
+                { course: "6", title: "Excel & Advanced Excel", lectures: "", credit: "3", category: "Skill Enhancement Courses (SEC)" },
+                { course: "",title:" ",lectures:"", credit:"20",category:"Total Credits"}
               ]
             },
             {
@@ -515,7 +532,8 @@
                 { course: "3", title: "Business Economics – Macro", lectures: "", credit: "3", category: "Elective Courses (EC)" },
                 { course: "4", title: "Equity & Derivatives", lectures: "", credit: "3", category: "Ability Enhancement Courses (AEC)" },
                 { course: "5", title: "Business Environment (IIMS)", lectures: "", credit: "3", category: "Ability Enhancement Courses (AEC)" },
-                { course: "6", title: "Accounting Tally ERP", lectures: "", credit: "3", category: "Skill Enhancement Courses (SEC)" }
+                { course: "6", title: "Accounting Tally ERP", lectures: "", credit: "3", category: "Skill Enhancement Courses (SEC)" },
+                { course: "",title:" ",lectures:"", credit:"20",category:"Total Credits"}
               ]
             }
           ],
@@ -615,6 +633,18 @@
       `;
       
       document.getElementById('modalContent').innerHTML = modalContent;
+      // REMOVE BULLETS ONLY FOR B.COM ELIGIBILITY
+      if (courseId === 'bcom') {
+     // Eligibility list is the FIRST <ul> inside modal
+      const eligibilityList = document.querySelector('#modalContent ul');
+
+      if (eligibilityList) {
+      eligibilityList.style.listStyleType = 'none';
+      eligibilityList.style.paddingLeft = '0';
+      eligibilityList.style.marginLeft = '0';
+      }
+    }
+
       document.getElementById('courseModal').style.display = 'block';
       document.body.style.overflow = 'hidden';
     }

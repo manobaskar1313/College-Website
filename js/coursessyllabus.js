@@ -5,7 +5,7 @@ const pdfFiles = {
       'fy_bcom_sem2_syllabus':'https://siesce.edu.in/docs/1766130578%202_NEP_FYBCOM%20SEM%202%20Approved%20Syllabus%202023_24.pdf', // First Year B.Com Sem II Syllabus
       'sy_bcom_outcomes':'https://siesce.edu.in/docs/CO-SYBCOM.pdf',           // Second Year B.Com Course Outcomes
       'sy_bcom_sem3_syllabus':'https://siesce.edu.in/docs/1766130627%203_NEP_SYBCOM%20SEM%203%20Approved%20Syllabus%202024_25.pdf', // Second Year B.Com Sem III Syllabus
-      'sy_bcom_sem4_syllabus':'https://siesce.edu.in/docs/1766130627%203_NEP_SYBCOM%20SEM%203%20Approved%20Syllabus%202024_25.pdf', // Second Year B.Com Sem IV Syllabus
+      'sy_bcom_sem4_syllabus':'https://siesce.edu.in/docs/1766130703%204_NEP_SYBCOM%20SEM%204%20Approved%20Syllabus%202024_25.pdf', // Second Year B.Com Sem IV Syllabus
       'ty_bcom_outcomes':'https://siesce.edu.in/docs/1702622567%20BCOM%20NEW%20.pdf',           // Third Year B.Com Course Outcomes
       'ty_bcom_sem5_syllabus':'https://siesce.edu.in/docs/1766130804%205_NEP_TYBCOM%20SEM%205%20Approved%20Syllabus%202025_26.pdf', // Third Year B.Com Sem V Syllabus
       'ty_bcom_sem6_syllabus':'https://siesce.edu.in/docs/1766130896%206_NEP_TYBCOM%20SEM%206%20Approved%20Syllabus%202025_26.pdf', // Third Year B.Com Sem VI Syllabus
@@ -13,8 +13,8 @@ const pdfFiles = {
       // ===== SELF FINANCED PROGRAMS - FIRST YEAR =====
       'fy_baf_outcomes': 'https://siesce.edu.in/docs/F.Y.%20B.A.F%20Sem%20I%20and%20II%20Course%20Outcomes.pdf',
       'fy_baf_syllabus': 'https://siesce.edu.in/docs/1731571020%20NEP%20Syllabus%20B%20Com%20A&F%20Sem%20I%20&%20II%20-%20AY%202024%20-%2025.pdf',             // F.Y. B.A.F Syllabus
-      'fy_bbi_outcomes': 'https://siesce.edu.in/docs/F.Y.%20B.B.I.%20Sem%20I%20and%20II%20Course%20Outcomes.pdf',             // F.Y. B.B.I. Course Outcomes         
-      'fy_bbi_syllabus': 'https://siesce.edu.in/docs/1731566301%20FYBBI%202024-25%20Syllabus%20.pdf',             // F.Y. B.B.I. Course Outcomes         
+      'fy_bbi_outcomes': 'https://siesce.edu.in/docs/1766473885%20FYBBI%2025%20-26%20COPO%20NEP.docx.pdf',             // F.Y. B.B.I. Course Outcomes         
+      'fy_bbi_syllabus': 'https://siesce.edu.in/docs/1766473662%20FYBBI%2025-26%20Sem%20I%20&%20II%20Syllabus.pdf',             // F.Y. B.B.I. Course Outcomes         
     
       'fy_bfm_outcomes': 'https://siesce.edu.in/docs/F.Y.%20B.F.M.%20Sem%20I%20and%20II%20Course%20Outcomes.pdf',             // F.Y. B.F.M. Course Outcomes
       'fy_bfm_syllabus': 'https://siesce.edu.in/docs/1720145190%20FYBFM%20NEP%20SYLLABUS%20(AUTONOMOUS)%20WITH%20EFFECT%20FROM%202023-24.pdf',             // F.Y. B.F.M. Syllabus
@@ -28,8 +28,8 @@ const pdfFiles = {
       // ===== SELF FINANCED PROGRAMS - SECOND YEAR =====
       'sy_baf_outcomes': 'https://siesce.edu.in/docs/CO-SYBAF.pdf',             // S.Y. B.A.F Course Outcomes
       'sy_baf_syllabus': 'https://siesce.edu.in/docs/1731488440%20SYBAF%20Sem%203&%204%20complete%20syllabus%20as%20per%20NEP.pdf',             // S.Y. B.A.F Syllabus
-      'sy_bbi_outcomes': 'https://siesce.edu.in/docs/CO-SYBBI.pdf',             // S.Y. B.B.I. Course Outcomes
-      'sy_bbi_syllabus': 'https://siesce.edu.in/docs/1731566032%20SYBBI%20NEP%202024-2025%20Syllabus%20.pdf',             // S.Y. B.B.I. Syllabus
+      'sy_bbi_outcomes': 'https://siesce.edu.in/docs/1766473915%20SYBBI%2025-26%20sem%203%204%20CO%20PO.pdf',             // S.Y. B.B.I. Course Outcomes
+      'sy_bbi_syllabus': 'https://siesce.edu.in/docs/1766473902%20SYBBI%20NEP%202025-26%20Syllabus.pdf',             // S.Y. B.B.I. Syllabus
       'sy_bfm_outcomes': 'https://siesce.edu.in/docs/CO-SYBFM.pdf',             // S.Y.B.F.M. Course Outcomes
       'sy_bfm_syllabus': 'https://siesce.edu.in/docs/1731565865%20SYBFM%20-%20Board%20of%20Studies.pdf',             // S.Y.B.F.M. Syllabus
       'sy_bscit_outcomes':'https://siesce.edu.in/docs/CO-SYBScIT.pdf',         // SY B. Sc IT Course Outcomes
@@ -38,9 +38,9 @@ const pdfFiles = {
       'sy_bms_syllabus': 'https://siesce.edu.in/docs/1731488923%20Final_SYBMS_NEP_SYLLABUS.pdf',             // S.Y.B.M.S. Syllabus
 
       // ===== SELF FINANCED PROGRAMS - THIRD YEAR =====
-      'ty_bbi_outcomes': 'https://siesce.edu.in/docs/1702622514%20BBI%20NEW.pdf',             // T.Y. B.B.I. Course Outcomes
+      'ty_bbi_outcomes': 'https://siesce.edu.in/docs/1766473938%20TYBBI%20CO%20PO%20only%20sem%205%20and%20sem%206%20subjects.pdf',             // T.Y. B.B.I. Course Outcomes
       
-      'ty_bbi_syllabus': 'https://siesce.edu.in/docs/1670578462%20TY%20BBI%20Syllabus.pdf',             // T.Y. B.B.I. Syllabus
+      'ty_bbi_syllabus': 'https://siesce.edu.in/docs/1766473926%20TYBBI%20sem%205%20and%206%20%20NEP%20syllabus.pdf',             // T.Y. B.B.I. Syllabus
       'ty_bms_outcomes': 'https://siesce.edu.in/docs/1702622607%20BMS%20NEW.pdf',             // T.Y. B.M.S. Course Outcomes
       'ty_bms_syllabus': 'https://siesce.edu.in/docs/1670572016%20TY%20BMS%20Syllabus.pdf',             // T.Y. B.M.S. Syllabus
       'ty_bfm_outcomes': 'https://siesce.edu.in/docs/1702622586%20BFM%20NEW.pdf',             // T.Y.B.F.M. Course Outcomes
