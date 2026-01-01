@@ -70,7 +70,7 @@ const staffData = [
       link: "fleur.html"
     },
     {
-      name: "Simran Bhambri",
+      name: "Ms. Simran Bhambri",
       role: "Assistant Professor",
       dept: "BACHELOR OF MANAGEMENT STUDIES (BMS)",
       img: "degree-pics/simran bhambri.jpg",
@@ -91,7 +91,7 @@ const staffData = [
       link: "vidhi.html"
     },
     {
-      name: "Shruthi Sadanandan",
+      name: "Ms. Shruthi Sadanandan",
       role: "Assistant Professor",
       dept: "BACHELOR OF MANAGEMENT STUDIES (BMS)",
       img: "degree-pics/shruthi.png",
@@ -140,7 +140,7 @@ const staffData = [
       link: "nirali.html"
     },
     {
-      name: "Dr Naga Jeya Kumari",
+      name: "Dr. Naga Jeya Kumari",
       role: "Assistant Professor",
       dept: "English",
       img: "degree-pics/Jeya Kumari.jpg",
@@ -210,7 +210,7 @@ const staffData = [
       link: "varsha.html"
     },
     {
-      name: "Brijesh Goud",
+      name: "Mr. Brijesh Goud",
       role: "Assistant Professor",
       dept: "IT / AI",
       img: "degree-pics/Brijesh Goud.jpg",
@@ -218,7 +218,7 @@ const staffData = [
     },
     {
       name: "Ms. Palak Pandya",
-      role: " ",
+      role: "Assistant Professor",
       dept: "IT / AI",
       img: "degree-pics/Palak Pandya.jpg",
       link: "palak.html"
@@ -232,7 +232,7 @@ const staffData = [
     },
     {
       name: "Ms. Amreen Kazi",
-      role: " ",
+      role: "Assistant Professor",
       dept: "IT / AI",
       img: "degree-pics/Amreen Kazi.jpg",
       link: "amreen.html"
@@ -253,7 +253,7 @@ const staffData = [
     },
     {
       name: "Mrs. Anuprita Parag Sardesai",
-      role: " ",
+      role: "Librarian",
       dept: "Library",
       img: "degree-pics/Anuprita Parag Sardesai.jpg",
       link: "anuprita.html"
