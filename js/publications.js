@@ -101,7 +101,7 @@ const publicationsData = {
       "authors": "Ms Falguni Mathews",
       "department": "B. Com (Financial Markets)",
       "title": "Green HRM: A New Approach to Sustainable Environment",
-      "journal": "\"Asian Journal of Organic & Medicinal Chemistry\n Vol. 6 No. 4 (October - December, Special Issue 2021)\"",
+      "journal": "Asian Journal of Organic & Medicinal Chemistry\n Vol. 6 No. 4 (October - December, Special Issue 2021)",
       "publication_date": "Oct - Dec 2021",
       "issn": "2456-8937"
     },
@@ -228,7 +228,7 @@ const publicationsData = {
     {
       "authors": "Mr. Abhijit Bhosale",
       "department": "B. Com (Financial Markets)",
-      "title": "\" Evaluation Of The Longevity, Hedging And Safe Haven Characteristics Of Bitcoin Based On\nRecent Trends, And a Study Of Central Bank\nDigital Currencies As An Alternative To Cryptocurrencies\"",
+      "title": "Evaluation Of The Longevity, Hedging And Safe Haven Characteristics Of Bitcoin Based OnRecent Trends, And a Study Of Central Bank\nDigital Currencies As An Alternative To Cryptocurrencies",
       "journal": "Vidyabharati International Interdisciplinary Research Journal (Special Issue)",
       "publication_date": "Aug-21",
       "issn": "2319-4979"
@@ -236,7 +236,7 @@ const publicationsData = {
     {
       "authors": "Mr. Abhijit Bhosale",
       "department": "B. Com (Financial Markets)",
-      "title": "\"A Study Of Gender Perspectives In The Entrepreneurial Process With Respect To Ideation,\nPlanning, Performance Evaluation And Differentiation Measures\"",
+      "title": "A Study Of Gender Perspectives In The Entrepreneurial Process With Respect To Ideation,\nPlanning, Performance Evaluation And Differentiation Measures",
       "journal": "Vidyabharati International Interdisciplinary Research Journal (Special Issue)",
       "publication_date": "Sep 2021",
       "issn": "2319-4979"
@@ -267,7 +267,7 @@ const publicationsData = {
     }
   ],
   
-  "2022-2023": [
+  /*"2022-2023": [
   {
       "authors": "CS Charul Patel",
       "department": "BCom (Accountancy)",
@@ -385,23 +385,23 @@ const publicationsData = {
       "issn": "ISSN 2319-1775",
       "ugc_link": "https://www.whatisresearch.com/ugc-care-discontinued-journals-2023-january/"
     }
-  ],
+  ],*/
 
   "2024-2025": [
     {
       "authors": "Mr. Rohan Chogale",
       "department": "BFM",
       "title": "A Study on Social media as an incubator for emerging MSME entrepreneurs exploring financial opportunities and challenges",
-      "journal": "International Journal of Cultural Studies and Social Science (UGC Care Listed), Vol. 22, Issue 01, No. 15",
+      "journal": "International Journal of Cultural Studies and Social Science (UGC Care listed) ISSN 2347-4777 with IF=7.138 Vol-22, Issue-01, No.15, January - June: 2025",
       "publication_date": "January - June 2025",
       "issn": "2347-4777",
       "ugc_link": "https://ugccare.unipune.ac.in/Apps1/User/WebA/ViewDetails?JournalId=101023294&flag=Search"
     },
     {
-      "authors": "CA Chandrashekhar A. Sawant",
+      "authors": "CA Chandrashekhar A Sawant",
       "department": "BAF",
       "title": "A study of preference towards the e-wallets among the college students in Mumbai suburban region",
-      "journal": "Journal of Nonlinear Analysis and Optimization, Vol. 15, Issue 01, No. 5 (UGC Care Approved, Group I)",
+      "journal": "Journal of Nonlinear Analysis and Optimization, ISSN: 1906-9685 Vol. 15, Issue. 01, No. 5, UGC Care Approved, Group I, Peer Reviewed Journal with IMF=7.62",
       "publication_date": "January - June 2024",
       "issn": "1906-9685",
       "ugc_link": "https://ugccare.unipune.ac.in/Apps1/User/WebA/ViewDetails?JournalId=101000991&flag=Search"
@@ -412,7 +412,7 @@ const publicationsData = {
       "title": "Enhancing post purchase experience: The impact of post purchase experience on customer satisfaction",
       "journal": "European Economic Letters",
       "publication_date": "2024",
-      "issn": "2323-5233",
+      "issn": "ISSN 2323-5233",
       "ugc_link": ""
     },
     {
@@ -421,7 +421,7 @@ const publicationsData = {
       "title": "A study on saving and spending attributes with special reference to genz’s in India",
       "journal": "European Economic Letters",
       "publication_date": "2024",
-      "issn": "2323-5233",
+      "issn": "ISSN 2323-5233",
       "ugc_link": ""
     },
     {
@@ -430,7 +430,7 @@ const publicationsData = {
       "title": "Status and experiences of High School Teachers and University Educators in the lens of current education system in India",
       "journal": "European Economic Letters",
       "publication_date": "2024",
-      "issn": "2323-5233",
+      "issn": "ISSN 2323-5233",
       "ugc_link": ""
     }
   ]
@@ -542,77 +542,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
-
-// nav.js
-
-// Counter animation for stats
-        function animateCounters() {
-          const counters = document.querySelectorAll('.stat-number');
-          counters.forEach(counter => {
-              const target = parseInt(counter.getAttribute('data-count'));
-              const increment = target / 100;
-              let current = 0;
-              
-              const timer = setInterval(() => {
-                  current += increment;
-                  if (current >= target) {
-                      counter.textContent = target;
-                      clearInterval(timer);
-                  } else {
-                      counter.textContent = Math.floor(current);
-                  }
-              }, 20);
-          });
-      }
-
-      // Trigger counter animation when stats section is visible
-      const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                  animateCounters();
-                  observer.unobserve(entry.target);
-              }
-          });
-      });
-
-      const statsSection = document.querySelector('.stats-section');
-      if (statsSection) {
-          observer.observe(statsSection);
-      }
-
-      // Enhanced dropdown hover effects
-      document.querySelectorAll('.dropdown').forEach(dropdown => {
-          let timeout;
-          
-          dropdown.addEventListener('mouseenter', () => {
-              clearTimeout(timeout);
-              const dropdownMenu = dropdown.querySelector('.dropdown-menu');
-              dropdownMenu.style.display = 'block';
-              setTimeout(() => {
-                  dropdownMenu.style.opacity = '1';
-                  dropdownMenu.style.transform = 'translateY(0)';
-              }, 10);
-          });
-          
-          dropdown.addEventListener('mouseleave', () => {
-              const dropdownMenu = dropdown.querySelector('.dropdown-menu');
-              dropdownMenu.style.opacity = '0';
-              dropdownMenu.style.transform = 'translateY(-10px)';
-              timeout = setTimeout(() => {
-                  dropdownMenu.style.display = 'none';
-              }, 300);
-          });
-      });
-
-      // Initialize dropdown menu styles
-      document.querySelectorAll('.dropdown-menu').forEach(menu => {
-          menu.style.opacity = '0';
-          menu.style.transform = 'translateY(-10px)';
-          menu.style.transition = 'all 0.3s ease';
-          menu.style.display = 'none';
-      });
-
-
-      
-  (function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'973aa71f837efbde',t:'MTc1NTk1MjU1OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
-

@@ -260,10 +260,9 @@ body {
   color: #d8731a;
   text-decoration: none;
 }
-
-/* ===============================
-   Global
-================================= */
+/* =================================================
+   RESET & GLOBAL
+================================================= */
 * {
   box-sizing: border-box;
 }
@@ -272,17 +271,17 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;   /* never allow page scroll */
+  overflow-x: hidden;
   font-family: Georgia, "Times New Roman", serif;
   background: #f8f9fa;
 }
 
-/* ===============================
-   Hero Section
-================================= */
+/* =================================================
+   HERO
+================================================= */
 .hero {
   background: #d8731a;
-  color: #ffffff;
+  color: #fff;
   padding: 40px 20px;
 }
 
@@ -292,17 +291,27 @@ html, body {
   margin: 0;
 }
 
-/* ===============================
-   Tabs
-================================= */
+/* =================================================
+   NAV TABS
+================================================= */
 .nav-tabs {
-  border-bottom: 3px solid #d8731a;
   margin: 1.6rem 0 1.2rem;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
   gap: 0.6rem;
   padding: 0 1.5rem;
+  max-width: 100%;
+  position: relative;   /* needed for underline */
+}
+
+/* extended underline (desktop default) */
+.nav-tabs::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: -40px;          /* extend line on desktop */
+  right: -40px;
+  height: 3px;
+  background: #d8731a;
 }
 
 .nav-tabs .nav-link {
@@ -310,53 +319,54 @@ html, body {
   border-bottom: none;
   color: #d8731a;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;      /* unchanged */
   padding: 0.75rem 1.1rem;
   background: #fff3cd;
   border-radius: 12px 12px 0 0;
-  transition: all 0.3s ease;
+  white-space: nowrap;
 }
 
 .nav-tabs .nav-link:hover {
-  background: #ffe8b3;
+  background-color: #d8731a;
+  color: #fff;
 }
 
 .nav-tabs .nav-link.active {
   background: linear-gradient(135deg, #d8731a, #e67e22);
-  color: #ffffff;
-  border-color: #d8731a;
-  box-shadow: 0 8px 25px rgba(216, 115, 26, 0.3);
+  color: #fff;
 }
 
-/* ===============================
-   Publications Count
-================================= */
+/* =================================================
+   COUNT BOX (NO LINE BELOW)
+================================================= */
 .publications-count {
-  background: rgba(255, 255, 255, 0.96);
+  background: #fff;
   padding: 1rem 1.2rem;
   border-radius: 10px;
   margin: 0 1.5rem 1.5rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 10px rgba(0,0,0,.12);
   color: #d8731a;
+  font-size: 1.3rem;    /* unchanged */
   font-weight: 600;
-  font-size: 1.3rem;
 }
 
-/* ===============================
-   Table Wrapper
-================================= */
+/* =================================================
+   TABLE WRAPPER
+================================================= */
 .table-wrapper {
   width: 100%;
-  padding: 0 1.5rem 2rem; /* desktop side spacing */
+  padding: 0 1.5rem 2rem;
+  overflow-x: hidden;   /* desktop */
 }
 
-/* ===============================
-   Table (Desktop)
-================================= */
+/* =================================================
+   TABLE (DESKTOP)
+================================================= */
 table {
   width: 100%;
   border-collapse: collapse;
-  background: #ffffff;
+  background: #fff;
+  table-layout: auto;
 }
 
 thead tr {
@@ -366,95 +376,122 @@ thead tr {
 th {
   padding: 12px;
   border: 1px solid #6b4b4b;
-  color: #ffffff;
-  text-align: left;
+  color: #fff;
   font-weight: 600;
-  white-space: nowrap;
+  font-size: 18px;
+  vertical-align: middle;
 }
 
 td {
   padding: 10px;
+  font-size: 19px;
   border: 1px solid #6b4b4b;
   color: maroon;
   word-break: break-word;
-}
-
-tbody tr {
-  background: #ffffff;
-  transition: background 0.3s ease;
+  vertical-align: top;
 }
 
 tbody tr:hover {
   background: #fff3cd;
 }
 
-/* ===============================
-   Column Widths
-================================= */
-table th:nth-child(2),
-table td:nth-child(2) {
-  width: 180px;
+/* =================================================
+   COLUMN EMPHASIS
+================================================= */
+th:nth-child(1),
+td:nth-child(1) {
+  min-width: 90px;
+  text-align: center;
+  white-space: nowrap;
 }
 
-table th:nth-child(8),
-table td:nth-child(8) {
-  width: 160px;
-  word-break: break-all;
+th:nth-child(2),
+td:nth-child(2) {
+  min-width: 160px;
 }
 
-table th:nth-child(9),
-table td:nth-child(9) {
-  width: 140px;
+th:nth-child(4),
+td:nth-child(4),
+th:nth-child(5),
+td:nth-child(5) {
+  min-width: 230px;
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+  min-width: 90px;
   text-align: center;
 }
 
-/* ===============================
-   Table Links
-================================= */
+th:nth-child(8),
+td:nth-child(8) {
+  min-width: 110px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* =================================================
+   LINKS
+================================================= */
 td a {
   color: #d8731a;
   font-weight: 600;
   text-decoration: none;
+  word-break: break-all;
+  overflow-wrap: anywhere;
 }
 
 td a:hover {
   text-decoration: underline;
 }
 
-/* =====================================================
-   MOBILE / TABLET (≤ 768px)
-===================================================== */
+/* =================================================
+   MOBILE (≤ 768px) – SINGLE SCROLL
+================================================= */
 @media (max-width: 768px) {
-
-  /* enable horizontal scroll only here */
-  .table-wrapper {
-    overflow-x: auto;
-    padding: 0 1rem 1.5rem;
-  }
-
-  /* force SAME scroll width */
-  .table-wrapper > ul,
-  .table-wrapper > div,
-  .table-wrapper > table {
-    min-width: 1100px;
-  }
-
-  /* prevent publications-count extra width */
-  .publications-count {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 1100px;
-  }
-
-  .nav-tabs {
-    flex-wrap: nowrap;
-  }
 
   .hero h2 {
     font-size: 2rem;
   }
-}
 
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
+  /* keep nav tabs + count aligned with table */
+  .nav-tabs,
+  .publications-count {
+    width: 1600px;
+    min-width: 1600px;
+  }
+
+  .nav-tabs {
+    padding-left: 0;
+    padding-right: 0;
+    flex-wrap: nowrap;
+  }
+
+  /* adjust underline for mobile (visible but not oversized) */
+  .nav-tabs::after {
+    left: 0;
+    right: 0;
+  }
+
+  table {
+    width: 1600px;
+    table-layout: fixed;
+  }
+
+  th:nth-child(1), td:nth-child(1) { width: 90px; }
+  th:nth-child(2), td:nth-child(2) { width: 180px; }
+  th:nth-child(3), td:nth-child(3) { width: 150px; }
+  th:nth-child(4), td:nth-child(4) { width: 300px; }
+  th:nth-child(5), td:nth-child(5) { width: 280px; }
+  th:nth-child(6), td:nth-child(6) { width: 160px; }
+  th:nth-child(7), td:nth-child(7) { width: 140px; }
+  th:nth-child(8), td:nth-child(8) { width: 110px; }
+  th:nth-child(9), td:nth-child(9) { width: 140px; text-align: center; }
+}
 
 /*footer*/
 
