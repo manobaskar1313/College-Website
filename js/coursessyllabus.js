@@ -18,12 +18,12 @@ const pdfFiles = {
     
       'fy_bfm_outcomes': 'https://siesce.edu.in/docs/F.Y.%20B.F.M.%20Sem%20I%20and%20II%20Course%20Outcomes.pdf',             // F.Y. B.F.M. Course Outcomes
       'fy_bfm_syllabus': 'https://siesce.edu.in/docs/1720145190%20FYBFM%20NEP%20SYLLABUS%20(AUTONOMOUS)%20WITH%20EFFECT%20FROM%202023-24.pdf',             // F.Y. B.F.M. Syllabus
-      'fy_bscit_outcomes':'https://siesce.edu.in/docs/FY%20B.%20Sc%20IT%20Sem%20I%20and%20II%20Course%20Outcomes.pdf',         // FY B. Sc IT Course Outcomes
-      'fy_bscit_syllabus':'https://siesce.edu.in/docs/1766132070%20FYBScIT%20NEP%20Approved%20Syllabus%202025-26.pdf',         // FY B. Sc IT Syllabus
+      'fy_bscit_outcomes':'pdf/FYBScIT PO CO Mapping 25-26.pdf',         // FY B. Sc IT Course Outcomes
+      'fy_bscit_syllabus':'pdf/FYBScIT NEP Approved Syllabus 2025-26.pdf',         // FY B. Sc IT Syllabus
       'fy_bms_outcomes': 'https://siesce.edu.in/docs/FY.%20B.M.S.%20Sem%20I%20and%20II%20Course%20Outcomes.pdf',             // FY. B.M.S. Course Outcomes
       'fy_bms_syllabus': 'https://siesce.edu.in/docs/1731904958%20FINAL%20FYBMS%20NEP%20SYLLABUS.pdf',             // FY. B.M.S. Syllabus
       'fy_ibcom_outcomes': 'https://siesce.edu.in/docs/1702622672%20INT%20BCOM.pdf',         // FY.IBCom. Course Outcomes
-      'fy_ibcom_syllabus': 'https://siesce.edu.in/docs/1702622672%20INT%20BCOM.pdf',         // FY.IBCom. Syllabus
+      'fy_ibcom_syllabus': '',         // FY.IBCom. Syllabus
 
       // ===== SELF FINANCED PROGRAMS - SECOND YEAR =====
       'sy_baf_outcomes': 'https://siesce.edu.in/docs/CO-SYBAF.pdf',             // S.Y. B.A.F Course Outcomes
@@ -32,8 +32,8 @@ const pdfFiles = {
       'sy_bbi_syllabus': 'https://siesce.edu.in/docs/1766473902%20SYBBI%20NEP%202025-26%20Syllabus.pdf',             // S.Y. B.B.I. Syllabus
       'sy_bfm_outcomes': 'https://siesce.edu.in/docs/CO-SYBFM.pdf',             // S.Y.B.F.M. Course Outcomes
       'sy_bfm_syllabus': 'https://siesce.edu.in/docs/1731565865%20SYBFM%20-%20Board%20of%20Studies.pdf',             // S.Y.B.F.M. Syllabus
-      'sy_bscit_outcomes':'https://siesce.edu.in/docs/CO-SYBScIT.pdf',         // SY B. Sc IT Course Outcomes
-      'sy_bscit_syllabus':'https://siesce.edu.in/docs/1766132135%20SYBScIT%20NEP%20Approved%20Syllabus%202025-26.pdf',         // SY B. Sc IT Syllabus
+      'sy_bscit_outcomes':'pdf/SYBScIT PO CO Mapping 25-26.pdf',         // SY B. Sc IT Course Outcomes
+      'sy_bscit_syllabus':'pdf/SYBScIT NEP Approved Syllabus 2025-26.pdf',         // SY B. Sc IT Syllabus
       'sy_bms_outcomes': 'https://siesce.edu.in/docs/CO-SYBMS.pdf',             // S.Y.B.M.S. Course Outcomes
       'sy_bms_syllabus': 'https://siesce.edu.in/docs/1731488923%20Final_SYBMS_NEP_SYLLABUS.pdf',             // S.Y.B.M.S. Syllabus
 
@@ -45,8 +45,8 @@ const pdfFiles = {
       'ty_bms_syllabus': 'https://siesce.edu.in/docs/1670572016%20TY%20BMS%20Syllabus.pdf',             // T.Y. B.M.S. Syllabus
       'ty_bfm_outcomes': 'https://siesce.edu.in/docs/1702622586%20BFM%20NEW.pdf',             // T.Y.B.F.M. Course Outcomes
       'ty_bfm_syllabus': 'https://siesce.edu.in/docs/1670578481%20TYBFM%20Syllabus.pdf',             // T.Y.B.F.M. Syllabus
-      'ty_bscit_outcomes':'https://siesce.edu.in/docs/1702622629%20BSc%20IT%20New.pdf',         // TY B. Sc IT Course Outcomes
-      'ty_bscit_syllabus':'https://siesce.edu.in/docs/1766132171%20TYBScIT%20NEP%20Approved%20Syllabus%202025-26.pdf',         // TY B. Sc IT Syllabus
+      'ty_bscit_outcomes':'pdf/TYBScIT PO CO Mapping 25-26.pdf',         // TY B. Sc IT Course Outcomes
+      'ty_bscit_syllabus':'pdf/TYBScIT NEP Approved Syllabus  2025-26.pdf',         // TY B. Sc IT Syllabus
       'ty_baf_outcomes': 'https://siesce.edu.in/docs/1702622495%20BAF%20NEW.pdf',             // TY. B.A.F Course Outcomes
       'ty_baf_syllabus': 'https://siesce.edu.in/docs/1670578522%20TYBAF%20Syllabus.pdf',             // TY. B.A.F Syllabus
 
