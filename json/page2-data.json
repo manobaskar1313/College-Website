@@ -1,4 +1,382 @@
 [
+
+   
+  {
+    "date": "15th June 2021",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Orientation programme for SYBSc IT, TYBSc IT and MSc IT Part II students",
+    "year": "2021-2022"
+  },
+  {
+    "date": "15th September 2021",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Orientation programme for FYBSc IT students",
+    "year": "2021-2022"
+  },
+  {
+    "date": "18th September 2021",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Orientation programme for MSc IT Part I students",
+    "year": "2021-2022"
+  },
+  {
+    "date": "20th September 2021",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Orientation programme for MSc Data Science Part I students",
+    "year": "2021-2022"
+  },
+  {
+    "date": "16th–22nd September 2021",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Bridge Course on Basics of Information Technology (30 hours) for FYBSc IT students with 49 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "30th October 2021",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Career Guidance Webinar on DevOps Technology by Mr. Khozema Z. Nullwala, Industry Expert, JP Morgan Chase with 129 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "11th November 2021",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Co-curricular session on KALI Linux by Ms. Mamta Pandey with 29 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "28th January 2022",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Online workshop on Yoga by Ms. Priyanka Kulkarni, Yoga Therapist, YCB Level 3 certified with 106 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "29th January 2022",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Webinar on Voice for Voiceless by Mr. Akshay Ridlan, Data Engineer, Aligned Automation with 155 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "8th February 2022",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Awareness Quiz on the occasion of Safer Internet Day for students and teachers with 225 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "22nd February 2022",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Webinar on How to Write a Research Paper – A Beginner’s Approach by Dr. Parikshit Mahalle with 194 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "4th March 2022",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "KnowMo Day webinars on IPR and Software Protection, MCA Entrance Preparation, and Carbon Footprint Awareness",
+    "year": "2021-2022"
+  },
+  {
+    "date": "5th March 2022",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "Webinar on Career Prospects in Data Science by Ms. Aakansha Dijendra, Data Scientist, Cipla with 124 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "28th April 2022",
+    "department": "M.Sc IT, M.Sc DS & B.Sc IT",
+    "faculty": "",
+    "details": "B.Sc IT department awarded Green Certificate for E-Waste collection in collaboration with Stree Mukti Sangathan",
+    "year": "2021-2022"
+  }, 
+
+  {
+    "date": "28th–29th January 2022",
+    "department": "B.Sc IT",
+    "faculty": "",
+    "details": "EDIT v8.0 – Techfest organised on the theme 'Order in Chaos' with about 300 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "2nd December 2021",
+    "department": "BBI",
+    "faculty": "",
+    "details": "Webinar on Online Investor Awareness Program (IAP) – First Pay Cheque by Ms. Nidhi Mathuria with 77 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "9th September 2021",
+    "department": "BBI",
+    "faculty": "",
+    "details": "Mr. & Miss BBI competition with Dr. Anuradha Namdurkar as Chief Guest and participation of 30 students",
+    "year": "2021-2022"
+  },
+  {
+    "date": "25th January 2022",
+    "department": "BBI",
+    "faculty": "",
+    "details": "Nostrum 2022 – PowerPoint Presentation Competition with Dr. Yogini Dixit as Chief Guest and 19 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "17th–25th September 2021",
+    "department": "BBI",
+    "faculty": "",
+    "details": "Bridge course conducted for first-year students in Financial Accounting, Quantitative Methods and Business Economics",
+    "year": "2021-2022"
+  },
+  {
+    "date": "29th January 2022",
+    "department": "BBI",
+    "faculty": "",
+    "details": "FIONTRAI 2022 – Fostering Entrepreneurship with a session by Mr. Padmanabhan Ramakrishnan on Entrepreneurial Opportunities in Retail Lending",
+    "year": "2021-2022"
+  },
+  {
+    "date": "29th January 2022",
+    "department": "BBI",
+    "faculty": "",
+    "details": "VITHA 2022 with a lecture by Ms. Rashmi Iyengar on Introduction to the Actuarial Industry and Career Opportunities",
+    "year": "2021-2022"
+  },
+  {
+    "date": "31st March 2022",
+    "department": "BBI",
+    "faculty": "",
+    "details": "Social outreach and extension programme visit to Being Child Care Foundation, Kandivali West, Mumbai by TYBBI and SYBBI students",
+    "year": "2021-2022"
+  }, 
+  
+  {
+    "date": "17th July 2021",
+    "department": "BAF",
+    "faculty": "",
+    "details": "BAF Alumni Webinar Series session on Financial Literacy by Ms. Ayushi Gandhi with 183 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "28th August 2021",
+    "department": "BAF",
+    "faculty": "",
+    "details": "BAF Alumni Webinar Series session on Reinsurance and Career Opportunities in Reinsurance by Mr. Srinath Iyer attended by 175 students and faculty",
+    "year": "2021-2022"
+  },
+  {
+    "date": "25th September 2021",
+    "department": "BAF",
+    "faculty": "",
+    "details": "BAF Alumni Webinar Series session on Basics of Derivative Market by Mr. Shaun Pai, Derivative Analyst attended by 249 students and faculty",
+    "year": "2021-2022"
+  },
+  {
+    "date": "16th October 2021",
+    "department": "BAF",
+    "faculty": "",
+    "details": "BAF Alumni Lecture Series session on Stock Market – Introduction to Chart Reading by Mr. Karan A. Pai and Mr. Rohan Y. Vajirkar, GEPL Capital attended by 145 students and faculty",
+    "year": "2021-2022"
+  },
+  {
+    "date": "23rd October 2021",
+    "department": "BAF",
+    "faculty": "",
+    "details": "BAF Alumni Lecture Series session on Career in MBA through CAT by Ms. Iyer Arya Chidambareswaran attended by 101 students and faculty",
+    "year": "2021-2022"
+  },
+  {
+    "date": "22nd December 2021",
+    "department": "BAF",
+    "faculty": "",
+    "details": "Session on Research Guidance (Part 1) by Dr. Harini C attended by 134 students and faculty",
+    "year": "2021-2022"
+  },
+  {
+    "date": "21st January 2022",
+    "department": "BAF",
+    "faculty": "",
+    "details": "Session on Research Guidance (Part 2) by Dr. Harini C attended by 160 students and faculty",
+    "year": "2021-2022"
+  },
+  {
+    "date": "26th February 2022",
+    "department": "BAF",
+    "faculty": "",
+    "details": "Session on Careers in Management Accounting by CA Pranit Jain attended by 106 students and faculty",
+    "year": "2021-2022"
+  },
+  {
+    "date": "22nd January 2022",
+    "department": "BAF",
+    "faculty": "",
+    "details": "Finatix 2022 – Intercollegiate event based on Accounts, Finance and Tax with participation of 156 students from colleges across Mumbai",
+    "year": "2021-2022"
+  },
+  {
+    "date": "2021-2022",
+    "department": "BAF",
+    "faculty": "",
+    "details": "Social outreach and extension programme at Swan Foundation, Sion, Mumbai involving teaching basic English and dance, and donation of study materials and food items",
+    "year": "2021-2022"
+  },
+   
+  {
+    "date": "15th June 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Orientation programme for SY and TY BFM students",
+    "year": "2021-2022"
+  },
+  {
+    "date": "21st June 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "World Music Day celebration for SY and TY BFM students with 89 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "26th June 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "International Day against Drug Abuse for SY and TY BFM students with 60 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "14th July 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Seminar on Investment Avenues by Mr. Rajat Handa, Director and Channel Head, HSBC for SY and TY BFM students with 105 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "16th July 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "World Emoji Day celebration for SY and TY BFM students with 60 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "17th July 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "International Justice Day celebration for BFM students with 54 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "17th July 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Guest lecture on Application of Technical Analysis in Developing Trading Strategies by Mr. Tejas Nandu for TY BFM students with 86 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "20th July 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Guest lecture on Investor Awareness Program and Capital Market Awareness by Mr. Amogh Gothoskar for BFM students with 95 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "9th August 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Guest lecture on Business Ethics and Corporate Governance by Mr. Rajesh Dedhia for TY BFM students with 38 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "4th September 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Seminar on Leadership Skills organised by Team Finova for BFM students with 73 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "9th September 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Seminar on Harshad Mehta Scam by Mr. Rajesh Dedhia organised by Team Finova for BFM students with 70 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "21st October 2021",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Seminar on Time Management and Goal Setting by Dr. Pruthviraj Desai organised by Team Finova for BFM students with 72 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "29th January 2022",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Online Finova Stock Exchange event organised by Team Finova for students across the country with 231 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "17th February 2022",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Online Research Convention on Innovations in Financial Markets organised in association with IQAC with 166 participants",
+    "year": "2021-2022"
+  },
+  {
+    "date": "25th February – 7th March 2022",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Donation drive organised by Team Finova to support children suffering from cancer, with collection and donation of books, toys and stationery to Tata Memorial Hospital",
+    "year": "2021-2022"
+  },
+  {
+    "date": "2nd March 2022",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Session on Deciphering Budget 2022 by Mr. Pritipal Singh, Dr. Pruthviraj Desai, CA Dr. Reeta Shah and Mr. Natrajan Pillai attended by 86 students",
+    "year": "2021-2022"
+  },
+  {
+    "date": "26th March 2022",
+    "department": "BFM",
+    "faculty": "",
+    "details": "Debate competition 'Heated Discussion' on Augmented Reality: The Future or Demise between FYBFM and SYBFM students with 27 participants",
+    "year": "2021-2022"
+  }, 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
       "date": "7th November 2022",
       "department": "BAF",

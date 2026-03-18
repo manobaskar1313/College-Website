@@ -115,7 +115,7 @@
   }
 
   // Set default (load first tab's JSON)
-  loadData("json/1stpage.json");
+  loadData("json/2024-25_staff.json");
 
   // Add click listeners to tabs
   tabs.forEach(tab => {
@@ -126,9 +126,19 @@
       tab.classList.add("active");
 
       // Load data depending on tab text
-      if (tab.textContent.trim() === "2021-2022") {
+      if (tab.textContent.trim() === "2024-2025") {
+        loadData("json/2024-25_staff.json");
+      } 
+      else if (tab.textContent.trim() === "2023-2024") {
+        loadData("json/2023-24_staff.json");
+      }
+      else if (tab.textContent.trim() === "2022-2023") {
+        loadData("json/2022-23_staff.json");
+      }
+      else if (tab.textContent.trim() === "2021-2022") {
         loadData("json/1stpage.json");
-      } else if (tab.textContent.trim() === "2020-2021") {
+      }
+      else if (tab.textContent.trim() === "2020-2021") {
         loadData("json/2ndpage.json");
       }
     });

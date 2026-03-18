@@ -1,3 +1,9 @@
+ 
+ 
+//  STUDENTS ACHIEVEMENTS JS FILE
+ 
+ 
+ 
  // Counter animation for stats
  function animateCounters() {
   const counters = document.querySelectorAll('.stat-number');
