@@ -252,7 +252,12 @@ body {
   border-left-color: var(--accent-color);
   transform: translateX(5px);
 }
-
+/* Scrollable Committee & Cell Dropdown */
+.committee-dropdown {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 /* ---------------- Hero Section ---------------- */
 .hero-section { position: relative; overflow: hidden; }
 .hero-slide {
