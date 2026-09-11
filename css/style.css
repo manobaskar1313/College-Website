@@ -10592,3 +10592,15 @@ box-shadow: 0 4px 10px rgba(216, 115, 26, 0.4);
 
 .right-btn {
     right: 20px;}
+
+  /* Staff submenu */
+.dropdown-menu > li > .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: calc(100% + 8px) !important;
+    top: 0;
+}
+
+.dropdown-menu > li:hover > .dropdown-menu {
+    display: block;
+}
