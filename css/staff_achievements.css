@@ -962,3 +962,14 @@
       font-size: 13px;
     }
     }
+     /* Staff submenu */
+.dropdown-menu > li > .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: calc(100% + 8px) !important;
+    top: 0;
+}
+
+.dropdown-menu > li:hover > .dropdown-menu {
+    display: block;
+}
