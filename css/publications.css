@@ -1311,4 +1311,9 @@ td a:hover {
     display: block;
 }
 
- 
+ /* Scrollable Committee & Cell Dropdown */
+.committee-dropdown {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

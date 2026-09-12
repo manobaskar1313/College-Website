@@ -989,6 +989,11 @@ a:hover {
       font-size: 1.5rem;
   }
 }
-
+/* Scrollable Committee & Cell Dropdown */
+.committee-dropdown {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
  

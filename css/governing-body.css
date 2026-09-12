@@ -950,3 +950,9 @@ body {
       box-shadow: 0 15px 35px rgba(216, 115, 26, 0.4);
       color:#d8731a;
     }
+/* Scrollable Committee & Cell Dropdown */
+.committee-dropdown {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

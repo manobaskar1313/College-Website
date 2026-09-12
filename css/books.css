@@ -1004,3 +1004,9 @@ table tfoot {
 .dropdown-menu > li:hover > .dropdown-menu {
     display: block;
 }
+/* Scrollable Committee & Cell Dropdown */
+.committee-dropdown {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
