@@ -10604,3 +10604,269 @@ box-shadow: 0 4px 10px rgba(216, 115, 26, 0.4);
 .dropdown-menu > li:hover > .dropdown-menu {
     display: block;
 }
+/* ==============================
+   NAAC SSR DROPDOWN
+   ============================== */
+
+.nav-item.dropdown {
+    position: relative;
+}
+
+/* Dropdown arrow */
+.dropdown-arrow {
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate arrow when hovering */
+.nav-item.dropdown:hover .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    min-width: 210px;
+    margin: 0;
+    padding: 8px 0;
+
+    list-style: none;
+
+    background-color: #ffffff;
+    border-radius: 6px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+    /* Hidden initially */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease,
+        visibility 0.3s ease;
+
+    z-index: 1000;
+}
+
+/* Show dropdown */
+.nav-item.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Dropdown items */
+.dropdown-menu li {
+    width: 100%;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    display: block;
+
+    padding: 11px 18px;
+
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+
+    transition:
+        background-color 0.25s ease,
+        padding-left 0.25s ease,
+        color 0.25s ease;
+}
+
+/* Hover animation */
+.dropdown-menu li a:hover {
+    background-color: #f2f2f2;
+    padding-left: 24px;
+}
+/* =========================================
+   NAAC SSR NAVIGATION
+   ========================================= */
+
+/* NAAC SSR in the blue navigation bar */
+.naac-dropdown > .nav-link {
+    color: #ffffff !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    text-decoration: none;
+}
+
+
+/* Keep NAAC SSR white when hovered */
+.naac-dropdown:hover > .nav-link {
+    color: #ffffff !important;
+}
+
+
+/* =========================================
+   MAIN NAAC DROPDOWN
+   ========================================= */
+
+.naac-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 307px;
+    max-height: 500px;
+
+    overflow-y: auto;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    background: #ffffff;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(5px);
+
+    transition: all 0.25s ease;
+
+    z-index: 9999;
+}
+
+
+/* Show NAAC dropdown */
+
+.naac-dropdown:hover .naac-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+
+/* =========================================
+   CRITERION ITEMS
+   ========================================= */
+
+.naac-menu > li {
+    position: relative;
+
+    width: 100%;
+
+    border-bottom: 1px dotted #1d5c91;
+}
+
+
+/* Criterion text */
+
+.naac-menu > li > a {
+    display: block;
+
+    padding: 13px 10px;
+
+    background: #ffffff;
+
+    color: #555555;
+
+    text-decoration: none;
+
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+
+    transition: background 0.2s ease;
+}
+
+
+/* Criterion hover */
+
+.naac-menu > li:hover > a {
+    background: #eeeeee;
+}
+
+
+/* =========================================
+   SECOND LEVEL DROPDOWN
+   ========================================= */
+
+.naac-submenu-list {
+    position: absolute;
+
+    top: 0;
+    left: 100%;
+
+    width: 307px;
+
+    max-height: 500px;
+
+    overflow-y: auto;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    background: #ffffff;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateX(-5px);
+
+    transition: all 0.25s ease;
+
+    z-index: 10000;
+}
+
+
+/* Show second level */
+
+.naac-submenu:hover .naac-submenu-list {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+
+/* =========================================
+   SECOND LEVEL ITEMS
+   ========================================= */
+
+.naac-submenu-list li {
+    width: 100%;
+
+    border-bottom: 1px dotted #1d5c91;
+}
+
+
+.naac-submenu-list li a {
+    display: block;
+
+    padding: 13px 10px;
+
+    background: #ffffff;
+
+    color: #555555;
+
+    text-decoration: none;
+
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+
+    transition: background 0.2s ease;
+}
+
+
+/* Hover */
+
+.naac-submenu-list li a:hover {
+    background: #eeeeee;
+}
