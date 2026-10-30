@@ -188,8 +188,8 @@ const staffData = [
     name: "Mr. Abhijeet Bhosale",
     role: "Head of Department",
     dept: "Financial Markets",
-    img: "degree-pics/Abhijeet Bhosale.png",
-    link: "abhijeet.html"
+    img: "degree-pics/Abhijeit Bhosale.png",
+    link: "abhijeit.html"
   },
 
   {
