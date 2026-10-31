@@ -22,7 +22,7 @@ const staffData = [
     dept: "Accountancy",
     img: "degree-pics/charul patel.jpg",
     link: "charul.html",
-
+    experience :"21 Years",
     expertise: "Accountancy, Finance and Taxation"
   },
 
@@ -159,7 +159,18 @@ const staffData = [
     role: "Assistant Professor",
     dept: "Hindi",
     img: "degree-pics/Nirali Devendra Zala.jpg",
-    link: "nirali.html"
+    link: "nirali.html",
+    experience:"2",
+    expertise:"Hindi"
+  },
+    {
+    name: "Ms. Sonali Balkrishna Garule",
+    role: "Assistant Professor",
+    dept: "Business Law",
+    qualification:" LL.B, LL.M, NET (LAW), SET(LAW), MCom, SET(Comm), MA Sociology, SET(Sociology), MBA, DTL, DLL&LW, GDC&A, DCIPRL, 16 Years of Experience",
+    img: "degree-pics/sonali.jpg",
+    experience:"1 Year",
+    expertise:"Business Law"
   },
 
   {
@@ -736,7 +747,7 @@ function displayStaff(data) {
                                 font-weight:700;
                             "
                         >
-                            Experience in Years:
+                            Experience in SIES:
                         </strong>
 
                         ${staff.experience || ""}
