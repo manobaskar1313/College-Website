@@ -160,7 +160,7 @@ const staffData = [
     dept: "Hindi",
     img: "degree-pics/Nirali Devendra Zala.jpg",
     link: "nirali.html",
-    experience:"2",
+    experience:"2 Year",
     expertise:"Hindi"
   },
     {
