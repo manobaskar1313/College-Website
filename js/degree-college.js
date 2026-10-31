@@ -510,6 +510,11 @@ async function loadStaffData() {
           .then(details => ({
     ...staff,
     ...details,
+     name: staff.name || details.name,
+    role: staff.role || details.role,
+    qualification: staff.qualification || details.qualification,
+    email: staff.email || details.email,
+    experience: staff.experience || details.experience,
     expertise: staff.expertise || details.expertise || ""
 }))
       )
