@@ -21,7 +21,9 @@ const staffData = [
     role: "Assistant Professor",
     dept: "Accountancy",
     img: "degree-pics/charul patel.jpg",
-    link: "charul.html"
+    link: "charul.html",
+
+    expertise: "Accountancy, Finance and Taxation"
   },
 
   {
@@ -495,9 +497,10 @@ async function loadStaffData() {
       staffData.map(staff =>
         getStaffDetails(staff)
           .then(details => ({
-            ...staff,
-            ...details
-          }))
+    ...staff,
+    ...details,
+    expertise: staff.expertise || details.expertise || ""
+}))
       )
     );
 
