@@ -169,6 +169,7 @@ const staffData = [
     dept: "Business Law",
     qualification:" LL.B, LL.M, NET (LAW), SET(LAW), MCom, SET(Comm), MA Sociology, SET(Sociology), MBA, DTL, DLL&LW, GDC&A, DCIPRL, 16 Years of Experience",
     img: "degree-pics/sonali.jpg",
+    email:"sonalig@sies.edu.in ",
     experience:"1 Year",
     expertise:"Business Law"
   },
