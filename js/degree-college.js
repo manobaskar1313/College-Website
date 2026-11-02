@@ -36,10 +36,14 @@ const staffData = [
 
   {
     name: "Dr. CA Chandrashekhar Ashok Sawant",
-    role: "Head of Department",
+    role: "Coordinator - Assistant Professor",
+    qualification:"FCA, LLB, MMS-Finance,  Mcom, NET,  Ph.d, 24 Years of Experience.",
+    experience:"14 Years",
+    expertise:"Finamcial Accountancy,  Taxation,  Cost Accounting, Management Accounting,  Finance, Auditing ",
     dept: "Accounting & Finance",
     img: "degree-pics/chandrashekhar ashok.jpg",
-    link: "chandrashekhar.html"
+    link: "chandrashekhar.html",
+
   },
 
   {
@@ -54,6 +58,9 @@ const staffData = [
     name: "Dr. Suraj Kumar Dubey",
     role: "Assistant Professor",
     dept: "Accounting & Finance",
+    qualification:"M.Com, M.A (Business Economics),  M.Phil(Commerce), NET (UGC) (Commerce), MH- SET (Commerce) Ph.D.(Commerce) 11 Years of Experience",
+    experience:"1 Year",
+    expertise:"Accountancy, Taxation, Management, Finance",
     img: "degree-pics/suraj kumar.png",
     link: "suraj.html"
   },
@@ -103,6 +110,9 @@ const staffData = [
     role: "Assistant Professor",
     dept: "BACHELOR OF MANAGEMENT STUDIES (BMS)",
     img: "degree-pics/vidhi mehta.jpg",
+    qualification:"MCOM, NET (UGC), MA (Public Administration) 6 Years of Experience",
+    experience:"3 Years",
+    expertise:"Management, Marketing, Indian Knowledge System",
     link: "vidhi.html"
   },
 
@@ -123,11 +133,13 @@ const staffData = [
   },
 
   {
-    name: "Ms. Sugandhi Gupta",
-    role: "",
+    name: "Ms.Sugandhi Gupta CMA",
+    role: "Assistant Professor ",
     dept: "Banking & Insurance",
     img: "degree-pics/sugandhi gupta.jpg",
-    link: "sugandhi.html"
+    link: "sugandhi.html",
+    expertise:"ACCOUNTING AND FINANCE",
+    experience:"14 years "
   },
 
   {
@@ -148,12 +160,37 @@ const staffData = [
 
   {
     name: "Mr. Nikhil Bagade",
-    role: "",
+    role: "Assistant Professor",
     dept: "Marathi",
-    img: "degree-pics/Nikhil Bagade.png",
+    qualification:"(M.A. Economics, SET, NET, Ph.D) 4 Years of Experience",
+    img: "degree-pics/Nishant Chavan.png",
+    experience:"1 Years",
+    email:"nikhilb@sies.edu.in",
+    expertise:"Dramatic Literature, Stylistics, Feminist Literature, Dalit Literature, Metropolitan Literature, Literary Criticism",
     link: "nikhil.html"
   },
-
+ {
+    name: "Dr. Nishant Shyam Chavan",
+    role: "Assistant Professor",
+    dept: "Business Economics",
+    qualification:"MA (MARATHI ), NET (UGC) 3 Years of Experience",
+    img: "degree-pics/Nikhil Bagade.png",
+    email:"nishantc@sies.edu.in",
+    experience:"2 Years",
+    expertise:"Agricultural Economics,Macroeconomics and Monetary Economics,Environmental Economics and Law & Economics,Business Economics, Banking and International Economics",
+    link: "nisshant.html"
+  },
+   {
+    name: "Dr. Bhavana Shinde ",
+    role: "Assistant Professor",
+    dept: "Accountancy",
+    qualification:"M.com,SET (Commerce), Ph.D.(Accountancy),GDC&A,B.Ed, 6 Years of Experience",
+    img: "degree-pics/bhavana Shinde.jpeg",
+    experience:"3 Years",
+    email:"bhavanas@sies.edu.in",
+    expertise:"Accountancy",
+    link: "bhavana.html"
+  },
   {
     name: "Ms. Nirali Devendra Zala",
     role: "Assistant Professor",
@@ -173,7 +210,16 @@ const staffData = [
     experience:"1 Year",
     expertise:"Business Law"
   },
-
+{
+    name: "Mr. Atish Prakash Waghchaure ",
+    role: "Assistant Professor",
+    dept: "Master of Commerce (MCom)",
+    qualification:"MCom, NET(UGC), MBA(Finance) 5 Years of Experience",
+    img: "degree-pics/atish waghchaure.png",
+    email:"atishw@sies.edu.in",
+    experience:" ",
+    expertise:"Accountancy, Taxation"
+  },
   {
     name: "Dr. Naga Jeya Kumari",
     role: "Assistant Professor",
@@ -192,8 +238,10 @@ const staffData = [
 
   {
     name: "Dr. Priti Divyesh Thakkar",
-    role: "",
+    role: "Vice Principal and Associate Professor",
     dept: "Environmental Studies",
+    qualification:"Ph.D (Geography), M.A., SET, 21 Years of Experience.",
+    expertise:"Environmental Studies Tourism Disaster Management Geography ",
     img: "degree-pics/Priti Divyesh Thakkar.jpg",
     link: "priti.html"
   },
@@ -210,6 +258,9 @@ const staffData = [
     name: "Dr. Falguni Gilroy Mathews",
     role: "Assistant Professor",
     dept: "Financial Markets",
+    qualification:"Ph.D.(Commerce and Management),  M.Com, NET (UGC),MFM, B.Ed, 25 Years of Experience.",
+    experience:"12 Years",
+    expertise:"Management and Finance",
     img: "degree-pics/Falguni Gilroy Mathews.jpg",
     link: "falguni.html"
   },
@@ -227,6 +278,8 @@ const staffData = [
     role: "Assistant Professor",
     dept: "Industrial Psychology",
     img: "degree-pics/Harini C..jpg",
+    experience:"11 Years",
+    expertise:"Industrial Psychology",
     link: "harini.html"
   },
 
@@ -316,6 +369,16 @@ const staffData = [
     dept: "M.Sc (IT) (DS)",
     img: "degree-pics/Taranum Mohd Salim Shaikh.jpg",
     link: "taranum.html"
+  },
+  {
+    name: "Ms. Esha Kargutkar",
+    role: "Assistant Professor",
+    dept: "Yoga Education",
+    qualification:"MA philosophy (Specialisation in yoga), UGC NET , Yoga 4 Years of Experience",
+    img: "degree-pics/Esha.png",
+    email:"eshak@sies.edu.in",
+    experience:" ",
+    expertise:"Yoga"
   }
 ];
 
