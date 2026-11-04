@@ -33,3 +33,126 @@
 .committee-content {
     flex: 1;
 }
+
+/* =========================================
+   STATUTORY COMMITTEE PAGE
+========================================= */
+
+/* Committee Tabs */
+.statutory-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 18px 0 24px;
+}
+
+.statutory-tab {
+    border: 1px solid #e87511;
+    background: #ffffff;
+    color: #333333;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: Georgia, "Times New Roman", serif;
+    transition: all 0.3s ease;
+}
+
+/* Normal tab styling */
+.statutory-tab {
+    border: 1px solid #e87511;
+    background: #ffffff;
+    color: #333333;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: Georgia, "Times New Roman", serif;
+    transition: all 0.3s ease;
+}
+
+/* Active tab - orange by default */
+.statutory-tab.active {
+    background: #e87511;
+    color: #ffffff;
+}
+
+/* When hovering another tab, temporarily unhighlight the active tab */
+.statutory-tabs:has(.statutory-tab:hover)
+.statutory-tab.active:not(:hover) {
+    background: #ffffff;
+    color: #333333;
+}
+
+/* Hovered tab */
+.statutory-tab:hover {
+    background: #e87511;
+    color: #ffffff;
+}
+/* Tab Content */
+.statutory-panel {
+    display: none;
+}
+
+.statutory-panel.active {
+    display: block;
+}
+
+/* Committee Headings */
+.statutory-panel h3 {
+    color: #e87511;
+    font-size: 21px;
+    margin: 20px 0 12px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Committee Tables */
+.committee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    background: #ffffff;
+}
+
+.committee-table th,
+.committee-table td {
+    border: 1px solid #d8d8d8;
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.committee-table th {
+    background: #f4eee8;
+    color: #263746;
+    font-weight: 600;
+}
+
+.committee-table tr:nth-child(even) {
+    background: #fafafa;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 650px) {
+
+    .statutory-tabs {
+        gap: 7px;
+    }
+
+    .statutory-tab {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .committee-table th,
+    .committee-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .committee-content {
+        min-width: 0;
+        overflow-x: auto;
+    }
+}
+

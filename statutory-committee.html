@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SIES College of Commerce & Economics</title>
+    <link rel="icon" type="text/css" href="https://siesce.edu.in/images/logo_50x50.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="text/css" href="https://siesce.edu.in/image/sies_ce_logo1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/committee.css">
+
+
+
+
+<style id="naac-ssr-style">
+
+/* =====================================================
+   NAAC SSR - FINAL SMOOTH STYLE
+   ===================================================== */
+
+/* MAIN NAAC DROPDOWN */
+.naac-dropdown > .naac-menu {
+    background: #ffffff !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+
+    border-radius: 18px !important;
+
+    box-shadow: 0 10px 28px rgba(0,0,0,0.16) !important;
+
+    overflow: visible !important;
+}
+
+
+/* =====================================================
+   CRITERION
+   ===================================================== */
+
+.naac-menu > .dropdown-submenu {
+    position: relative !important;
+    display: block !important;
+}
+
+
+/* IMPORTANT:
+   Actual Criterion links in your HTML are
+   .dropdown-item.submenu-toggle
+*/
+.naac-menu > .dropdown-submenu > .submenu-toggle {
+
+    display: flex !important;
+
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100% !important;
+
+    padding: 11px 16px !important;
+
+    background: #ffffff !important;
+
+    color: #222222 !important;
+
+    font-family: Georgia, "Times New Roman", serif !important;
+
+    font-size: 15px !important;
+
+    font-weight: 400 !important;
+
+    text-decoration: none !important;
+
+    border: none !important;
+
+    border-bottom: 1px dotted #999999 !important;
+
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        padding-left 0.25s ease !important;
+}
+
+
+/* TOP CURVE */
+.naac-menu > .dropdown-submenu:first-child > .submenu-toggle {
+    border-radius: 18px 18px 0 0 !important;
+}
+
+
+/* BOTTOM CURVE */
+.naac-menu > .dropdown-submenu:last-child > .submenu-toggle {
+    border-bottom: none !important;
+    border-radius: 0 0 18px 18px !important;
+}
+
+
+/* =====================================================
+   ORANGE HOVER
+   ===================================================== */
+
+.naac-menu > .dropdown-submenu:hover > .submenu-toggle {
+
+    background: #f5f5f5 !important;
+
+    color: #e87511 !important;
+
+    padding-left: 27px !important;
+}
+
+
+/* =====================================================
+   BLUE ARROW
+   ===================================================== */
+
+.naac-menu .submenu-arrow {
+
+    width: 8px;
+    height: 8px;
+
+    border: solid #1976b9;
+
+    border-width: 0 2px 2px 0;
+
+    display: inline-block;
+
+    transform: rotate(-45deg);
+
+    margin-left: 15px;
+
+    flex-shrink: 0;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease !important;
+}
+
+
+/* ARROW ON HOVER */
+.naac-menu > .dropdown-submenu:hover
+> .submenu-toggle
+> .submenu-arrow {
+
+    border-color: #e87511 !important;
+
+    transform:
+        rotate(-45deg)
+        translate(3px, 3px);
+}
+
+
+/* =====================================================
+   SECOND LEVEL SUBMENU
+   ===================================================== */
+
+/* THIS IS IMPORTANT:
+   Bootstrap normally hides dropdown-menu elements.
+   We force ONLY the nested NAAC menus to participate
+   in our hover animation.
+*/
+
+.naac-menu > .dropdown-submenu > .dropdown-menu {
+
+    display: block !important;
+
+    position: absolute !important;
+
+    top: 0 !important;
+
+    left: 100% !important;
+
+    margin-left: 8px !important;
+
+    min-width: 245px !important;
+
+    padding: 0 !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+
+    border-radius: 18px !important;
+
+    box-shadow: 0 10px 28px rgba(0,0,0,0.16) !important;
+
+    overflow: hidden !important;
+
+    opacity: 0 !important;
+
+    visibility: hidden !important;
+
+    pointer-events: none !important;
+
+    transform: translateX(12px) !important;
+
+    transition:
+        opacity 0.28s ease,
+        transform 0.28s cubic-bezier(0.22,1,0.36,1),
+        visibility 0.28s ease !important;
+}
+
+
+/* OPEN SECOND LEVEL */
+.naac-menu > .dropdown-submenu:hover
+> .dropdown-menu {
+
+    opacity: 1 !important;
+
+    visibility: visible !important;
+
+    pointer-events: auto !important;
+
+    transform: translateX(0) !important;
+}
+
+
+/* =====================================================
+   SMALL INVISIBLE BRIDGE
+   PREVENTS SUBMENU FROM DISAPPEARING
+   ===================================================== */
+
+.naac-menu > .dropdown-submenu > .dropdown-menu::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    left: -10px;
+
+    width: 10px;
+
+    height: 100%;
+
+    background: transparent;
+}
+
+
+/* =====================================================
+   SECOND LEVEL ITEMS
+   ===================================================== */
+
+.naac-menu > .dropdown-submenu
+> .dropdown-menu
+> li {
+
+    display: block !important;
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+}
+
+
+.naac-menu > .dropdown-submenu
+> .dropdown-menu
+> li
+> .dropdown-item {
+
+    display: block !important;
+
+    width: 100% !important;
+
+    padding: 10px 14px !important;
+
+    background: #ffffff !important;
+
+    color: #222222 !important;
+
+font-family: Georgia, "Times New Roman", serif !important;
+
+    font-size: 15px !important;
+
+    text-decoration: none !important;
+
+    border: none !important;
+
+    border-bottom: 1px dotted #999999 !important;
+
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        padding-left 0.25s ease !important;
+}
+
+
+/* SECOND LEVEL HOVER */
+.naac-menu > .dropdown-submenu
+> .dropdown-menu
+> li
+> .dropdown-item:hover {
+
+    background: #f5f5f5 !important;
+
+    color: #e87511 !important;
+
+    padding-left: 24px !important;
+}
+
+
+/* SECOND MENU TOP CURVE */
+.naac-menu > .dropdown-submenu
+> .dropdown-menu
+> li:first-child
+> .dropdown-item {
+
+    border-radius: 18px 18px 0 0 !important;
+}
+
+
+/* SECOND MENU BOTTOM CURVE */
+.naac-menu > .dropdown-submenu
+> .dropdown-menu
+> li:last-child
+> .dropdown-item {
+
+    border-bottom: none !important;
+
+    border-radius: 0 0 18px 18px !important;
+}
+
+
+/* =====================================================
+   SMOOTH MAIN DROPDOWN ANIMATION
+   ===================================================== */
+
+.naac-dropdown > .naac-menu {
+
+    opacity: 0;
+
+    transform: translateY(8px);
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s cubic-bezier(0.22,1,0.36,1) !important;
+}
+
+
+/* Bootstrap adds .show when NAAC is clicked */
+.naac-dropdown > .naac-menu.show {
+
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+
+/* =====================================================
+   KEEP EXISTING NAVBAR UNTOUCHED
+   ===================================================== */
+
+.naac-dropdown .dropdown-toggle::after {
+    margin-left: 5px;
+}
+
+</style>
+</head>
+<body>
+
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-md-9 col-12 text-start" style="font-family: Georgia, 'Times New Roman', serif;">
+              <a href="nirf.html" class="me-3">NIRF</a>
+              <a href="autonomy.html" class="me-3">Autonomy</a>
+              <a href="placement.html" class="me-3">Placements</a>
+              <a href="internship.html" class="me-3">Internships</a>
+              <a href="feedback.html" class="me-3">Feedback</a>
+              <a href="alumni.html" class="me-3">Alumni</a>
+              <div class="dropdown d-inline-block">
+                  <a href="/important-link" class="dropbtn me-3">IMPORTANT LINK</a>
+                  <div class="dropdown-content">
+                    <a href="endowment.html">Endowment</a>
+                    <a href="cdc.html">CDC</a>
+                    <a href="Anti-Ragging.html">Anti-Ragging</a>
+                    <a href="dignataries-visited.html">Dignataries Visited</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-12 text-end">
+              <a class="btn btn-prospectus" href="https://online.fliphtml5.com/jebvk/whrw/">PROSPECTUS</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="announcements-bar">
+        <div class="container-fluid d-flex flex-column flex-md-row align-items-center">
+          <span class="announcement-label mb-2 mb-md-0 me-md-3">
+            <i class="fas fa-bullhorn"></i> Important Announcements
+          </span>
+          <div class="announcement-scroll flex-grow-1 w-100">
+            <div class="announcement-content">
+              <span><strong><a href="https://datavista.in/cms/student/Ext/auth/register.php?sectionmaster_Id=14&batch_sel=140" style="color:black;text-decoration:none">First Year (FY) Undergraduate (UG) Online Admission Form Link 2025-2026.</a></strong></span>
+              <span><strong><a href="https://datavista.in/cms/student/Int/auth/login.php?sectionmaster_Id=14" style="color:black;text-decoration:none">Second Year (SY) and Third Year (TY) Undergraduate (UG) Online Admission Form Link 2025-2026.</a></strong></span>
+              <span><strong><a href="https://datavista.in/cms/student/Ext/auth/login_PG.php?sectionmaster_Id=14" style="color:black;text-decoration:none">Postgraduate Online Admission Form Link 2025-2026.</a></strong></span>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg main-nav">
+        <div class="container ms-0" style="font-family: Georgia, 'Times New Roman', serif;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+                    <!-- About Us Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">About Us</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="history.html">History</a></li>
+                            <li><a class="dropdown-item" href="management.html">Management</a></li>
+                            <li><a class="dropdown-item" href="institution.html">Institutional Goals</a></li>
+                            <li><a class="dropdown-item" href="administration.html">Administration</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Staff</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="degree-college.html">Degree College</a></li>
+                                    <li><a class="dropdown-item" href="non_teaching_staff.html">Non-Teaching Staff</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="floor.html">Floor Plan</a></li>
+                            <li><a class="dropdown-item" href="facilities.html">Facilities</a></li>
+                            <li><a class="dropdown-item" href="accolades.html">Accolades</a></li>
+                            <li><a class="dropdown-item" href="organogram.html">Organogram</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Academics Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Academics</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fee.html">Fee Structure</a></li>
+                            <li><a class="dropdown-item" href="course_offered.html">Courses Offered</a></li>
+                            <li><a class="dropdown-item" href="coursessyllabus.html">Courses &amp; Syllabus</a></li>
+                            <li><a class="dropdown-item" href="programout.html">Programs Outcomes</a></li>
+                            <li><a class="dropdown-item" href="shorttermcourse.html">Add on / Short Term Courses</a></li>
+                            <li><a class="dropdown-item" href="bridge_course.html">Bridge Course</a></li>
+                            <li><a class="dropdown-item" href="faculty_exchange.html">Faculty Exchange Program</a></li>
+                            <li><a class="dropdown-item" href="academics_calendar.html">Academic Calendar and Annual Reports</a></li>
+                            <li><a class="dropdown-item" href="policy_procedures.html">Policy &amp; Procedure</a></li>
+                            <li><a class="dropdown-item" href="scholarships.html">Scholarships</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+
+                    <!-- Research Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Research</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="research-committees.html">Research Committees and Policies</a></li>
+                            <li><a class="dropdown-item" href="major_minor_research.html">Major/Minor Projects</a></li>
+                            <li><a class="dropdown-item" href="publications.html">Paper Publications</a></li>
+                            <li><a class="dropdown-item" href="papers_presented.html">Papers Presented</a></li>
+                            <li><a class="dropdown-item" href="books.html">Books and Chapter Publications</a></li>
+                            <li><a class="dropdown-item" href="research_recognitions2.html">Research Recognitions</a></li>
+                            <li><a class="dropdown-item" href="research_scholars.html">Research Scholars(Ph.D)</a></li>
+                            <li><a class="dropdown-item" href="research_activities.html">Research Activities</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Committee -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Committee &amp; Cell</a>
+                        <ul class="dropdown-menu committee-dropdown">
+                            <li><a class="dropdown-item" href="iqac_committee.html">IQAC Committee</a></li>
+                            <li><a class="dropdown-item" href="admission_committee.html">Admission Committee</a></li>
+                            <li><a class="dropdown-item" href="attendence-committee.html">Attendence Committee</a></li>
+                            <li><a class="dropdown-item" href="discipline_committee.html">Discipline Committee</a></li>
+                            <li><a class="dropdown-item" href="gymkhana_committee.html">Gymkhana/Sports Commmittee</a></li>
+                            <li><a class="dropdown-item" href="timetable_committee.html">Time Table Committee</a></li>
+                            <li><a class="dropdown-item" href="anti_committee.html">Anti-Ragging Committee</a></li>
+                            <li><a class="dropdown-item" href="cultural_committee.html">Cultural Committee</a></li>
+                            <li><a class="dropdown-item" href="library_committee.html">Library Committee</a></li>
+                            <li><a class="dropdown-item" href="research_committee.html">Research Committee</a></li>
+                            <li><a class="dropdown-item" href="nss_committee.html">NSS Committee</a></li>
+                            <li><a class="dropdown-item" href="placement_committee.html">Placement Committee</a></li>
+                            <li><a class="dropdown-item" href="internship_committee.html">Internship Committee</a></li>
+                            <li><a class="dropdown-item" href="tally-course-committee.html">Tally Course Committee</a></li>
+                            <li><a class="dropdown-item" href="anti-ragging-commitee.html">Anti-Ragging Committee</a></li>
+                            <li><a class="dropdown-item" href="speakers-forum-committee.html">Speakers' Forum Committee</a></li>
+                            <li><a class="dropdown-item" href="commerce-forum-committee.html">Commerce Forum (Finance Club)</a></li>
+                            <li><a class="dropdown-item" href="green-club-committee.html">Green Club Committee</a></li>
+                            <li><a class="dropdown-item" href="students-counselling-committee.html">Students' Counselling Committee</a></li>
+                            <li><a class="dropdown-item" href="value-lab-committee.html">Value Lab Committee</a></li>
+                            <li><a class="dropdown-item" href="bridge-course-committees.html">Bridge Courses Committee</a></li>
+                            <li><a class="dropdown-item" href="alumni-association-committee.html">Alumni Association &amp; Student Progression</a></li>
+                            <li><a class="dropdown-item" href="grievance-redressal-committee.html">Grievance Redressal Cell</a></li>
+                            <li><a class="dropdown-item" href="womens-development.html">Women's Development Cell</a></li>
+                            <li><a class="dropdown-item" href="website-committee.html">Website Committee / IT - NAAC</a></li>
+                            <li><a class="dropdown-item" href="design-coding-committee.html">Design and Coding Club</a></li>
+                            <li><a class="dropdown-item" href="magazine-report-committee.html">Magazine &amp; Report</a></li>
+                            <li><a class="dropdown-item" href="marathi-vangmay-mandal-committee.html">Marathi Vangmay Mandal</a></li>
+                            <li><a class="dropdown-item" href="rotaract-club-committee.html">Rotaract Club</a></li>
+                            <li><a class="dropdown-item" href="special-cell-committee.html">Special Cell for Reserved Category Students &amp; Equal Opportunity Cell / Minority Affairs Committee</a></li>
+                            <li><a class="dropdown-item" href="condemnation-committee.html">Condemnation Committee</a></li>
+                            <li><a class="dropdown-item" href="lifelong-learning-commitee.html">Department of Lifelong, Learning, Extension</a></li>
+                            <li><a class="dropdown-item" href="entrepreneurship-committee.html">Entrepreneurship / Innovation Cell</a></li>
+                            <li><a class="dropdown-item" href="scholarships-committee.html">Scholarships &amp; Endowment</a></li>
+                            <li><a class="dropdown-item" href="students-aid-committee.html">Student's Aid Fund &amp; Book Bank Committee</a></li>
+                            <li><a class="dropdown-item" href="isr-committee.html">Institutional Social Responsibility</a></li>
+                            <li><a class="dropdown-item" href="media-committee.html">Media Committee</a></li>
+                            <li><a class="dropdown-item" href="staff-secretary.html">Staff Secretary</a></li>
+                            <li> <a class="dropdown-item" href="statutory-committee.html"> Statutory Committees</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Events -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Events</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="seminars.html">Seminars/Conference/Meets</a></li>
+                            <li><a class="dropdown-item" href="dept-events.html">Departmental Events</a></li>
+                            <li><a class="dropdown-item" href="committee-events.html">Committee Events</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Photo Gallery</a></li>
+                            <li><a class="dropdown-item" href="capacity_development.html">Capacity Development and Skills Enhancement</a></li>
+                            <li><a class="dropdown-item" href="career_guidance.html">Career Guidance</a></li>
+                            <li><a class="dropdown-item" href="gender_sensitization_plan.html">Gender Sensitization Plan</a></li>
+                            <li><a class="dropdown-item" href="entrepreneurship_cell.html">Entrepreneurship Cell</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- IQAC Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">IQAC</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="iqac_committee.html">IQAC Committee</a></li>
+                            <li><a class="dropdown-item" href="naac_certificate.html">NAAC Certificates</a></li>
+                            <li><a class="dropdown-item" href="AQAR.html">AQAR</a></li>
+                            <li><a class="dropdown-item" href="SSR.html">SSR</a></li>
+                            <li><a class="dropdown-item" href="student_satisfaction_report.html">Student Satisfaction Survey Report</a></li>
+                            <li><a class="dropdown-item" href="minutes_meetings.html">Minutes of Meetings</a></li>
+                            <li><a class="dropdown-item" href="action_taken_reports.html">Action Taken Reports</a></li>
+                            <li><a class="dropdown-item" href="best_practices.html">Best Practices</a></li>
+                            <li><a class="dropdown-item" href="institutional_distinctiveness.html">Institutional Distinctiveness</a></li>
+                            <li><a class="dropdown-item" href="strategic_plan_deployment.html">Strategic Plan &amp; Deployment</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Achievements -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Achievements</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="student-achievements.html">Students Achievements</a></li>
+                            <li><a class="dropdown-item" href="staff-achievements.html">Staff Achievements</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- NAAC SSR -->
+                    <li class="nav-item dropdown naac-dropdown">
+                        <a class="nav-link dropdown-toggle naac-link" href="#" role="button" data-bs-toggle="dropdown">NAAC SSR</a>
+                        <ul class="dropdown-menu naac-menu">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item submenu-toggle" href="#"><span>Criterion 1</span><span class="submenu-arrow"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">1.1 Curriculum Planning and Implementation</a></li>
+                                    <li><a class="dropdown-item" href="#">1.2 Academic Flexibility</a></li>
+                                    <li><a class="dropdown-item" href="#">1.3 Curriculum Enrichment</a></li>
+                                    <li><a class="dropdown-item" href="#">1.4 Feedback System</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item submenu-toggle" href="#"><span>Criterion 2</span><span class="submenu-arrow"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">2.1 Student Enrolment and Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">2.2 Catering to Student Diversity</a></li>
+                                    <li><a class="dropdown-item" href="#">2.3 Teaching-Learning Process</a></li>
+                                    <li><a class="dropdown-item" href="#">2.4 Teacher Profile and Quality</a></li>
+                                    <li><a class="dropdown-item" href="#">2.5 Evaluation Process and Reforms</a></li>
+                                    <li><a class="dropdown-item" href="#">2.6 Student Performance and Learning Outcomes</a></li>
+                                    <li><a class="dropdown-item" href="#">2.7 Student Satisfaction Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item submenu-toggle" href="#"><span>Criterion 3</span><span class="submenu-arrow"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">3.1 Resource Mobilization for Research</a></li>
+                                    <li><a class="dropdown-item" href="#">3.2 Innovation Ecosystem</a></li>
+                                    <li><a class="dropdown-item" href="#">3.3 Research Publications and Awards</a></li>
+                                    <li><a class="dropdown-item" href="#">3.4 Extension Activities</a></li>
+                                    <li><a class="dropdown-item" href="#">3.5 Collaboration</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item submenu-toggle" href="#"><span>Criterion 4</span><span class="submenu-arrow"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">4.1 Physical Facilities</a></li>
+                                    <li><a class="dropdown-item" href="#">4.2 Library as a Learning Resource</a></li>
+                                    <li><a class="dropdown-item" href="#">4.3 IT Infrastructure</a></li>
+                                    <li><a class="dropdown-item" href="#">4.4 Maintenance of Campus Infrastructure</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item submenu-toggle" href="#"><span>Criterion 5</span><span class="submenu-arrow"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">5.1 Student Support</a></li>
+                                    <li><a class="dropdown-item" href="#">5.2 Student Progression</a></li>
+                                    <li><a class="dropdown-item" href="#">5.3 Student Participation and Activities</a></li>
+                                    <li><a class="dropdown-item" href="#">5.4 Alumni Engagement</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item submenu-toggle" href="#"><span>Criterion 6</span><span class="submenu-arrow"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">6.1 Institutional Vision and Leadership</a></li>
+                                    <li><a class="dropdown-item" href="#">6.2 Strategy Development and Deployment</a></li>
+                                    <li><a class="dropdown-item" href="#">6.3 Faculty Empowerment Strategies</a></li>
+                                    <li><a class="dropdown-item" href="#">6.4 Financial Management and Resource Mobilization</a></li>
+                                    <li><a class="dropdown-item" href="#">6.5 Internal Quality Assurance System</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item submenu-toggle" href="#"><span>Criterion 7</span><span class="submenu-arrow"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">7.1 Institutional Values and Social Responsibilities</a></li>
+                                    <li><a class="dropdown-item" href="#">7.2 Best Practices</a></li>
+                                    <li><a class="dropdown-item" href="#">7.3 Institutional Distinctiveness</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="magazine.html">Magazine</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="AICTE.html">AICTE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero text-start" style="
+        background: url('img/jalebi.jpg') no-repeat center center;
+        background-size: cover;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    ">
+        <h2 class="fw-bold" style="color: white; text-align: center; margin: 0;">Statutory Committees</h2>
+    </section>
+
+    <!-- Breadcrumb Navigation -->
+    <nav aria-label="breadcrumb" style="width: 100%;">
+        <ol class="breadcrumb mb-0" style="font-size: 20px;">
+            <li class="breadcrumb-item"><a href="index.html" style="margin-left: 20px;">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Statutory Committees</li>
+        </ol>
+    </nav>
+
+    <div class="committee-layout">
+        <div class="committee-sidebar">
+            <a href="iqac_committee.html">&#10132; IQAC Committee</a>
+            <a href="admission_committee.html">&#10132; Admission Committee</a>
+            <a href="attendence_committee.html">&#10132; Attendance Committee</a>
+            <a href="discipline_committee.html">&#10132; Discipline Committee</a>
+            <a href="gymkhana_committee.html">&#10132; Gymkhana/Sports Committee</a>
+            <a href="timetable_committee.html">&#10132; Time Table Committee</a>
+            <a href="anti_committee.html">&#10132; Anti-Ragging Committee</a>
+            <a href="cultural_committee.html">&#10132; Cultural Committee</a>
+            <a href="library_committee.html">&#10132; Library Committee</a>
+            <a href="research_committee.html">&#10132; Research Committee</a>
+            <a href="nss_committee.html">&#10132; NSS Committee</a>
+            <a href="placement_committee.html">&#10132; Placement Committee</a>
+            <a href="internship_committee.html">&#10132; Internship Committee</a>
+            <a href="tally-course-committee.html">&#10132; Tally Course Committee</a>
+            <a href="speakers-forum-committee.html">&#10132; Speakers' Forum Committee</a>
+            <a href="commerce-forum-committee.html">&#10132; Commerce Forum (Finance Club)</a>
+            <a href="green-club-committee.html">&#10132; Green Club Committee</a>
+            <a href="students-counselling-committee.html">&#10132; Students' Counselling Committee</a>
+            <a href="value-lab-committee.html">&#10132; Value Lab Committee</a>
+            <a href="bridge-course-committees.html">&#10132; Bridge Courses Committee</a>
+            <a href="alumni-association-committee.html">&#10132; Alumni Association &amp; Student Progression</a>
+            <a href="grievance-redressal-committee.html">&#10132; Grievance Redressal Cell</a>
+            <a href="womens-development.html">&#10132; Women's Development Cell</a>
+            <a href="website-committee.html">&#10132; Website Committee / IT - NAAC</a>
+            <a href="design-coding-committee.html">&#10132; Design and Coding Club</a>
+            <a href="magazine-report-committee.html">&#10132; Magazine &amp; Report</a>
+            <a href="marathi-vangmay-mandal-committee.html">&#10132; Marathi Vangmay Mandal</a>
+            <a href="rotaract-club-committee.html">&#10132; Rotaract Club</a>
+            <a href="special-cell-committee.html">&#10132; Special Cell for Reserved Category Students &amp; Equal Opportunity Cell / Minority Affairs Committee</a>
+            <a href="condemnation-committee.html">&#10132; Condemnation Committee</a>
+            <a href="lifelong-learning-commitee.html">&#10132; Department of Lifelong, Learning, Extension</a>
+            <a href="entrepreneurship-committee.html">&#10132; Entrepreneurship / Innovation Cell</a>
+            <a href="scholarships-committee.html">&#10132; Scholarships &amp; Endowment</a>
+            <a href="students-aid-committee.html">&#10132; Student's Aid Fund &amp; Book Bank Committee</a>
+            <a href="isr-committee.html">&#10132; Institutional Social Responsibility</a>
+            <a href="media-committee.html">&#10132; Media Committee</a>
+            <a href="staff-secretary.html">&#10132; Staff Secretary</a>
+            <a href="statutory-committee.html">&#10132; Statutory Committees</a>
+        </div>
+
+       <!-- RIGHT CONTENT -->
+    <div class="committee-content">
+
+        <div class="content-card">
+
+            <div class="card-header" style="margin-top: 45px;">
+                <h2>Statutory Committees </h2>
+            </div>
+
+            <!-- COMMITTEE TABS -->
+            <div class="statutory-tabs" role="tablist"
+                 aria-label="Statutory committees">
+
+                <button class="statutory-tab active"
+                        type="button"
+                        role="tab"
+                        aria-selected="true"
+                        aria-controls="icc-panel"
+                        data-tab="icc-panel">
+                    ICC
+                </button>
+                <button class="statutory-tab"
+                        type="button"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="unfair-panel"
+                        data-tab="unfair-panel">
+                    Unfair Means Committee
+                </button>
+
+                <button class="statutory-tab"
+                        type="button"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="nep-panel"
+                        data-tab="nep-panel">
+                    NEP Committee
+                </button>
+
+                <button class="statutory-tab"
+                        type="button"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="iqac-panel"
+                        data-tab="iqac-panel">
+                    IQAC
+                </button>
+
+                <button class="statutory-tab"
+                        type="button"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="student-panel"
+                        data-tab="student-panel">
+                    Student’s Council
+                </button>
+
+                
+
+            </div>
+
+
+            <!-- ICC -->
+            <section class="statutory-panel active" id="icc-panel" role="tabpanel">
+
+                
+
+                <div class="table-container">
+                    <table class="committee-table">
+
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Designation</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td class="name-cell">Ms. Anuprita Sardesai</td>
+                                <td class="role-cell">Presiding Officer</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Dr. CS Charul Patel</td>
+                                <td class="role-cell">Member Teaching</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Dr. CA Chandrashekhar Sawant</td>
+                                <td class="role-cell">Member Teaching</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Ms. Snehaprabha Guhe</td>
+                                <td class="role-cell">Member Non Teaching</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Mr. Mangesh Kavankar</td>
+                                <td class="role-cell">Member Non Teaching</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Adv. Pooja Bhide</td>
+                                <td class="role-cell">NGO Member</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Ms. Shaikh Ashfeem</td>
+                                <td class="role-cell">Student Representative – UG</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Mr. Shrey Shah</td>
+                                <td class="role-cell">Student Representative – PG</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Ms. Fluer Fernandes</td>
+                                <td class="role-cell">Student Representative – Ph.D</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </section>
+            
+            <!-- UNFAIR MEANS COMMITTEE -->
+            <section class="statutory-panel" id="unfair-panel" role="tabpanel">
+
+                
+               
+
+            </section>
+
+
+            <!-- NEP COMMITTEE -->
+            <section class="statutory-panel" id="nep-panel" role="tabpanel">
+
+                
+
+                <div class="table-container">
+                    <table class="committee-table">
+
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Designation / Programme</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td class="name-cell">Vice Prin. Dr. Shailashri Uchil</td>
+                                <td class="role-cell">Co-Ordinator</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Vice Prin. Dr. Priti Thakkar</td>
+                                <td class="role-cell">Member</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Mr. Aniket Swaraj</td>
+                                <td class="department-cell">BMS</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Ms. Bhavini Shah</td>
+                                <td class="department-cell">B.Sc. (IT)</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Dr. Vijaya Balaji</td>
+                                <td class="department-cell">BBI</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Dr. CA Chandrashekhar Sawant</td>
+                                <td class="department-cell">BAF</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Mr. Abhijit Bhosale</td>
+                                <td class="department-cell">BFM B. Com (Hons.)</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Ms. Varsha Dhanawade</td>
+                                <td class="department-cell">B.Sc. (AI)</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Dr. Surajkumar Dubey</td>
+                                <td class="department-cell">MCOM (Accts/ B&amp;F/B.Mgt)</td>
+                            </tr>
+                            <tr>
+                                <td class="name-cell">Ms. Tarannum Shaikh</td>
+                                <td class="department-cell">M.Sc. (IT) / M.Sc. (DS)</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </section>
+
+
+            <!-- IQAC -->
+            <section class="statutory-panel" id="iqac-panel" role="tabpanel">
+
+
+
+                <div class="table-container">
+                    <table class="committee-table">
+
+                        <thead>
+                            <tr>
+                                <th>Sr. No.</th>
+                                <th>Name</th>
+                                <th>Designation</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr><td>1</td><td class="name-cell">Prof. Dr. Kishori Bhagat</td><td class="role-cell">Principal – Chairperson</td></tr>
+                            <tr><td>2</td><td class="name-cell">Dr. Priti Thakkar</td><td class="role-cell">Vice Principal – Co-ordinator</td></tr>
+                            <tr><td>3</td><td class="name-cell">Dr. Shailashree Uchil</td><td class="role-cell">Vice Principal – Teacher Member IQAC</td></tr>
+                            <tr><td>4</td><td class="name-cell">Mr. Arvind Narayan</td><td class="role-cell">Management representative</td></tr>
+                            <tr><td>5</td><td class="name-cell">Mr. K. P. Manojkumar Nair</td><td class="role-cell">Industry representative</td></tr>
+                            <tr><td>6</td><td class="name-cell">Dr. Pushpinder Kumar Bhatia</td><td class="role-cell">Principal, Guru Nanak College of Arts, Science &amp; Commerce (Autonomous)</td></tr>
+                            <tr><td>7</td><td class="name-cell">Dr. Ratna Sharma</td><td class="role-cell">Principal, Guru Nanak Khalsa College of Arts, Science &amp; Commerce (Autonomous)</td></tr>
+                            <tr><td>8</td><td class="name-cell">Mr. Ajay Pandya</td><td class="role-cell">Nominee, Local Society</td></tr>
+                            <tr><td>9</td><td class="name-cell">Mr. Narayan Ramakrishnan</td><td class="role-cell">Nominee, Alumni</td></tr>
+                            <tr><td>10</td><td class="name-cell">Dr. Amit Khatri</td><td class="role-cell">Teacher Member IQAC</td></tr>
+                            <tr><td>11</td><td class="name-cell">Dr. CS Charul Patel</td><td class="role-cell">Teacher Member IQAC</td></tr>
+                            <tr><td>12</td><td class="name-cell">Dr. Swati S.</td><td class="role-cell">Teacher Member IQAC</td></tr>
+                            <tr><td>13</td><td class="name-cell">Dr. Harini N.</td><td class="role-cell">Teacher Member IQAC</td></tr>
+                            <tr><td>14</td><td class="name-cell">Mrs. Payal Bhatia</td><td class="role-cell">Teacher Member IQAC</td></tr>
+                            <tr><td>15</td><td class="name-cell">Ms. Anuprita Sardesai</td><td class="role-cell">Librarian, Administrative officer IQAC</td></tr>
+                            <tr><td>16</td><td class="name-cell">Ms. Merlyn Saldanha</td><td class="role-cell">Office Superintendent, Administrative officer IQAC</td></tr>
+                            <tr><td>17</td><td class="name-cell"> </td><td class="role-cell">Student Representative</td></tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+
+                <h3>IQAC – Invitees</h3>
+
+
+                <div class="table-container">
+                    <table class="committee-table">
+
+                        <thead>
+                            <tr>
+                                <th>Sr. No.</th>
+                                <th>Name</th>
+                                <th>Designation</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr><td>1</td><td class="name-cell">Ms. Bhavini Savla</td><td class="role-cell">BSc IT Co-ordinator</td></tr>
+                            <tr><td>2</td><td class="name-cell">Dr. CA Chandrashekhar Sawant</td><td class="role-cell">BAF Co-ordinator</td></tr>
+                            <tr><td>3</td><td class="name-cell">Mr. Abhijit Bhosale</td><td class="role-cell">BFM Co-ordinator</td></tr>
+                            <tr><td>4</td><td class="name-cell">Ms. Fleur Fernandes</td><td class="role-cell">CP Internship Cell</td></tr>
+                            <tr><td>5</td><td class="name-cell">Dr. Vijaya Balaji</td><td class="role-cell">BBI</td></tr>
+                            <tr><td>6</td><td class="name-cell">Mr. Aniket Swaraj</td><td class="role-cell">BMS</td></tr>
+                            <tr><td>7</td><td class="name-cell">Dr. Surajkumar Dubey</td><td class="role-cell">MCOM Co-ordinator</td></tr>
+                            <tr><td>8</td><td class="name-cell">Mrs. Varsha Dhanawade</td><td class="role-cell">BScAI – Co-ordinator</td></tr>
+                            <tr><td>9</td><td class="name-cell">Ms. Tarannum Shaikh</td><td class="role-cell">MSC (IT) &amp; MSC (DS) Co-ordinator</td></tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </section>
+
+
+            <!-- STUDENT'S COUNCIL -->
+            <section class="statutory-panel" id="student-panel" role="tabpanel">
+
+            
+
+                <div class="table-container">
+                    <table class="committee-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td class="name-cell">Prin. Prof. Dr. Kishori Bhagat</td>
+            <td class="role-cell">Chairperson</td>
+        </tr>
+
+        <tr>
+            <td class="name-cell">Dr. CS Charul Patel</td>
+            <td class="role-cell">Co-ordinator</td>
+        </tr>
+
+        <tr>
+            <td class="name-cell">Mr. Aniket Swaraj</td>
+            <td class="role-cell">NSS Programme Officer</td>
+        </tr>
+
+        <tr>
+            <td class="name-cell">Dr. Amit Khatri</td>
+            <td class="role-cell">Cultural – Chairperson</td>
+        </tr>
+
+        <tr>
+            <td class="name-cell">Dr. CA Chandrashekhar Sawant</td>
+            <td class="role-cell">Gymkhana – Chairperson</td>
+        </tr>
+
+        <tr>
+            <td class="name-cell">Dr. Surajkumar Dubey</td>
+            <td class="role-cell">Member</td>
+        </tr>
+
+        <tr>
+            <td class="name-cell"></td>
+            <td class="role-cell">Class CRs</td>
+        </tr>
+
+        <tr>
+            <td class="name-cell"></td>
+            <td class="role-cell">Student from each committee – Secretary</td>
+        </tr>
+
+        <tr>
+            <td class="name-cell"></td>
+            <td class="role-cell">Lady Representative</td>
+        </tr>
+
+        <tr>
+            <td class="name-cell"></td>
+            <td class="role-cell">General Secretary</td>
+        </tr>
+    </tbody>
+</table>
+                </div>
+
+            </section>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+<!-- STATUTORY TABS SCRIPT -->
+<script>
+document.querySelectorAll('.statutory-tab').forEach(function(tab) {
+
+    tab.addEventListener('click', function() {
+
+        document.querySelectorAll('.statutory-tab').forEach(function(item) {
+            item.classList.remove('active');
+            item.setAttribute('aria-selected', 'false');
+        });
+
+        document.querySelectorAll('.statutory-panel').forEach(function(panel) {
+            panel.classList.remove('active');
+        });
+
+        tab.classList.add('active');
+        tab.setAttribute('aria-selected', 'true');
+
+        document.getElementById(
+            tab.getAttribute('data-tab')
+        ).classList.add('active');
+
+    });
+
+});
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script id="naac-ssr-js">
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".naac-menu .submenu-toggle").forEach(function (item) {
+                item.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                });
+            });
+        });
+    </script>
+</body>
+</html>
